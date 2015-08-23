@@ -12,8 +12,9 @@ Favorite software
 
 * DNSCrypt
 
- ** http://www.williamlong.info/archives/3890.html
-** https://github.com/opendns/dnscrypt-win-client
+* * http://www.williamlong.info/archives/3890.html
+
+* * https://github.com/opendns/dnscrypt-win-client
 
 * DNSspeeder 2.85
 
@@ -23,10 +24,10 @@ Favorite software
 
 * lantern
 
- ** https://github.com/getlantern/mirror
+ * * https://github.com/getlantern/mirror
 * psiphon3
 
- ** http://www.psiphon3.net/en/index.html
+ * * http://www.psiphon3.net/en/index.html
 
 ## Google mirror sites collect
 
