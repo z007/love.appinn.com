@@ -1,6 +1,21 @@
 # love.appinn.com
 Favorite software
 
+#Chrome
+
+ * https://support.google.com/chrome/answer/126299?hl=zh-Hant
+ 
+ * https://www.google.co.uk
+ 
+ * https://www.google.com.hk/?gws_rd=cr,ssl
+ 
+  
+## extensions
+
+ * ghostery
+ 
+ * Adguard
+
 # Niche software
 * http://love.appinn.com
 * File Explorer supplement
