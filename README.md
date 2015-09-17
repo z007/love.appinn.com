@@ -16,10 +16,13 @@ Favorite software
  
  * Adguard
 
-# Niche software
+# Looking good security neat little software
 * http://love.appinn.com
 * File Explorer supplement
 * http://www.listary.com
+
+# Excellent Website
+* http://bluereader.org/
 
 # Smooth the Internet
 
