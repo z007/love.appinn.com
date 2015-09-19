@@ -57,3 +57,7 @@ Favorite software
 
 ## translator
  * https://www.bing.com/translator/
+
+## TED
+ * http://open.163.com/ted/
+ * http://www.ted.com/
