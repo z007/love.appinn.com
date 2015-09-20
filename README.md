@@ -16,6 +16,11 @@ Favorite software
  
  * Adguard
 
+## CloseAD
+  * Popup ad shield
+   * http://www.appinn.com/close-a-d-s/
+   * http://www.zhihu.com/question/24265718/answer/27226434
+
 # Looking good security neat little software
 * http://love.appinn.com
 * File Explorer supplement
