@@ -66,3 +66,12 @@ Favorite software
 ## TED
  * http://open.163.com/ted/
  * http://www.ted.com/
+
+# Markdown 
+ * https://github.com/guodongxiaren/README
+ * http://www.emoji-cheat-sheet.com/
+ * https://github.com/othree/markdown-syntax-zhtw
+
+# Books
+ * https://github.com/justjavac/free-programming-books-zh_CN
+ 
