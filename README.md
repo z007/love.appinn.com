@@ -74,4 +74,8 @@ Favorite software
 
 # Books
  * https://github.com/justjavac/free-programming-books-zh_CN
- 
+
+## Download
+ *  http://en.softonic.com/
+ *  http://download.cnet.com/
+ *  http://sourceforge.net/
