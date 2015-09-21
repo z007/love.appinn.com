@@ -71,6 +71,9 @@ Favorite software
  * https://github.com/guodongxiaren/README
  * http://www.emoji-cheat-sheet.com/
  * https://github.com/othree/markdown-syntax-zhtw
+ * https://www.zybuluo.com/mdeditor
+ * https://guides.github.com/features/mastering-markdown/
+ * https://help.github.com/articles/github-flavored-markdown/
 
 # Books
  * https://github.com/justjavac/free-programming-books-zh_CN
