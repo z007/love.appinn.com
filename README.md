@@ -87,3 +87,4 @@ Favorite software
  *  http://en.softonic.com/
  *  http://download.cnet.com/
  *  http://sourceforge.net/
+ *  http://portableapps.com/
