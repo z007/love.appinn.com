@@ -23,8 +23,12 @@ Favorite software
 
 # Looking good security neat little software
 * http://love.appinn.com
-* File Explorer supplement
-* http://www.listary.com
+* Add new software
+ * File Explorer supplement
+  * http://www.listary.com
+* Mobile
+* http://www.toolwiz.com/products/toolwiz-cleaner
+* http://www.avira.com/
 
 # Excellent Website
 * http://bluereader.org/
@@ -77,6 +81,7 @@ Favorite software
 
 # Books
  * https://github.com/justjavac/free-programming-books-zh_CN
+ * http://zhaoziyuan.com/
 
 ## Download
  *  http://en.softonic.com/
