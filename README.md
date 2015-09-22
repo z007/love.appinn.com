@@ -88,3 +88,4 @@ Favorite software
  *  http://download.cnet.com/
  *  http://sourceforge.net/
  *  http://portableapps.com/
+ * APK Downloader[1](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
