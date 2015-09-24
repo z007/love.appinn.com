@@ -18,6 +18,7 @@
  * [Sumatra PDF](http://www.sumatrapdfreader.org/free-pdf-reader.html)
  * http://zhaoziyuan.com/
  * http://www.yeeyan.org/
+ * http://www.flipboard.cn/explore
  * https://github.com/justjavac/free-programming-books-zh_CN
  * http://www.ituring.com.cn/
  * [PT_books](https://goo.gl/QkJVCt)
