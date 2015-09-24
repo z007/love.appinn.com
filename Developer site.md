@@ -9,7 +9,7 @@
 # Typing 
  * https://www.typing.com/
  * http://typingtest.1bestlink.net/
- * 
+ 
 # Translate
  * https://www.bing.com/translator/
   
