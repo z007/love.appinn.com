@@ -9,10 +9,51 @@
 # Typing 
  * https://www.typing.com/
  * http://typingtest.1bestlink.net/
-# BOOK
- * http://zhaoziyuan.com/
  * 
+# Translate
+ * https://www.bing.com/translator/
+ * 
+# BOOK
+ * http://book.douban.com/
+ * http://zhaoziyuan.com/
+ * http://www.yeeyan.org/
+ * https://github.com/justjavac/free-programming-books-zh_CN
+ * http://www.ituring.com.cn/
+ * [PT_books](https://goo.gl/QkJVCt)
+ * http://www.fortunechina.com/
+ * [spritzlet](http://www.spritzlet.com/)
+ * https://app.blinkist.com/en/blinks/
+ 
+# [Develop a good habit](http://www.ifanr.com/app/565116)
+ * [Daily Todo](http://dailytodo.org/)
+ 
+# Wikipedia
+ * https://www.wikipedia.org/
+ * http://www.zhihu.com/topic/19551563
+ * http://baike.baidu.com/
+ * http://wiki.mbalib.com/wiki/%E9%A6%96%E9%A1%B5
+ * http://www.baike.com/
+ * http://baike.haosou.com/
+ * http://baike.sogou.com/Home.v
+ 
 
+# Github
+ * http://outofmemory.cn/github/
+ * http://code.csdn.net/news/2820990
+ * http://developer.51cto.com/art/201404/435435.htm
+ * __[git-cheat-sheet](https://z007.gitbooks.io/github/content/github.html)__
+  * http://blog.csdn.net/shulianghan/article/details/18812279
+  * https://git-scm.com/book/zh/v2
+  * http://www.cnblogs.com/pyer/p/4752770.html
+  * https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md
+  
+# Markdown 
+ * https://github.com/guodongxiaren/README
+ * http://www.emoji-cheat-sheet.com/
+ * https://github.com/othree/markdown-syntax-zhtw
+ * https://www.zybuluo.com/mdeditor
+ * https://guides.github.com/features/mastering-markdown/
+ * https://help.github.com/articles/github-flavored-markdown/
 
 # Developer community
  * http://www.leiphone.com/news/201508/VU9BuzS9MAMZZ5mm.html
@@ -24,41 +65,67 @@
   * http://webapps.stackexchange.com/
   * http://www.codeproject.com/
   * https://developers.google.com/
+ 
 # RSS
  * http://songshuhui.net/
+ * http://www.zhihu.com/
  * http://www.huanqiukexue.com/
  * http://www.williamlong.info/
  * http://xianguo.com/
  * http://www.tuicool.com/
  * http://toutiao.io/
+ * http://ju.outofmemory.cn/
  * http://www.jobbole.com/
  * http://weekly.manong.io/issues/
  * http://codecloud.net/
  * http://letter.csdn.net/news/newsletter/index/1
  * http://www.iteye.com/
  * http://www.chengxuyuans.com/
+ * http://www.vaikan.com/
 
-# WEB
- * http://www.runoob.com/
- * http://yanhaijing.com/
- * https://github.com/sxyx2008/DevArticles/issues
- * http://iamdaiyuan.github.io/
- * http://www.qxzxp.com/
- * http://mindhacks.cn/
- * http://tuxpy.coding.io/
- * http://www.raychase.net/
+# Eating apples 
+ * __WEB__
+  * http://www.runoob.com/
+  * http://yanhaijing.com/
+  * https://github.com/sxyx2008/DevArticles/issues
+  * http://iamdaiyuan.github.io/
+  * http://www.qxzxp.com/
+  * http://mindhacks.cn/
+  * http://tuxpy.coding.io/
+  * http://www.raychase.net/
+  * [opensource](https://goo.gl/NMJ0zm)
+ * [SVG](http://www.playniuniu.com/posts/li-yong-svg-zhi-zuo-su-miao-dong-hua.html)
+ * Algorithm
+  * http://zh.visualgo.net/
+  * http://www.codeceo.com/article/100-c-programming-code.html
+  * http://www.codeceo.com/article/10-algorithms-in-programming-interview.html
+  * http://blog.jobbole.com/72850/
+  * http://www.hawstein.com/posts/make-thiner-programming-pearls.html
+ * __Math__
+  *  http://www.vaikan.com/math-gifs/
+  *  http://zhaoziyuan.com/item/6289/#reply0
+  *  http://resource.zhaoziyuan.com/resource_a/6a4c036460d7610bd9238c3d428dfaa1.pdf
+ * __Regex__
+  * http://deerchao.net/tutorials/regex/regex.htm
 
 # [Any door](http://gate.guokr.com/)
  * http://gate.guokr.com/
  * http://www.solidot.org/
- * [programthink](https://github.com/programthink/sites)
+ * [PT_sites](https://goo.gl/27gcpX)
+ * [Butterfly](https://goo.gl/UsPFL2)
  * http://hao.jobbole.com/
  * 
 ## Download
+ *  http://love.appinn.com/
+ *  http://www.appinn.com/
+ *  http://www.iplaysoft.com/
  *  http://en.softonic.com/
  *  http://download.cnet.com/
  *  http://sourceforge.net/
  *  http://portableapps.com/
+ *  photo
+  *  http://love.appinn.com/#photoview
+  *  http://screentogif.codeplex.com/
  * APK Downloader[1](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
  * http://haojian138.blog.163.com/blog/#m=0
  
