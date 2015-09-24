@@ -128,8 +128,10 @@
   *  http://love.appinn.com/#photoview
   *  http://screentogif.codeplex.com/
  *  [APK Downloader](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
+ *  http://www.aptoide.com/
  *  http://haojian138.blog.163.com/blog/#m=0
  
  
-  
+## First aid manual
+ * http://www.hbaq.cn/jijiu/
   
