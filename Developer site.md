@@ -95,7 +95,7 @@
   * http://www.raychase.net/
   * [opensource](https://goo.gl/NMJ0zm)
  * [SVG](http://www.playniuniu.com/posts/li-yong-svg-zhi-zuo-su-miao-dong-hua.html)
- * Algorithm
+ * __Algorithm__
   * http://zh.visualgo.net/
   * http://www.codeceo.com/article/100-c-programming-code.html
   * http://www.codeceo.com/article/10-algorithms-in-programming-interview.html
@@ -123,7 +123,7 @@
  *  http://download.cnet.com/
  *  http://sourceforge.net/
  *  http://portableapps.com/
- *  photo
+ *  __photo__
   *  http://love.appinn.com/#photoview
   *  http://screentogif.codeplex.com/
  *  [APK Downloader](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
