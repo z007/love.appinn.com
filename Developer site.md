@@ -12,7 +12,7 @@
  * 
 # Translate
  * https://www.bing.com/translator/
- * 
+  
 # BOOK
  * http://book.douban.com/
  * http://zhaoziyuan.com/
@@ -114,7 +114,7 @@
  * [PT_sites](https://goo.gl/27gcpX)
  * [Butterfly](https://goo.gl/UsPFL2)
  * http://hao.jobbole.com/
- * 
+  
 ## Download
  *  http://love.appinn.com/
  *  http://www.appinn.com/
@@ -126,8 +126,8 @@
  *  photo
   *  http://love.appinn.com/#photoview
   *  http://screentogif.codeplex.com/
- * APK Downloader[1](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
- * http://haojian138.blog.163.com/blog/#m=0
+ *  [APK Downloader](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
+ *  http://haojian138.blog.163.com/blog/#m=0
  
  
   
