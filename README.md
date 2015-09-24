@@ -15,6 +15,12 @@ Favorite software
  * ghostery
  
  * Adguard
+ * [Comodo Media Downloader](http://download.cnet.com/Comodo-Chromodo/3000-2356_4-76386288.html)
+ * [The Pirate Bay Forwarder](https://addons.mozilla.org/zh-CN/firefox/addon/the-pirate-bay-forwarder/?src=api)
+ * [DownThemAll](https://addons.mozilla.org/zh-CN/firefox/addon/downthemall/?src=cb-dl-featured)
+ * [Greasemonkey](https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey/?src=search)
+  * http://wiki.greasespot.net/User_Script_Hosting
+  * https://greasyfork.org/zh-CN
 
 ## CloseAD
   * Popup ad shield
