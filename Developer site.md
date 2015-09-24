@@ -15,6 +15,7 @@
   
 # BOOK
  * http://book.douban.com/
+ * [Sumatra PDF](http://www.sumatrapdfreader.org/free-pdf-reader.html)
  * http://zhaoziyuan.com/
  * http://www.yeeyan.org/
  * https://github.com/justjavac/free-programming-books-zh_CN
