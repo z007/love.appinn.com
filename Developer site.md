@@ -21,10 +21,17 @@
  * http://www.flipboard.cn/explore
  * https://github.com/justjavac/free-programming-books-zh_CN
  * http://www.ituring.com.cn/
+ * [flygon](http://www.flygon.net/1866) 
+  * [Developer](http://www.flygon.net/developer)
+  * [w3school](http://www.flygon.net/w3school)
+  * [Kindle-ebooks](http://www.flygon.net/kindle-ebooks)
  * [PT_books](https://goo.gl/QkJVCt)
  * http://www.fortunechina.com/
  * [spritzlet](http://www.spritzlet.com/)
- * https://app.blinkist.com/en/blinks/
+ * [Gitbook](https://www.gitbook.com/explore)
+ * [jianshu](http://www.jianshu.com/)
+ * [zi5](http://book.zi5.me/gentre)
+ * [Blinkst](https://app.blinkist.com/en/blinks/)
  
 # [Develop a good habit](http://www.ifanr.com/app/565116)
  * [Daily Todo](http://dailytodo.org/)
