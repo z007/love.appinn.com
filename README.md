@@ -32,6 +32,9 @@ Favorite software
 * Add new software
  * File Explorer supplement
   * http://www.listary.com
+  *  start explorer d:  ctrl+E
+  *  sart set 
+  *  start path
 * Mobile
 * http://www.toolwiz.com/products/toolwiz-cleaner
 * http://www.avira.com/
