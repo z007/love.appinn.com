@@ -107,6 +107,9 @@
   * http://www.52cs.org/
   * http://www.addyosmani.com/
   * [The front end of the cold knowledge](http://www.cnblogs.com/Wayou/p/things_you_dont_know_about_frontend.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+  ```
+  data:text/html, <html contenteditable>
+  ```
   * [opensource](https://goo.gl/NMJ0zm)
  * [SVG](http://www.playniuniu.com/posts/li-yong-svg-zhi-zuo-su-miao-dong-hua.html)
  * __Algorithm__
