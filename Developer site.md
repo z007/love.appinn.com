@@ -79,6 +79,7 @@
 # RSS
  * http://songshuhui.net/
  * http://www.zhihu.com/
+ * https://qdan.me/
  * http://www.huanqiukexue.com/
  * http://www.williamlong.info/
  * http://xianguo.com/
@@ -142,6 +143,7 @@
   *  http://love.appinn.com/#photoview
   *  http://screentogif.codeplex.com/
  *  [APK Downloader](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
+ *  [ARC](https://chrome.google.com/webstore/detail/arc-welder/emfinbmielocnlhgmfkkmkngdoccbadn?utm_source=qdan.me)
  *  http://www.aptoide.com/
  *  http://haojian138.blog.163.com/blog/#m=0
  
