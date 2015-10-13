@@ -31,6 +31,7 @@ Favorite software
 * http://love.appinn.com
 * https://qdan.me/list/VhHouZxPhYNInzJK
 * http://xbeta.info/
+* https://qdan.me/list/Vd3pCYsboTbNoMoX
 * Add new software
  * File Explorer supplement
   * http://www.listary.com
