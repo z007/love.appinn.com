@@ -5,7 +5,7 @@
  * http://blog.sciencenet.cn/blog-734884-667157.html
  * http://www.iplaysoft.com/get-more-out-of-google.html
  * http://ecaaser3.ecaa.ntu.edu.tw/weifang/cea/%E5%96%84%E7%94%A8GOOGLE.htm
- * 
+ 
 # Mooc
  * https://qdan.me/list/VcYGR9YD82kM7kVV
 
