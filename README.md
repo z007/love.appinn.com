@@ -29,6 +29,8 @@ Favorite software
 
 # Looking good security neat little software
 * http://love.appinn.com
+* https://qdan.me/list/VhHouZxPhYNInzJK
+* http://xbeta.info/
 * Add new software
  * File Explorer supplement
   * http://www.listary.com
@@ -97,4 +99,7 @@ Favorite software
  *  http://download.cnet.com/
  *  http://sourceforge.net/
  *  http://portableapps.com/
+ *  [FDM](http://www.freedownloadmanager.org/)
+ *  [IDM](https://www.internetdownloadmanager.com/?utm_source=qdan.me#/)
+ *  [Orbit Downloader](http://www.orbitdownloader.com/?utm_source=qdan.me#/)
  * APK Downloader[1](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
