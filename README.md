@@ -13,6 +13,15 @@ Favorite software
 ## extensions
 
  * ghostery
+ * oneTab
+ * HTTPS Everywhere
+ * Yet another flags
+ * FireShot
+ * pocket
+ * https://qdan.me/list/VVYGOKcsrSrYBl2r
+ * Wappalyzer
+ * Emmet Re:View
+ * WhatFont
  
  * Adguard
  * [Comodo Media Downloader](http://download.cnet.com/Comodo-Chromodo/3000-2356_4-76386288.html)
