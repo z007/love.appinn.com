@@ -25,6 +25,7 @@
  * http://www.flipboard.cn/explore
  * https://github.com/justjavac/free-programming-books-zh_CN
  * http://www.ituring.com.cn/
+ * https://qdan.me/list/VUSGs-VQrUAS3pUl
  * [flygon](http://www.flygon.net/1866) 
   * [Developer](http://www.flygon.net/developer)
   * [w3school](http://www.flygon.net/w3school)
