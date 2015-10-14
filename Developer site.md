@@ -8,6 +8,7 @@
  
 # Mooc
  * https://qdan.me/list/VcYGR9YD82kM7kVV
+ * https://qdan.me/list/VUE26y8fyt70NPCO
 
 # Typing 
  * https://www.typing.com/
