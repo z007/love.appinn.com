@@ -85,6 +85,7 @@
  * http://songshuhui.net/
  * http://www.zhihu.com/
  * https://qdan.me/
+ * http://www.itechzero.com/
  * http://www.huanqiukexue.com/
  * http://www.williamlong.info/
  * http://xianguo.com/
