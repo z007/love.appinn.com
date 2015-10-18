@@ -50,6 +50,7 @@
  * http://www.baike.com/
  * http://baike.haosou.com/
  * http://baike.sogou.com/Home.v
+ * http://zh.wikihow.com/%E9%A6%96%E9%A1%B5
  
 
 # Github
