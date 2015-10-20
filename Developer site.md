@@ -95,6 +95,7 @@
  * http://ju.outofmemory.cn/
  * http://www.jobbole.com/
  * http://weekly.manong.io/issues/
+ * http://www.codeceo.com/article/category/weekly
  * http://codecloud.net/
  * http://letter.csdn.net/news/newsletter/index/1
  * http://www.iteye.com/
