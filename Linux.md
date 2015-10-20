@@ -7,3 +7,4 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
   
 # Community
 * http://www.linuxidc.com/
+* https://linux.cn/tech/
