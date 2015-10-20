@@ -1,3 +1,5 @@
+# Literacy Linux: How to Choose Release
+https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 # LINUX distributions
 * [DistroWatch](https://en.wikipedia.org/wiki/DistroWatch)
   * http://distrowatch.com/
