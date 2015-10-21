@@ -22,3 +22,13 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * https://chusiang.gitbooks.io/working-on-gnu-linux//
 * https://craftsmanbai.gitbooks.io/linux-learning-wiki/content/index.html
 * http://www.codeceo.com/article/linux-productive-tools.html
+
+# 如何用 ISO 镜像制作 U 盘安装盘（通用方法、无需 WinPE）
+* https://program-think.blogspot.com/2013/12/create-bootable-usb-stick-from-iso.html
+* http://rufus.akeo.ie/
+* https://unetbootin.github.io/
+* http://www.chrysocome.net/dd
+* 
+# 文件备份技巧：组合“虚拟加密盘”和“网盘”
+* https://program-think.blogspot.com/2013/07/online-backup-virtual-encrypted-disk.html
+* http://www.hjsplit.org/windows/
