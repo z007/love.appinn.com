@@ -38,7 +38,9 @@ Favorite software
 
 # Looking good security neat little software
 * http://love.appinn.com
+* http://www.iplaysoft.com/
 * https://qdan.me/list/VhHouZxPhYNInzJK
+* https://free.com.tw/category/free-software/
 * http://xbeta.info/
 * https://qdan.me/list/Vd3pCYsboTbNoMoX
 * Add new software
