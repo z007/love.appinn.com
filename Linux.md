@@ -28,7 +28,13 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://rufus.akeo.ie/
 * https://unetbootin.github.io/
 * http://www.chrysocome.net/dd
-* 
+
+## DISK
+* http://toutiao.com/a4037286912/
+* https://support.microsoft.com/zh-cn/kb/300415
+* http://www.cnblogs.com/joey0210/archive/2012/08/24/2654289.html
+* http://jingyan.baidu.com/article/92255446efce49851748f463.html
+
 # 文件备份技巧：组合“虚拟加密盘”和“网盘”
 * https://program-think.blogspot.com/2013/07/online-backup-virtual-encrypted-disk.html
 * http://www.hjsplit.org/windows/
