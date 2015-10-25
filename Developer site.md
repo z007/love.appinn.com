@@ -157,7 +157,11 @@
  *  http://www.aptoide.com/
  *  http://haojian138.blog.163.com/blog/#m=0
  
- 
+# Lauange 
+## Python
+* https://github.com/realpython/python-scripts
+* https://github.com/programthink/opensource
+
 ## First aid manual
  * http://www.hbaq.cn/jijiu/
   
