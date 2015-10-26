@@ -69,6 +69,13 @@ Favorite software
 
  * http://www.sharewarestudio.com/?page_id=6
 
+* [chrispc-dns-switch](https://free.com.tw/chrispc-dns-switch/)
+* [maplatency](https://free.com.tw/maplatency/)
+
+* [ngrok](https://ngrok.com/download)
+ * http://tonybai.com/2015/03/14/selfhost-ngrok-service/
+ * https://imququ.com/post/self-hosted-ngrokd.html
+
 ## client
 
 * lantern
