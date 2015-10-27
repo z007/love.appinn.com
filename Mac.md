@@ -16,4 +16,4 @@
   * [soft.macx.cn](http://soft.macx.cn/)
   * [waerfa.com](http://www.waerfa.com/category/mac-app)
   * [pc6](http://www.pc6.com/mac/soft/)
-  * 
+  * [appinn.com](http://www.appinn.com/category/ios/)
