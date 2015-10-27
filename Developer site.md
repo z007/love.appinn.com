@@ -118,6 +118,8 @@
   * http://www.addyosmani.com/
   * http://blog.snsgou.com/
   * https://cenalulu.github.io/
+  * http://www.cnblogs.com/TankXiao/  --fiddler -- Mac
+  * http://hzlzh.io/ --t g w --Raspberry Pi（树莓派） 
   
   * [opensource](https://goo.gl/NMJ0zm)
  * [SVG](http://www.playniuniu.com/posts/li-yong-svg-zhi-zuo-su-miao-dong-hua.html)
