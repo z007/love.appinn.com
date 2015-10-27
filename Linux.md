@@ -31,7 +31,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://rufus.akeo.ie/
 * https://unetbootin.github.io/
 * http://www.chrysocome.net/dd
-
+* [ghost](http://www.upanok.com/jiaocheng/15.html)
 ## DISK
 * http://toutiao.com/a4037286912/
 * https://support.microsoft.com/zh-cn/kb/300415
