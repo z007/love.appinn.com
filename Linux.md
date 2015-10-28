@@ -42,3 +42,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 # 文件备份技巧：组合“虚拟加密盘”和“网盘”
 * https://program-think.blogspot.com/2013/07/online-backup-virtual-encrypted-disk.html
 * http://www.hjsplit.org/windows/
+
+
+# Software 
+ [Input](http://www.zhihu.com/question/19839748)
