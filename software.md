@@ -7,3 +7,5 @@
 * http://www.phraseexpander.com/
 * http://www.kaspersky.com/ XXXXXXXXXXXXXXXXXXXXXXX
 * Complete Internet Repair  XXXXXXXXXXXXXXXXXXXXXXX
+* http://free.appnee.com/
+* https://zh.surveymonkey.com/ --調查問卷
