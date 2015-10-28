@@ -44,6 +44,9 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * https://program-think.blogspot.com/2013/07/online-backup-virtual-encrypted-disk.html
 * http://www.hjsplit.org/windows/
 
+# Download
+ * [GetUbuntuGNOME/LTS](https://wiki.ubuntu.com/UbuntuGNOME/GetUbuntuGNOME/LTS)
+ * [Ubuntu](http://www.ubuntu.org.cn/index_kylin)
 
 # Software 
  [Input](http://www.zhihu.com/question/19839748)
