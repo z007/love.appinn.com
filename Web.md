@@ -12,3 +12,12 @@
 * http://railstutorial-china.org/ --安道
  * https://c9.io/
 * http://www.shejidaren.com/ --设计达人 
+
+
+# model
+* [简洁的静态博客构建工具 —— 纸小墨](http://www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool.html)
+ * [小众介紹](http://www.appinn.com/inkpaper/)
+
+
+# http
+ * [HTTP/2 头部压缩技术介绍](https://imququ.com/post/header-compression-in-http2.html)
