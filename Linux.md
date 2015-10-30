@@ -82,3 +82,5 @@ chmod 755 /etc/cron.weekly/upgrade.sh
  * http://www.freebuf.com/tools/75517.html
  * http://drops.wooyun.org/category/tips
  * http://www.jikexueyuan.com/course/intellegence/
+ * http://edu.51cto.com/course/course_id-3195.html
+ * http://www.metasploit.cn/forum.php?mod=viewthread&tid=1484
