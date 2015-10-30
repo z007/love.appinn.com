@@ -75,3 +75,10 @@ chmod 755 /etc/cron.weekly/upgrade.sh
   
 # Software 
  [Input](http://www.zhihu.com/question/19839748)
+
+
+# security
+ * http://open.freebuf.com/
+ * http://www.freebuf.com/tools/75517.html
+ * http://drops.wooyun.org/category/tips
+ * http://www.jikexueyuan.com/course/intellegence/
