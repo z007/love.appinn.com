@@ -88,5 +88,5 @@ chmod 755 /etc/cron.weekly/upgrade.sh
 # 坑
  * Inter i5-4590 Windowx64 VM11 安装 linux **amd镜像 极不稳定 kalilinux 安装完成重启无法启动 gnome 使用halt命令 关机无法关机直接死机**(kali-linux-2.0-amd64.iso ubuntu-gnome-14.04.3-desktop-amd64) 
  * 建议Inter cpu 别装 AMD镜像 & 每个环境都不同& 偶然性 **i86镜像较稳定**
- * Kalilinux 虚拟机安装 [VMware Images](https://www.offensive-security.com/kali-linux-vmware-arm-image-download/)
+ * Kalilinux 虚拟机 [VMware Images](https://www.offensive-security.com/kali-linux-vmware-arm-image-download/)推荐
   *  Default root Password toor
