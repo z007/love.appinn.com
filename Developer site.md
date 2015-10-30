@@ -6,9 +6,14 @@
  * http://www.iplaysoft.com/get-more-out-of-google.html
  * http://ecaaser3.ecaa.ntu.edu.tw/weifang/cea/%E5%96%84%E7%94%A8GOOGLE.htm
  
-# Mooc
+# Mooc and Online Education
  * https://qdan.me/list/VcYGR9YD82kM7kVV
+ * https://github.com/lifesinger/lifesinger.github.io/issues/189  --
+ * http://www.jikexueyuan.com/ --极客学院
+ * http://frontenddev.org/link/institute-of-geek-wiki-sutra-depository-of-programmers.html  --github ,Docker ,html5
+ * http://www.imooc.com/course/list --慕课网
  * https://qdan.me/list/VUE26y8fyt70NPCO
+ * http://www.jianshu.com/p/3b1b0f8bbe05
 
 # Typing 
  * https://www.typing.com/
