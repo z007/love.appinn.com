@@ -1,7 +1,14 @@
 
 # [github](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
   * [tip](http://dengshuan.me/misc/github-tips.html)  [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
-   ```
+  
+# git
+http://blog.csdn.net/shulianghan/article/details/18812279
+
+https://github.com/z007/github/blob/master/github.md
+# [GitHub vs. Bitbucket ](http://www.oschina.net/translate/bitbucket-vs-github-its-more-than-just-features)
+
+ ```
    GitHub 使用小技巧
 
 GitHub 现在成了程序员最流行的社交网站，可能也是最大的代码托管仓库。然而除了代码托管外，GitHub 还提供其它服务：代码仓库(https://github.com), 代码片段(https://gist.github.com), 短网址(https://git.io)，主页 (http://username.github.io)，工作(https://jobs.github.com)。这里记录一下 GitHub 一些使用小技巧。
@@ -88,9 +95,3 @@ gist
 gist 分为公开和私密的，不像私有仓库不能被非授权用户访问，私密仅仅表示不能被搜索(gist 搜索与仓库搜索方法一样)，仍然可以直接被别人看到（只要知道地址）。没登录也可以创建 gist（匿名 gist）。
    ```
    
-# git
-http://blog.csdn.net/shulianghan/article/details/18812279
-
-https://github.com/z007/github/blob/master/github.md
-# [GitHub vs. Bitbucket ](http://www.oschina.net/translate/bitbucket-vs-github-its-more-than-just-features)
-
