@@ -13,14 +13,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://www.linux.com/
 * http://www.linuxandubuntu.com/
 
-# Command
 
-* http://man.linuxde.net/
-* [sudo passwd](http://jingyan.baidu.com/article/5225f26b0ac250e6fb09084e.html)
- * [Change sudo password timeout in Ubuntu](http://itsfoss.com/change-sudo-password-timeout-ubuntu/)
-* https://linux.cn/article-6160-1.html
-* [Linux mkdir、tar 和 kill 命令的 4 个有用小技巧](https://linux.cn/article-5863-1.html#3_3387)
-* 
 
 # use 
 * https://chusiang.gitbooks.io/working-on-gnu-linux//
