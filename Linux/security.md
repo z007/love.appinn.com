@@ -1,12 +1,3 @@
-# security
- * http://open.freebuf.com/
- * http://www.freebuf.com/tools/75517.html
- * http://drops.wooyun.org/category/tips
- * http://www.jikexueyuan.com/course/intellegence/
- * http://edu.51cto.com/course/course_id-3195.html
- * http://www.metasploit.cn/forum.php?mod=viewthread&tid=1484
- 
-  
 http://www.hackingtutorials.org/  --hackingtutorials
 http://tools.kali.org/
 
@@ -30,3 +21,13 @@ http://www.chinadmd.com/search.do?nkey=%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E7%9
 http://book.51cto.com/art/201001/179675.htm  --黑客攻防入门与进阶 
 
 http://blog.csdn.net/shuzui1985/article/details/39549435   --密码字典生成软件Crcunch的简单使用
+
+
+
+# security
+ * http://open.freebuf.com/
+ * http://www.freebuf.com/tools/75517.html
+ * http://drops.wooyun.org/category/tips
+ * http://www.jikexueyuan.com/course/intellegence/
+ * http://edu.51cto.com/course/course_id-3195.html
+ * http://www.metasploit.cn/forum.php?mod=viewthread&tid=1484
