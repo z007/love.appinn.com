@@ -17,7 +17,7 @@ http://tools.kali.org/
 *	http://book.51cto.com/art/201303/385874.htm  --无线网卡模式
 *	http://book.51cto.com/art/201303/385878.htm  --在Linux上嗅探无线网络
 *	https://en.wikipedia.org/wiki/Monitor_mode   --Monitor mode 监听模式
-*	[http://www.chinadmd.com/search.do?nkey=%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E7%9B%91%E5%90%AC%E6%A8%A1%E5%BC%8F](http://www.chinadmd.com) --无线网卡监听模式
+*	[http://www.chinadmd.com](http://www.chinadmd.com/search.do?nkey=%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E7%9B%91%E5%90%AC%E6%A8%A1%E5%BC%8F) --无线网卡监听模式
 *	http://book.51cto.com/art/201001/179675.htm  --黑客攻防入门与进阶 *	
 
 *	http://blog.csdn.net/shuzui1985/article/details/39549435   --密码字典生成软件Crcunch的简单使用
