@@ -41,31 +41,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
  * [GetUbuntuGNOME/LTS](https://wiki.ubuntu.com/UbuntuGNOME/GetUbuntuGNOME/LTS)
  * [Ubuntu](http://www.ubuntu.org.cn/index_kylin)
 
-# command
- * [Upgrade](https://www.kali.org/news/kali-linux-20-released/)
 
-  ```
-  apt-get update
-apt-get dist-upgrade # get a coffee, or 10.
-  ```
- * [apt-get update;apt-get upgrade;apt-get dist-upgrade各自的作用](http://blog.163.com/sys_suweixiao/blog/static/165351502012113184248394/)
- * [upgrade.sh](http://www.vixual.net/blog/archives/3)
- ```
- 讓系統每週都能自動更新一次
-
-於 /etc/cron.weekly/ 新增一個指令檔 “upgrade.sh”，內容如下:
- #! /bin/bash
-apt-get update
-apt-get -y dist-upgrade
-apt-get clean
-
-chmod 755 /etc/cron.weekly/upgrade.sh
- ```
- * [update](http://www.cnblogs.com/indiepop/archive/2011/11/10/2244903.html)
- * [apt-get](http://jingyan.baidu.com/article/4853e1e53204251909f7260f.html)
-
-  
-  
 # Software 
  [Input](http://www.zhihu.com/question/19839748)
 
