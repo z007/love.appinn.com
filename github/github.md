@@ -8,7 +8,8 @@ http://blog.csdn.net/shulianghan/article/details/18812279
 https://github.com/z007/github/blob/master/github.md
 # [GitHub vs. Bitbucket ](http://www.oschina.net/translate/bitbucket-vs-github-its-more-than-just-features)
 
- * [tip](http://dengshuan.me/misc/github-tips.html)  [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
+# [tip](http://dengshuan.me/misc/github-tips.html) 
+*  [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
  ```
    GitHub 使用小技巧
 
