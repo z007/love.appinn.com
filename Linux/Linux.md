@@ -46,13 +46,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
  [Input](http://www.zhihu.com/question/19839748)
 
 
-# security
- * http://open.freebuf.com/
- * http://www.freebuf.com/tools/75517.html
- * http://drops.wooyun.org/category/tips
- * http://www.jikexueyuan.com/course/intellegence/
- * http://edu.51cto.com/course/course_id-3195.html
- * http://www.metasploit.cn/forum.php?mod=viewthread&tid=1484
+
 
 # 坑
  * Inter i5-4590 Windowx64 VM11 安装 linux **amd镜像 极不稳定 kalilinux 安装完成重启无法启动 gnome 使用halt命令 关机无法关机直接死机**(kali-linux-2.0-amd64.iso ubuntu-gnome-14.04.3-desktop-amd64) 
