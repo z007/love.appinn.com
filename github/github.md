@@ -17,12 +17,12 @@ https://github.com/z007/github/blob/master/github.md
 github/github.md 即可
 
 移动文件 到某一目录文件夹下 编辑文件在文件名前面添加目录页/文件名
-
-
+移出文件 相反
+将文件 从文件夹移出文件 编辑文件将文件名Backspace键将文件名前面文件夹名删除即可
 
 ```
 #[github tip](http://dengshuan.me/misc/github-tips.html)
-2015/11/1 打不开  返回结果Zero Sized Reply
+ 2015/11/1 github tip打不开  返回结果Zero Sized Reply
 * [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
 
  ``` 
