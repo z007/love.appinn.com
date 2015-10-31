@@ -10,13 +10,17 @@ https://github.com/z007/github/blob/master/github.md
 
 # [tip](http://dengshuan.me/misc/github-tips.html) 
 *  [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
+
+```
+在线建立文件夹
+文件A/文件名 即可
+```
  ```
    GitHub 使用小技巧
 
 GitHub 现在成了程序员最流行的社交网站，可能也是最大的代码托管仓库。然而除了代码托管外，GitHub 还提供其它服务：代码仓库(https://github.com), 代码片段(https://gist.github.com), 短网址(https://git.io)，主页 (http://username.github.io)，工作(https://jobs.github.com)。这里记录一下 GitHub 一些使用小技巧。
 
-文件夹
-文件A/文件名
+
 URL 小技巧
 
 代码链接高亮特定行，在URL末尾添加 #Lm-Ln ，其中 m 和 n 是行数
