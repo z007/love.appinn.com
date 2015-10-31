@@ -21,9 +21,9 @@ github/github.md 即可
 
 
 ```
-[tip](http://dengshuan.me/misc/github-tips.html)
+#[github tip](http://dengshuan.me/misc/github-tips.html)
 2015/11/1 打不开  返回结果Zero Sized Reply
-*  [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
+* [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
 
  ``` 
  缓存内容
