@@ -12,8 +12,15 @@ https://github.com/z007/github/blob/master/github.md
 *  [cache](http://webcache.googleusercontent.com/search?q=cache:bOWkIdr68ewJ:dengshuan.me/misc/github-tips.html+&cd=1&hl=zh-CN&ct=clnk)
 
 ```
-在线建立文件夹
-文件A/文件名 即可
+在线在love.appinn.com建立github文件夹 
+并移动love.appinn.com/github.md文件到github/下
+点击love.appinn.com/+ 加号 输入
+github/github.md 即可
+
+移动文件 到某一目录文件夹下 编辑文件在文件名前面添加目录页/文件名
+
+
+
 ```
  ```
    GitHub 使用小技巧
