@@ -1,7 +1,9 @@
 
 # [github](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
  
-  
+ [office guide](https://guides.github.com/)
+ 
+ To get started, go to [training.github.com](https://training.github.com/classes/developers/) and click the On Demand tab
 # git
 http://blog.csdn.net/shulianghan/article/details/18812279
 
