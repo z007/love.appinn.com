@@ -29,4 +29,6 @@ chmod 755 /etc/cron.weekly/upgrade.sh
  * [apt-get](http://jingyan.baidu.com/article/4853e1e53204251909f7260f.html)
 
   
-  
+
+# linux下解压命令大全
+http://www.cnblogs.com/eoiioe/archive/2008/09/20/1294681.html
