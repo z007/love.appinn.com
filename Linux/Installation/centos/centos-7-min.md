@@ -11,6 +11,11 @@ service network restart
 ![](http://www.centoscn.com/uploads/allimg/140831/0036034325-0.jpg)
 ![](http://www.centoscn.com/uploads/allimg/140831/0036031L3-1.jpg)
 
+
+[CentOS6.3 最小化安装后配置](http://blog.csdn.net/knight1394/article/details/8560325)
+```
+
+```
 # [解决克隆CentOS后 eth0无法初始化/找不到eth0的问题](http://www.centoscn.com/CentosBug/osbug/2015/0813/5998.html)
 ```
 
