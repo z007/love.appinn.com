@@ -153,5 +153,49 @@ firewall-cmd --reload
 *	用 Speedtest-cli 测试服务器带宽
 *	配置 Cron 作业
 *	安装 Owncloud
-*	启用 VirtualBox 虚拟化
-*	用密码保护 GRUB
+http://www.tecmint.com/install-owncloud-to-create-personal-storage-in-linux/
+
+wget https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2
+```
+tar -jxvf owncloud-8.0.0.tar.bz2
+rm -rf owncloud-8.0.0.tar.bz2
+chmod -R 777 owncloud
+
+vi /etc/httpd/conf/httpd.conf	
+AllowOverride None
+Change this to:
+
+AllowOverride All
+
+service httpd restart
+
+http://10.12.205.59/phpinfo.php  
+
+http://localhost/owncloud   
+OR
+http://your-ip-address/owncloud   
+```
+# owncloud  status
+``` 
+ownCloud
+
+Can't write into config directory!
+This can usually be fixed by giving the webserver write access to the config directory.
+
+ownCloud – 您控制的网络服务
+```
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-6--2
+
+wget http://wordpress.org/latest.tar.gz
+
+tar -xzvf latest.tar.gz
+
+http://localhost/wwordpress
+
+# wordpress  status
+```
+OK  
+```
+
