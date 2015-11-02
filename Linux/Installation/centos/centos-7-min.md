@@ -41,10 +41,14 @@ SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="eth1-MAC", ATTR{
 ```
 
 # 安装完最小化 RHEL/CentOS 7
+* http://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/
 * https://linux.cn/article-5341-1.html --安装完最小化 RHEL/CentOS 7 后需要做的 30 件事情（一）
 * https://linux.cn/article-5342-1.html --安装完最小化 RHEL/CentOS 7 后需要做的 30 件事情（一）
   * http://www.tecmint.com/centos-7-installation/  --图像界面安装
-  
+
+# tool  
+* [Speedtest-CLI](http://www.tecmint.com/check-internet-speed-from-command-line-in-linux/)
+* [在 Linux 中以交互方式实时查看Apache web访问统计](https://linux.cn/article-5352-1.html)
 
 1. 注册并启用红帽订阅
 *	使用静态 IP 地址配置网络
@@ -92,13 +96,13 @@ LISTEN 80
 增加刚才分配给 Apache 的端口通过防火墙，然后重新加载防火墙。
 
 允许 http 服务通过防火墙(永久)。
-	firewall-cmd –add-service=http
+	firewall-cmd  --zone=public –-add-service=http  --permanent
 
 允许 3221 号端口通过防火墙(永久)。
-	firewall-cmd –permanent –add-port=3221/tcp
+	firewall-cmd --zone=public --add-port=2888/tcp --permanent
 
 重新加载防火墙。
-	firewall-cmd –reload
+	firewall-cmd --reload
 （LCTT 译注：关于 firewall 的进一步使用，请参照：http://www.linux.cn/article-4425-1.html ）
 
 完成上面的所有事情之后，是时候重启 Apache HTTP 服务器了，然后新的端口号才能生效。
@@ -110,6 +114,23 @@ LISTEN 80
 
 如下图所示，用 links 命令行工具 验证 Apache HTTP 服务器。
 	links 127.0.0.1
+```
+```
+http://stackoverflow.com/questions/24729024/centos-7-open-firewall-port
+Use this command to find your active zone(s):
+
+firewall-cmd --get-active-zones
+It will say either public, dmz, or something else. You should only apply to the zones required.
+
+In the case of dmz try:
+
+firewall-cmd --zone=dmz --add-port=2888/tcp --permanent
+Otherwise, substitute dmz for your zone, for example, if your zone is public:
+
+firewall-cmd --zone=public --add-port=2888/tcp --permanent
+Then remember to reload the firewall for changes to take effect.
+
+firewall-cmd --reload
 ```
 *	安装 MariaDB 数据库
 *	安装并配置 SSH 服务器
