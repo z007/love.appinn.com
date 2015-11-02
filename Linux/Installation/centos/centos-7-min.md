@@ -152,10 +152,13 @@ firewall-cmd --reload
 *	安装 Linux Malware Detect (LMD)
 *	用 Speedtest-cli 测试服务器带宽
 *	配置 Cron 作业
-*	安装 Owncloud
+
+#	安装 Owncloud
+
 http://www.tecmint.com/install-owncloud-to-create-personal-storage-in-linux/
 
 wget https://download.owncloud.org/community/owncloud-8.0.0.tar.bz2
+
 ```
 tar -jxvf owncloud-8.0.0.tar.bz2
 rm -rf owncloud-8.0.0.tar.bz2
@@ -175,7 +178,7 @@ http://localhost/owncloud
 OR
 http://your-ip-address/owncloud   
 ```
-# owncloud  status
+### owncloud  status
 ``` 
 ownCloud
 
@@ -185,7 +188,7 @@ This can usually be fixed by giving the webserver write access to the config dir
 ownCloud – 您控制的网络服务
 ```
 
-
+# wwordpress
 https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-on-centos-6--2
 
 wget http://wordpress.org/latest.tar.gz
@@ -194,7 +197,7 @@ tar -xzvf latest.tar.gz
 
 http://localhost/wwordpress
 
-# wordpress  status
+### wordpress  status
 ```
 OK  
 ```
