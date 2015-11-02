@@ -96,7 +96,7 @@ LISTEN 80
 增加刚才分配给 Apache 的端口通过防火墙，然后重新加载防火墙。
 
 允许 http 服务通过防火墙(永久)。
-	firewall-cmd  --zone=public –-add-service=http  --permanent
+	firewall-cmd  --zone=public --add-service=http  --permanent
 
 允许 3221 号端口通过防火墙(永久)。
 	firewall-cmd --zone=public --add-port=2888/tcp --permanent
