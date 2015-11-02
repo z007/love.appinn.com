@@ -49,6 +49,7 @@ SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="eth1-MAC", ATTR{
 # tool  
 * [Speedtest-CLI](http://www.tecmint.com/check-internet-speed-from-command-line-in-linux/)
 * [在 Linux 中以交互方式实时查看Apache web访问统计](https://linux.cn/article-5352-1.html)
+* [centos 安装setup小工具](http://skyuck.iteye.com/blog/1724496)
 
 1. 注册并启用红帽订阅
 *	使用静态 IP 地址配置网络
