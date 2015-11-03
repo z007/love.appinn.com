@@ -49,36 +49,39 @@ Allow port 8445 for httpd: sudo semanage port -a -t http_port_t -p tcp 8445
 	firewall-cmd --zone=public --add-port=8445/tcp --permanent
 
 now
-
 /etc/httpd/conf/httpd.conf
 Listen 80
 Listen 8080
 Listen 3221
 Listen 8445
+重新加载防火墙。（LCTT 译注：关于 firewall 的进一步使用，请参照：http://www.linux.cn/article-4425-1.html ）
 
-
-http://127.0.0.1:80/8080/3221/8445
-
-重新加载防火墙。
-	firewall-cmd --reload
-（LCTT 译注：关于 firewall 的进一步使用，请参照：http://www.linux.cn/article-4425-1.html ）
-
+firewall-cmd --reload
 完成上面的所有事情之后，是时候重启 Apache HTTP 服务器了，然后新的端口号才能生效。
+
 	systemctl restart httpd.service
 	echo -e "<?php\nphpinfo();\n?>"  > /var/www/html/phpinfo.php
-	php /var/www/html/phpinfo.php OR links http://127.0.0.1/phpinfo.php
+	php /var/www/html/phpinfo.php 
+	
+	http://127.0.0.1:80/8080/3221/8445
+	http://localhost:80/8080/3221/8445
+	http://127.0.0.1:80/8080/3221/8445
+	http://0.0.0.0:80/8080/3221/8445
+	http://ip: 80/8080/3221/8445
+	
+	OR 
+	如下图所示，用 links 命令行工具 验证 Apache HTTP 服务器。
+        yum install links
+	links 127.0.0.1
+	links http://127.0.0.1/phpinfo.php
+	
 现在添加 Apache 服务到系统层使其随系统自动启动。
 	systemctl start httpd.service
 	systemctl enable httpd.service
-	systemctl start httpd.service
-（LCTT 译注：关于 systemctl 的进一步使用，请参照：http://www.linux.cn/article-3719-1.html ）
-
-如下图所示，用 links 命令行工具 验证 Apache HTTP 服务器。
-yum install links
-`	links 127.0.0.1
-
+	systemctl status httpd.service
 
 ```
+
 ```
  Installing Webmin
  wget http://prdownloads.sourceforge.net/webadmin/webmin-1.740-1.noarch.rpm
@@ -88,7 +91,9 @@ yum install links
 ```
 http://www.tecmint.com/things-to-do-after-minimal-rhel-centos-7-installation/2/
 http://www.tecmint.com/install-lamp-in-centos-7/
+
 Install MariaDB Database
+
 MariaDB is a fork of MySQL. RedHat Enterprise Linux and its derivatives have shifted to MariaDB from MySQL. It is the Primary Database management System. It is again one of those tools which is necessary to have and you will need it sooner or later no matter what kind of server you are setting. Install MariaDB on CentOS Minimal Install server as below.
 
 yum install mariadb-server mariadb
@@ -99,7 +104,7 @@ firewall-cmd --add-service=mysql
 Now it’s time to secure MariaDB server.
 # /usr/bin/mysql_secure_installation
 enter input passwd  
-root and  passwd(Don't delect root)
+root and  passwd(Don't delect root user login)
 now login
 mysql -u root -p 
 ```
