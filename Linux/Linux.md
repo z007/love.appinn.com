@@ -25,7 +25,8 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://rufus.akeo.ie/
 * https://unetbootin.github.io/
 * http://www.chrysocome.net/dd
-* [ghost](http://www.upanok.com/jiaocheng/15.html)
+* [ghost 备份](http://www.upanok.com/jiaocheng/15.html)
+* [ghost 还原](http://jingyan.baidu.com/article/4ae03de34c73bb3efe9e6b57.html)
 
 ## DISK
 * http://toutiao.com/a4037286912/
