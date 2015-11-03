@@ -30,3 +30,7 @@ http://tools.kali.org/
  * http://www.jikexueyuan.com/course/intellegence/
  * http://edu.51cto.com/course/course_id-3195.html
  * http://www.metasploit.cn/forum.php?mod=viewthread&tid=1484
+
+# [ARP联盟](http://www.arpun.com/article/list_1_149.html)
+ * [U盘病毒如何防护](http://www.arpun.com/article/16312.html)
+  * [如何禁用 Windows 中的自动运行功能](https://support.microsoft.com/zh-cn/kb/967715)
