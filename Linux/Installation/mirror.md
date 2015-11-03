@@ -1,4 +1,4 @@
-
+```
 From : http://www.centoscn.com/yunwei/news/2012/1227/131.html
 具体配置中，我建议您使用大企业的镜像。大学的镜像有的只是内部使用，而且未必速度快的像您所期待的那样
 同时，我建议您使用某些加速插件，比如RHEL系列的yum-plugin-fastestmirror，apt-fast，axel，netselect-apt，apt-spy等等。
@@ -51,3 +51,4 @@ Linux运维派开源镜像 http://mirrors.skyshe.cn/
 
 最后：
 CentOs 官方镜像 列表 http://mirror-status.centos.org/
+```
