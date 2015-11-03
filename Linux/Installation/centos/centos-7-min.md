@@ -90,54 +90,7 @@ yum install links
 ```
  yum install httpd
 ```
-*	安装 PHP
-```
-如果你想更改 Apache HTTP 服务器的默认端口号(80)为其它端口，你需要编辑配置文件 ‘/etc/httpd/conf/httpd.conf’ 并查找以下面开始的行：
 
-LISTEN 80 
-
-把端口号 ‘80’ 改为其它任何端口(例如 3221)，保存并退出。
-
-
-增加刚才分配给 Apache 的端口通过防火墙，然后重新加载防火墙。
-
-允许 http 服务通过防火墙(永久)。
-	firewall-cmd  --zone=public --add-service=http  --permanent
-
-允许 3221 号端口通过防火墙(永久)。
-	firewall-cmd --zone=public --add-port=2888/tcp --permanent
-
-重新加载防火墙。
-	firewall-cmd --reload
-（LCTT 译注：关于 firewall 的进一步使用，请参照：http://www.linux.cn/article-4425-1.html ）
-
-完成上面的所有事情之后，是时候重启 Apache HTTP 服务器了，然后新的端口号才能生效。
-	systemctl restart httpd.service
-现在添加 Apache 服务到系统层使其随系统自动启动。
-	systemctl start httpd.service
-	systemctl enable httpd.service
-（LCTT 译注：关于 systemctl 的进一步使用，请参照：http://www.linux.cn/article-3719-1.html ）
-
-如下图所示，用 links 命令行工具 验证 Apache HTTP 服务器。
-	links 127.0.0.1
-```
-```
-http://stackoverflow.com/questions/24729024/centos-7-open-firewall-port
-Use this command to find your active zone(s):
-
-firewall-cmd --get-active-zones
-It will say either public, dmz, or something else. You should only apply to the zones required.
-
-In the case of dmz try:
-
-firewall-cmd --zone=dmz --add-port=2888/tcp --permanent
-Otherwise, substitute dmz for your zone, for example, if your zone is public:
-
-firewall-cmd --zone=public --add-port=2888/tcp --permanent
-Then remember to reload the firewall for changes to take effect.
-
-firewall-cmd --reload
-```
 *	安装 MariaDB 数据库
 *	安装并配置 SSH 服务器
 *	安装 GCC (GNU 编译器集)
