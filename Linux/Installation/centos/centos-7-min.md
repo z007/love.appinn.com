@@ -86,10 +86,7 @@ yum update && yum upgrade
 ```
 yum install links
 ```
-*	安装 Apache HTTP 服务器
-```
- yum install httpd
-```
+
 
 *	安装 MariaDB 数据库
 *	安装并配置 SSH 服务器
