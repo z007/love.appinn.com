@@ -51,7 +51,6 @@ Allow port 8445 for httpd: sudo semanage port -a -t http_port_t -p tcp 8445
 now
 /etc/httpd/conf/httpd.conf
 Listen 80
-Listen 8080
 Listen 3221
 Listen 8445
 重新加载防火墙。（LCTT 译注：关于 firewall 的进一步使用，请参照：http://www.linux.cn/article-4425-1.html ）
