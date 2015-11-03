@@ -1,4 +1,4 @@
-# 安装 LAMP HTTP 服务器
+# 安装 LAMP HTTP 服务器( my system's centos7 vm11) 
 ```
  On Debian/Ubuntu/Linux Mint
 
@@ -23,14 +23,18 @@ Centos只有 80这个端口默认可以LISTEN 80
 使用其他端口 需要特殊指定给http 才可以使用
 比如 要用 3221 88 8445端口
 
-[To fix my problem, I had to add ports 88 and 8445 and3221 to my system's centos7 configuration:](http://stackoverflow.com/questions/17079670/httpd-server-not-started-13permission-denied-make-sock-could-not-bind-to-ad)
+方案
+Install semanage tools: sudo yum -y install policycoreutils-python
+
 ```
 注意 --  连字符 是英文状态下的切记
-Install semanage tools: sudo yum -y install policycoreutils-python
+
 Allow port 3221 for httpd: sudo semanage port -a -t http_port_t -p tcp 3221
 Allow port 88 for httpd: sudo semanage port -a -t http_port_t -p tcp 88
 Allow port 8445 for httpd: sudo semanage port -a -t http_port_t -p tcp 8445
 ```
+[To fix my problem, I had to add ports 88 and 8445 and3221 to my system's centos7 configuration:](http://stackoverflow.com/questions/17079670/httpd-server-not-started-13permission-denied-make-sock-could-not-bind-to-ad)
+
 扩展
 [Listen](https://httpd.apache.org/docs/trunk/bind.html) [nmap-command](http://www.tecmint.com/nmap-command-examples/)
 
