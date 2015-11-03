@@ -27,6 +27,13 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://www.chrysocome.net/dd
 * [ghost 备份](http://www.upanok.com/jiaocheng/15.html)
 * [ghost 还原](http://jingyan.baidu.com/article/4ae03de34c73bb3efe9e6b57.html)
+```
+C 102400M 备份时C盘时 备份时 选择  boot 100M 和余下102300M 
+还原时 只需还原102300M 那个分区即可
+最后一步
+conture 继续 回到启动盘环境
+reset computer 重启计算机 
+```
 
 ## DISK
 * http://toutiao.com/a4037286912/
