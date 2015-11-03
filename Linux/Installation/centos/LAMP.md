@@ -17,14 +17,17 @@ LISTEN 80
 把端口号 ‘80’ 改为其它任何端口(例如 3221)，保存并退出。
 ```
 **我试了不可以**
-Centos只有 80 8080 这两个端口默认可以
+
+Centos只有 80这个端口默认可以
 LISTEN 80 
-LISTEN 8080
 
 使用其他端口 需要特殊指定给http 才可以使用
 比如 要用 3221 88 8445端口
+
 [To fix my problem, I had to add ports 88 and 8445 and3221 to my system's centos7 configuration:](http://stackoverflow.com/questions/17079670/httpd-server-not-started-13permission-denied-make-sock-could-not-bind-to-ad)
+
 [Listen](https://httpd.apache.org/docs/trunk/bind.html)
+
 [nmap-command](http://www.tecmint.com/nmap-command-examples/)
 
 # 注意 --  连字符 是英文状态下的切记
