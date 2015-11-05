@@ -12,6 +12,8 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://vbird.dic.ksu.edu.tw/linux_basic/0320bash_1.php
 * http://www.linux.com/
 * http://www.linuxandubuntu.com/
+* http://www.tecmint.com/
+* http://www.centoscn.com/
 
 
 
