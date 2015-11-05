@@ -51,7 +51,8 @@ reset computer 重启计算机
 
 
 # Software 
- [Input](http://www.zhihu.com/question/19839748)
+* [Input](http://www.zhihu.com/question/19839748)
+* [Squirrel](http://forrestchang.github.io/2015/10/31/squirrel-recommended/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
 
 
