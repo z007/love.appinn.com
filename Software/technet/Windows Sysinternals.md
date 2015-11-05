@@ -1,6 +1,7 @@
 * http://www.iplaysoft.com/windows-sysinternals-suite.html  --微软官方免费的极品实用绿色小工具合集，绝对值得你收藏！
 
 * https://technet.microsoft.com/en-us/sysinternals/bb545021
+  * [weibo](http://weibo.com/p/1006061655262755/home?from=page_100606&mod=TAB#place) 
 
 ```
 Windows Sysinternals 的由来：
