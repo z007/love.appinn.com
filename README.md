@@ -118,6 +118,7 @@ Favorite software
  *  http://download.cnet.com/
  *  http://sourceforge.net/
  *  http://portableapps.com/
+ *  http://www.majorgeeks.com/
  *  [FDM](http://www.freedownloadmanager.org/)
  *  [IDM](https://www.internetdownloadmanager.com/?utm_source=qdan.me#/)
  *  [Orbit Downloader](http://www.orbitdownloader.com/?utm_source=qdan.me#/)
