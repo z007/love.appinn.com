@@ -21,6 +21,7 @@ https://support.google.com/chrome#topic=3227046
  * Wappalyzer
  * Emmet Re:View
  * WhatFont
+ * TinEye Reverse Image Search
  
  * Adguard
  * [Comodo Media Downloader](http://download.cnet.com/Comodo-Chromodo/3000-2356_4-76386288.html)
