@@ -49,5 +49,7 @@
  * [DAEMON Tools](http://www.iplaysoft.com/daemon-tools-lite.html)
 
 
+##[电脑技术](http://www.arpun.com/article/list_1_33.html)
+
 # https://support.microsoft.com/zh-cn
 [如何安装最新版本的 DirectX](https://support.microsoft.com/zh-cn/kb/179113) -- command   dxdiag.exe
