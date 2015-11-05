@@ -1,9 +1,12 @@
 
-*  http://sourceforge.net/projects/processhacker/ --进程
+*  http://sourceforge.net/projects/processhacker/ --进程查看
 *  
 # [Security software](http://love.appinn.com/#Antivirus)
+
 * **Spybot – Search & Destroy** Able to detect and remove various spyware
   * http://www.appinn.com/Spybot/
+  * [AVG AntiVirus FREE](http://trial.avgtaiwan.com/antivirus-free-comparison/?ECID=ad:go:se:TW-ZH-Antivirus-Brand-Free-Search&gclid=CMnvjPKi-MgCFYKYvAod1WMGhQ)
+  * http://love.appinn.com/#Antivirus  -- 注意 kaspersky 是个坑
   * https://www.safer-networking.org/
   
 * __QQ detective__
