@@ -7,9 +7,6 @@ Favorite software
  
  * https://www.google.co.uk
  
- * https://www.google.com.hk/?gws_rd=cr,ssl
- 
-  
 ## extensions
 
  * ghostery
@@ -17,25 +14,24 @@ Favorite software
  * HTTPS Everywhere
  * Adblock
 
-
-
 # Excellent Website
 * http://bluereader.org/
 
 # Smooth the Internet
 
 ## DNS
-
-
-
-
-
+http://ip.cn/dns.html
+```
+Google DNS	8.8.8.8	8.8.4.4
+OpenDNS	208.67.222.222	208.67.220.220
+```
 ## speedtest
 * http://www.speedtest.cn/
 * http://ip.cn/
 
 ## translator
  * https://www.bing.com/translator/
+ * https://translate.google.co.uk/
 
 ## TED
  * http://open.163.com/ted/
