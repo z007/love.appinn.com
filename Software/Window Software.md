@@ -26,10 +26,12 @@
  # __Video__
   * [Recommend](http://love.appinn.com/#video)
   * [PotPlayer](http://tvpot.daum.net/application/PotPlayer.do)
+  
  # __Musicplayer__
   * [Recommend](http://love.appinn.com/#musicplayer)
   * [Audacity](http://web.audacityteam.org/download/)
    * [Introduce](http://baike.baidu.com/link?url=6Acd3r41ltceJ1ZSQLdlrnmOttBfVXuhDL-x8ux4XhuSQlbZU3UAThns9iJ4-mf7JfbFTHC-X_aQH5Ysniz4D_)
+   
 # [Windows Sysinternals](https://technet.microsoft.com/en-us/sysinternals/bb842062) 
  * http://www.iplaysoft.com/windows-sysinternals-suite.html
  
@@ -47,4 +49,5 @@
  * [DAEMON Tools](http://www.iplaysoft.com/daemon-tools-lite.html)
 
 
-
+# https://support.microsoft.com/zh-cn
+[如何安装最新版本的 DirectX](https://support.microsoft.com/zh-cn/kb/179113) -- command   dxdiag.exe
