@@ -1,3 +1,8 @@
+
+https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md
+https://github.com/vhf/free-programming-books
+https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md
+
 # Search
  * http://www.zhihu.com/question/20161362
  * https://support.google.com/websearch/answer/2466433?rd=1
