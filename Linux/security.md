@@ -30,6 +30,7 @@ http://tools.kali.org/
  * http://www.jikexueyuan.com/course/intellegence/
  * http://edu.51cto.com/course/course_id-3195.html
  * http://www.metasploit.cn/forum.php?mod=viewthread&tid=1484
+ * http://www.hackdig.com/?cat-3.htm
 
 # [ARP联盟](http://www.arpun.com/article/list_1_149.html)
  * [U盘病毒如何防护](http://www.arpun.com/article/16312.html)
