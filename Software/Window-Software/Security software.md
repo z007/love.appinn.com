@@ -32,25 +32,5 @@
   * [Audacity](http://web.audacityteam.org/download/)
    * [Introduce](http://baike.baidu.com/link?url=6Acd3r41ltceJ1ZSQLdlrnmOttBfVXuhDL-x8ux4XhuSQlbZU3UAThns9iJ4-mf7JfbFTHC-X_aQH5Ysniz4D_)
    
-# [Windows Sysinternals](https://technet.microsoft.com/en-us/sysinternals/bb842062)微软官方免费的极品实用绿色小工具合集，绝对值得你收藏！
- * http://www.iplaysoft.com/windows-sysinternals-suite.html   --
- 
-# Windows 10
- * __[Delete Windows 10 Upgrade Assistant reminded the lower right corner of the taskbar icons](http://www.iplaysoft.com/p/remove-win10-update-notification)__
- 
-# Virtual simulation
- * __Virtual machine images__
-  * [Windows images](http://www.iplaysoft.com/windows-test-vms.html)
-   * https://dev.modern.ie/tools/vms/windows/
- * http://www.iplaysoft.com/tag/%E9%95%9C%E5%83%8F/
- 
-## Virtual drive tools
- * __[Virtual CDRom Control Panel](http://www.iplaysoft.com/virtual-cdrom-control-panel.html)__
-  *  http://www.microsoft.com/en-us/download/details.aspx?id=38780
- * [DAEMON Tools](http://www.iplaysoft.com/daemon-tools-lite.html)
 
 
-##[电脑技术](http://www.arpun.com/article/list_1_33.html)
-
-# https://support.microsoft.com/zh-cn
-[如何安装最新版本的 DirectX](https://support.microsoft.com/zh-cn/kb/179113) -- command   dxdiag.exe
