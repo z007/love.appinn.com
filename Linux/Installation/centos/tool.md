@@ -6,7 +6,7 @@
 ```
  yum install epel-release
  rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
- 
+``` 
   下列软件都属于第三方软件
 * yum install p7zip
 * yum install vsftpd
@@ -14,4 +14,4 @@
  * [维基介绍](https://zh.wikipedia.org/wiki/NTFS-3G)
  [1](http://www.ha97.com/2832.html) [2](http://linux.ximizi.com/linux/linux2708.htm)
 
-```
+
