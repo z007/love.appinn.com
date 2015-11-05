@@ -14,6 +14,7 @@
 * http://railstutorial-china.org/ --安道
  * https://c9.io/
 * http://www.shejidaren.com/ --设计达人 
+* http://www.admin10000.com/ --Web developer
 * http://web.hanzheng.info/  -- hanzheng
 
 
