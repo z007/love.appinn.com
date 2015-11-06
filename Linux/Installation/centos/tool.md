@@ -29,7 +29,9 @@ ping Ip 测试
 ```
 在命令行实现访问共享磁盘文件 并未实现 （建议可跳过）
 [smbclient -L 192.168.100.111 -U 本地计算机名](http://www.dabu.info/linux_virtual_machine_vm_on_shared_windows_folder.html)
+
 [2](http://sonice.blog.51cto.com/994545/217451)
+
 [3](https://www.samba.org/samba/docs/man/manpages/smbclient.1.html)
 
 
