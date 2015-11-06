@@ -12,8 +12,8 @@
 * yum install vsftpd
 * yum install ntfs-3g 
  * [维基介绍](https://zh.wikipedia.org/wiki/NTFS-3G)
- [1](http://www.ha97.com/2832.html) [2](http://linux.ximizi.com/linux/linux2708.htm)
- [NTFS](https://zh.wikipedia.org/wiki/NTFS) [FAT32](https://zh.wikipedia.org/wiki/FAT#FAT32) [NetBIOS](https://zh.wikipedia.org/wiki/NetBIOS)
+ [1](http://www.ha97.com/2832.html)     [2](http://linux.ximizi.com/linux/linux2708.htm)
+ [NTFS](https://zh.wikipedia.org/wiki/NTFS)     [FAT32](https://zh.wikipedia.org/wiki/FAT#FAT32)    [NetBIOS](https://zh.wikipedia.org/wiki/NetBIOS)
 ```
 我没怎么搞明白centos7怎么在虚拟机挂在 本地磁盘 
 于是在 本地计算机->管理>磁盘管理->压缩卷->新建 （I盘NTFS） （H盘FAT32 ）设成分享磁盘 权限 完全控制
