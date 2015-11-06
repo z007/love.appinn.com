@@ -32,6 +32,10 @@ https://support.google.com/chrome#topic=3227046
   * https://greasyfork.org/zh-CN
 
 
+# chrome-devtools
+
+* http://wiki.jikexueyuan.com/project/chrome-devtools/
+* https://developers.google.com/web/tools/setup/?hl=en
 
 # [VPN](http://www.iplaysoft.com/vpn.html)
 VyprVPN
