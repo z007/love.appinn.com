@@ -209,4 +209,4 @@ server {
 
 查看chrome中SPDY的使用情况（下图是xiaoman.cn的使用）：chrome://net-internals/#spdy
 ```
-![](http://img1.ph.126.net/ncKnPn8UC6Ncj7NqNwIc9g==/6608920302981006994.jpg)
+![11](http://img1.ph.126.net/ncKnPn8UC6Ncj7NqNwIc9g==/6608920302981006994.jpg)
