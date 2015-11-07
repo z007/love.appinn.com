@@ -21,7 +21,7 @@
 # model
 * [简洁的静态博客构建工具 —— 纸小墨](http://www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool.html)
  * [小众介紹](http://www.appinn.com/inkpaper/)
-
+* http://www.iteye.com/magazines/133-Static-Site-Generators --最全的静态网站生成器（开源项目）  
 
 # http
  * [HTTP/2 头部压缩技术介绍](https://imququ.com/post/header-compression-in-http2.html)
