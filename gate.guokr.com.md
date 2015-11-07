@@ -6,6 +6,8 @@
 * http://toutiao.io/  --开发者头条
 * http://toutiao.io/explore
 * https://www.gitbook.com/book/leohxj/a-programmer-prepares/details --程序员的自我修养
+* http://outofmemory.cn/github/ --中国Github开源人排行榜
+* http://www.qxzxp.com/         -- 七行者
 * https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md
 * https://github.com/vhf/free-programming-books
 * https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md
