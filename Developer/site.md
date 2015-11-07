@@ -173,6 +173,7 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
  
 # Lauange 
  * [全球有多少 C/C++ 程序员？Java 和 Python 又有多少？](http://blog.jobbole.com/93554/)
+ * [IDE对比](http://www.iteye.com/magazines/134-IDE-Comparison)
  
 ## Python
 * https://github.com/realpython/python-scripts
