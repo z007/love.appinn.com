@@ -17,7 +17,12 @@ https://support.google.com/chrome#topic=3227046
  * Yet another flags
  * FireShot
  * pocket
+ * Page Monitor:网页内容进行监控
+ * Readium：EPUB阅读扩展，支持在Chrome里阅读EPUB书籍
+ * http://www.williamlong.info/archives/3811.html
  * https://qdan.me/list/VVYGOKcsrSrYBl2r
+ * http://yanhaijing.com/tool/2015/03/30/my-chrome-plugin/
+ * http://www.zhihu.com/question/19594682?rf=19551923
  * Wappalyzer
  * Emmet Re:View
  * WhatFont
