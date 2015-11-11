@@ -29,10 +29,10 @@ https://support.google.com/chrome#topic=3227046
  * Emmet Re:View
  * WhatFont
  * TinEye Reverse Image Search
- *  en.savefrom and Tampermonkey
+ *  en.savefrom and Tampermonkey 速度较慢
   *  https://en.savefrom.net/  --下载en.save.from 安装  安装完成下一条链接自动弹出 enable Tampermonkey
   *  https://en.savefrom.net/userjs-tm-setup.php?setup=1
-* Tampermonkey and SaveFrom.net
+* Tampermonkey and SaveFrom.net 速度较快
 * [Tampermonke](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) download
 * [Click Install and then "OK" to install the "SaveFrom.net helper"](https://en.savefrom.net/userjs-setup.php)
  * Adguard
