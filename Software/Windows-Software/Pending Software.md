@@ -4,6 +4,7 @@
 # Open source software
 
 * http://www.libreoffice.org/ --libreoffice
+* http://opensource.com/resources/what-open-source
 
 # pengding
 
