@@ -1,5 +1,6 @@
 
-* http://www.bubuko.com/infodetail-31234.html --选择 fdisk 选择的是i686，也就是32位模式 选择的是x86_64建议32最保险，也就是62位模式 pacman -Sy openssh 远程连接
+* http://www.bubuko.com/infodetail-31234.html 
+* 选择 fdisk 选择的是i686，也就是32位模式 选择的是x86_64 **建议32最保险**，也就是62位模式 pacman -Sy openssh 远程连接
 * http://bbs.archlinuxcn.org/viewtopic.php?id=1037 
 * http://blog.csdn.net/maddemon/article/details/10287225
 * http://my.oschina.net/codeaxe/blog/127533/
