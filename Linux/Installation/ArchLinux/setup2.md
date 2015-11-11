@@ -11,9 +11,10 @@ https://www.youtube.com/watch?v=UN16-YFhUVE | Upgrading system with pacman on ar
 ```
 pacman -Syu 升级
 
-ArchBang  自带系统信息在桌面上
+ArchBang  自带系统详细信息在桌面上 而且安装类似 Archlinux 脚本安装 非常迅速方便 推荐
 https://www.youtube.com/watch?v=8Fl_6NNGW-M
-我试验的 VMware/VirtualBox 安装完成 重启后发现 所有操作无效什么东西都没装上 。
+我试验的 VMware/VirtualBox 安装完成 重启后发现 所有操作无效什么东西都没装上 。 
+下次试试 X86版本http://sourceforge.net/projects/archbang/files/?source=navbar
 
 
 
