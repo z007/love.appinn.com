@@ -14,7 +14,9 @@ https://support.google.com/chrome#topic=3227046
  * ghostery
  * oneTab
  * HTTPS Everywhere
- * Yet another flags
+ * Yet another flags --Shows flag for the website in the location bar.
+ * Shodan --The Shodan plugin tells you where the website is hosted (country, city), who owns the IP and what other services/ ports are open
+ * Chromebleed --Displays a warning if the site you are browsing is affected by the Heartbleed bug
  * FireShot
  * pocket
  * Page Monitor:网页内容进行监控
