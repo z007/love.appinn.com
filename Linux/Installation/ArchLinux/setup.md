@@ -1,5 +1,16 @@
 
+* http://www.bubuko.com/infodetail-31234.html --选择 fdisk 选择的是i686，也就是32位模式 选择的是x86_64，也就是62位模式
+* http://bbs.archlinuxcn.org/viewtopic.php?id=1037 
+* http://blog.csdn.net/maddemon/article/details/10287225
+* http://my.oschina.net/codeaxe/blog/127533/
+* http://www.jianshu.com/p/a2af5fbe82f6
+* http://jingpin.jikexueyuan.com/article/32103.html
+
+
 ```
+
+
+
 https://www.virtualbox.org/wiki/Downloads | Downloads – Oracle VM VirtualBox
 https://zh.wikipedia.org/wiki/Arch_Linux | Arch Linux - 维基百科，自由的百科全书
 https://zh.wikipedia.org/wiki/ArchBang | ArchBang - 维基百科，自由的百科全书
