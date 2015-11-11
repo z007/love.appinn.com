@@ -29,7 +29,12 @@ https://support.google.com/chrome#topic=3227046
  * Emmet Re:View
  * WhatFont
  * TinEye Reverse Image Search
- 
+ *  en.savefrom and Tampermonkey
+  *  https://en.savefrom.net/  --下载en.save.from 安装  安装完成下一条链接自动弹出 enable Tampermonkey
+  *  https://en.savefrom.net/userjs-tm-setup.php?setup=1
+* Tampermonkey and SaveFrom.net
+* [Tampermonke](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) download
+* [Click Install and then "OK" to install the "SaveFrom.net helper"](https://en.savefrom.net/userjs-setup.php)
  * Adguard
  * [Comodo Media Downloader](http://download.cnet.com/Comodo-Chromodo/3000-2356_4-76386288.html)
  * [The Pirate Bay Forwarder](https://addons.mozilla.org/zh-CN/firefox/addon/the-pirate-bay-forwarder/?src=api)
