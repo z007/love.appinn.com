@@ -1,6 +1,26 @@
 
 * http://www.bubuko.com/infodetail-31234.html 
-* 选择 fdisk 选择的是i686，也就是32位模式 选择的是x86_64 ，也就是62位模式**建议32最保险** pacman -Sy openssh 远程连接
+```
+ 选择 fdisk 选择的是i686，也就是32位模式 选择的是x86_64 ，也就是62位模式**建议32最保险**
+ 
+ pacman -Sy openssh 远程连接
+ 为此目标机启动ssh服务
+systemctl start sshd.service
+
+分区http://jingyan.baidu.com/article/c35dbcb0d1ad248916fcbcdb.html  虚拟机建议分一个
+fdisk  -http://linux008.blog.51cto.com/2837805/548711   
+分区工具fdisk用法介绍
+   fdisk命令参数介绍
+   p、打印分区表。
+   n、新建一个新分区。
+   d、删除一个分区。
+   q、退出不保存。
+   w、把分区写进分区表，保存并退出。
+   
+http://www.hutubug.com/thread-13-1-1.html
+
+安装后找不到‘ifconfig’命令——修复小提示-- http://www.linuxidc.com/Linux/2014-08/105682.htm
+```
 * http://bbs.archlinuxcn.org/viewtopic.php?id=1037 
 * http://blog.csdn.net/maddemon/article/details/10287225
 * http://my.oschina.net/codeaxe/blog/127533/
@@ -8,7 +28,7 @@
 * http://jingpin.jikexueyuan.com/article/32103.html
 
 
-
+https://zh.wikipedia.org/wiki/GNU_GRUB
 ```
 pacman -Syu 升级
 
