@@ -35,3 +35,4 @@ shutdown -s -t 3600 （单位是秒，3600等于一小时）
 
 shutdown -a 可以终止定时关机命令
 ```
+DOS -http://book.51cto.com/art/201001/179675.htm
