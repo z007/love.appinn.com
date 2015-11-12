@@ -44,6 +44,12 @@ cfdisk
 我的操作多这一步
 Select label type ---> dos
 这里没有(https://www.youtube.com/watch?v=8Fl_6NNGW-M)没这一步所有视频教程都没这一步！！！ ?????
+
+
+
+http://blog.csdn.net/zhyh1986/article/details/40709389  下载ISO镜像并制作启动U盘
+http://zzfei.com/archlinux-installing-record-3-start/   开始UEFI安装
+http://www.ihacksoft.com/uefi.html              UEFI是什么？与BIOS的区别在哪里？UEFI详解！
 ```
 # 参考链接
 ```
