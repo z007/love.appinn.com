@@ -14,7 +14,8 @@ https://support.google.com/chrome#topic=3227046
  * disconnect
   * [Disconnect Search](https://disconnect.me/search)  --extensions
   * https://search.disconnect.me/                      --Web
-  * https://disconnect.me/                             --Browser
+  * https://disconnect.me/                             --client not easy use include Avast'svpn plugin
+ *ScriptSafe                                           --排除web js干扰不可复制/原排版复制   
  * Cryptocat --[2xiuangzi](https://goo.gl/kCDNhl)
  * [ghostery](https://www.ghostery.com/try-us/download-add-on/) than [disconnect](https://disconnect.me/disconnect) easy to use
  * [oneTab](https://www.one-tab.com/)
