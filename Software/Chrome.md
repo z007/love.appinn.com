@@ -10,10 +10,15 @@ https://support.google.com/chrome#topic=3227046
  
   
 ## extensions
-
- * ghostery
- * oneTab
- * HTTPS Everywhere
+ * https://www.wikipedia.org/
+ * disconnect
+  * [Disconnect Search](https://disconnect.me/search)  --extensions
+  * https://search.disconnect.me/                      --Web
+  * https://disconnect.me/                             --Browser
+ * Cryptocat --[2xiuangzi](https://goo.gl/kCDNhl)
+ * [ghostery](https://www.ghostery.com/try-us/download-add-on/) than[disconnect](https://disconnect.me/disconnect)easy to use
+ * [oneTab](https://www.one-tab.com/)
+ * [HTTPS Everywhere](https://www.eff.org/https-everywhere)
  * Yet another flags --Shows flag for the website in the location bar.
  * Shodan --The Shodan plugin tells you where the website is hosted (country, city), who owns the IP and what other services/ ports are open
  * Chromebleed --Displays a warning if the site you are browsing is affected by the Heartbleed bug
