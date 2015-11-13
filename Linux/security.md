@@ -41,3 +41,5 @@ http://tools.kali.org/
 * http://www.virscan.org/?lang=zh-CN --virscan.org
 * https://virusscan.jotti.org/en-US
 * http://onlinelinkscan.com/
+
+# http://windows.microsoft.com/en-gb/windows/antivirus-partners#AVtabs=win7   --Consumer security software providers
