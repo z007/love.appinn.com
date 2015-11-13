@@ -16,7 +16,7 @@ https://support.google.com/chrome#topic=3227046
   * https://search.disconnect.me/                      --Web
   * https://disconnect.me/                             --Browser
  * Cryptocat --[2xiuangzi](https://goo.gl/kCDNhl)
- * [ghostery](https://www.ghostery.com/try-us/download-add-on/) than[disconnect](https://disconnect.me/disconnect)easy to use
+ * [ghostery](https://www.ghostery.com/try-us/download-add-on/) than [disconnect](https://disconnect.me/disconnect) easy to use
  * [oneTab](https://www.one-tab.com/)
  * [HTTPS Everywhere](https://www.eff.org/https-everywhere)
  * Yet another flags --Shows flag for the website in the location bar.
