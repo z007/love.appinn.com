@@ -43,3 +43,4 @@ http://tools.kali.org/
 * http://onlinelinkscan.com/
 
 # http://windows.microsoft.com/en-gb/windows/antivirus-partners#AVtabs=win7   --Consumer security software providers
+* https://www.microsoft.com/zh-cn/security/resources/default.aspx#安全术语
