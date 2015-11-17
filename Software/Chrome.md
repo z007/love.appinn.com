@@ -1,5 +1,6 @@
 # help
 1.chrome window press F1
+
 2. https://support.google.com/chrome#topic=3227046 
 
 3. [键盘快捷键](https://support.google.com/chrome/answer/157179?hl=zh-Hans) 
