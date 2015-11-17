@@ -1,8 +1,10 @@
-help
+# help
 1.chrome window press F1
-2. https://support.google.com/chrome#topic=3227046
-3. [键盘快捷键](https://support.google.com/chrome/answer/157179?hl=zh-Hans)
- 4. [快捷键和热键的区别](http://m.oschina.net/blog/50996)
+2. https://support.google.com/chrome#topic=3227046 
+
+3. [键盘快捷键](https://support.google.com/chrome/answer/157179?hl=zh-Hans) 
+
+ 4. [快捷键和热键的区别](http://m.oschina.net/blog/50996) 
  5. 热 键必须在能看见该热键的情况下，才有效，就是说如果是菜单上的热键，就要先弹出菜单，才能使用热键
  6. 热键只能在当前的窗口中使用，而快捷键就不一定。
  7. 热键---->应用切换键 
