@@ -51,6 +51,7 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
  * [jianshu](http://www.jianshu.com/)
  * [zi5](http://book.zi5.me/gentre)
  * [Blinkst](https://app.blinkist.com/en/blinks/)
+ * [510CTO](http://book.51cto.com/)
  
 # [Develop a good habit](http://www.ifanr.com/app/565116)
  * [Daily Todo](http://dailytodo.org/)
