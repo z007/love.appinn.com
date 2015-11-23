@@ -5,7 +5,7 @@ http://tools.kali.org/
 * http://book.51cto.com/art/201309/410408.htm
 * http://bestcbooks.com/metasploitshen-tou-ce-shi-mo-gui-xun-lian-ying/
 
-# HK
+# book
 * [黑客攻防入门与进阶](http://book.51cto.com/art/201001/179675.htm)
 * [反黑客工具大曝光](http://book.51cto.com/art/201506/478921.htm)
 # wireless-attacks
