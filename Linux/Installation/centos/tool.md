@@ -36,7 +36,7 @@ ping Ip 测试
 
 
 
-  ##  测试
+  # #  测试
   
-  * memtester http://www.linuxidc.com/Linux/2013-07/87976.htm
+  * http://www.linuxidc.com/Linux/2013-07/87976.htm --memtester
 
