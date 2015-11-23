@@ -1,3 +1,5 @@
+* http://blog.csdn.net/virmocalo/article/details/5191888
+* http://blog.csdn.net/xiaominthere/article/details/19756551
 ```
 计算机存储单位  计算机存储单位一般用B，KB，MB，GB，TB，EB，ZB，YB，BB来表示，它们之间的关系是：
 位 bit (比特)(Binary Digits)：存放一位二进制数，即 0 或 1，最小的存储单位。
