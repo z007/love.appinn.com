@@ -54,3 +54,5 @@ http://tools.kali.org/
 # [Consumer security software providers](http://windows.microsoft.com/en-gb/windows/antivirus-partners#AVtabs=win7)
 * https://free.com.tw/avast-2016/
 * https://www.microsoft.com/zh-cn/security/resources/default.aspx#安全术语
+
+# [github serach](https://linux.cn/article-6311-1.html)
