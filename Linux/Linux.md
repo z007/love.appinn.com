@@ -15,6 +15,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://www.tecmint.com/
 * http://www.centoscn.com/
 * http://linux.vbird.org/
+ * http://book.51cto.com/art/201007/211888.htm
  * http://study-area.org/menu2.htm
  * http://study-area.org/menu1.htm
  * http://phorum.study-area.org/index.php
