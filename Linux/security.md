@@ -4,6 +4,8 @@ http://tools.kali.org/
 # Metasploit渗透测试魔鬼训练营
 * http://book.51cto.com/art/201309/410408.htm
 * http://bestcbooks.com/metasploitshen-tou-ce-shi-mo-gui-xun-lian-ying/
+* https://linux.cn/article-5952-1.html
+ * [《VMware网络技术：原理与实践》](http://yun.baidu.com/share/home?uk=1394272215&view=share#category/type=0)
 
 # book
 * [黑客攻防入门与进阶](http://book.51cto.com/art/201001/179675.htm)
