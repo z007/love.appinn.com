@@ -31,6 +31,9 @@ http://tools.kali.org/
 
 *	http://blog.csdn.net/shuzui1985/article/details/39549435   --密码字典生成软件Crcunch的简单使用
 
+# Kali Linux搭建一个便携式的工作站
+* http://blog.jobbole.com/95031/#article-comment
+* http://www.lifehacker.co.uk/2015/10/30/build-portable-hacking-station-raspberry-pi-kali-linux
 
 # security
  * http://open.freebuf.com/
