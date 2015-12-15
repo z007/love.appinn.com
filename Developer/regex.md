@@ -1,9 +1,8 @@
+[regx](https://mp.weixin.qq.com/s?__biz=MzA4MjEyNTA5Mw==&mid=402161052&idx=1&sn=d771bdc9e4bc057f8d2e164edb79b83b&scene=0&key=ac89cba618d2d976028376ebf9aa5e94940160556523c55bfab8e1bc1b52452624ebf3f9a1e2bb0536247cde1b79ce84&ascene=7&uin=MTk3MzY2NjUyMQ%3D%3D&devicetype=android-22&version=26030832&nettype=WIFI&pass_ticket=4VCjF9Oe%2F43Bb9LiyjLTKIKGebvhmHCHHvWViKA%2FrdPtLdISbjU8xF3nlrnyjb7b)
 ```
-
-
 作者：zxin
 
-链接：http://www.cnblogs.com/zxin/archive/2013/01/26/2877765.html
+链接：http://www.cnblogs.com/zxin/archive/2013/01/26/2877765.html 
 
 很多不太懂正则的朋友，在遇到需要用正则校验数据时，往往是在网上去找很久，结果找来的还是不很符合要求。所以我最近把开发中常用的一些正则表达式整理了一下，包括校验数字、字符、一些特殊的需求等等。给自己留个底，也给朋友们做个参考。
 
