@@ -1,9 +1,17 @@
 * http://blog.csdn.net/virmocalo/article/details/5191888
 * http://blog.csdn.net/xiaominthere/article/details/19756551
+* http://blog.csdn.net/niguang09/article/details/6673465
+* http://cunchu.jyc.la/ --存储器转化
 ```
 计算机存储单位  计算机存储单位一般用B，KB，MB，GB，TB，EB，ZB，YB，BB来表示，它们之间的关系是：
-位 bit (比特)(Binary Digits)：存放一位二进制数，即 0 或 1，最小的存储单位。
-字节 byte：8个二进制位为一个字节(B)，最常用的单位。
+
+ 1、计算机存储信息的最小单位： 　 
+位 bit (比特)(Binary Digits)：存放一位二进制数，即 0 或 1，最小的存储单位。 
+2、计算机存储容量基本单位是字节
+　　 字节 byte：8个二进制位(bit)为一个字节(B)，最常用的单位。 (我也常说一个字节占8位)
+     一个英文字母（不分大小写）占一个字节的空间，一个中文汉字占两个字节的空间。
+      英文标点占一个字节，中文标点占两个字节。举例：英文句号“.”占1个字节的大小，中文句号“。”占2个字节大小。
+1B(Byte 字节)=8bit，
 1KB (Kilobyte 千字节)=1024B，
 1MB (Megabyte 兆字节 简称“兆”)=1024KB，
 1GB (Gigabyte 吉字节 又称“千兆”)=1024MB，
