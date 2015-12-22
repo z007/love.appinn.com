@@ -11,3 +11,7 @@ Windows7 ->XWindows 10
 ##[电脑技术](http://www.arpun.com/article/list_1_33.html)
 
 [如何禁用或启用 Windows 7 和其他操作系统中的所有自动运行功能](https://support.microsoft.com/zh-cn/kb/967715)
+
+##  启动
+
+* http://www.dell.com/support/article/hk/en/hkdhs1/SLN115652/zh
