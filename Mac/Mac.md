@@ -17,7 +17,22 @@
   * [waerfa.com](http://www.waerfa.com/category/mac-app)
   * [pc6](http://www.pc6.com/mac/soft/)
   * [appinn.com](http://www.appinn.com/category/ios/)
+  * 
 # develop
   * [pre](http://pre.im/?v=10-20)
   * [cocos](https://open.cocos.com/)
   
+```
+1. 连接服务器
+ command +K
+
+2.实用工具（shift+command+U）－》终端
+
+3.
+最小化command+f3
+
+4.切换输入法的按键为command键+空格键
+
+5 . 进入全屏模式
+  command +Control+F
+```
