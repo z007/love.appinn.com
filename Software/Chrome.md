@@ -21,7 +21,7 @@
  * https://www.google.com.hk/?gws_rd=cr,ssl
  
   
-## extensions
+## extensions  --https://chrome.google.com/webstore/category/apps?hl=en-US
  * https://www.wikipedia.org/
  * Adblock /Adblock Plus/ Adguard
  * disconnect
@@ -36,6 +36,11 @@
  * [HTTPS Everywhere](https://www.eff.org/https-everywhere)
  * Cryptocat --[2xiuangzi](https://goo.gl/kCDNhl)
  * [telegram](https://telegram.org/)
+ * [WebRTC Block]( https://www.browserleaks.com)
+  * [whois](https://www.browserleaks.com/whois) 
+  * [webrtc](https://www.browserleaks.com/webrtc)
+  * [](http://ip.cn/)
+  
  * [ghostery](https://www.ghostery.com/try-us/download-add-on/) than [disconnect](https://disconnect.me/disconnect) easy to use
  * [oneTab](https://www.one-tab.com/)
  * pocket /Session Manager
