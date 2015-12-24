@@ -1,5 +1,6 @@
 * http://love.appinn.com/
 * http://filehippo.com/zh/download_unlocker/tech/ --顽固文件删除 
+* http://www.wisecleaner.com/wise-care-365.html
 
 # Backup Software
   * __[FreeFileSync](http://www.freefilesync.org/)__
