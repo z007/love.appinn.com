@@ -8,7 +8,7 @@ ND = 难点
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # "%Y-%m-%d %H:%M:%S.%f
-# 1秒=1000毫秒=1000000微秒
+# 1秒=1000毫秒=1000 000微秒
 
 from datetime import datetime, timedelta
 now = datetime.now()
