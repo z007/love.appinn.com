@@ -23,6 +23,8 @@
  * [小众介紹](http://www.appinn.com/inkpaper/)
 * http://www.iteye.com/magazines/133-Static-Site-Generators --最全的静态网站生成器（开源项目）  
 
+# http://paranimage.com/19-php-template-engines/
+
 # http
  * [HTTP/2 头部压缩技术介绍](https://imququ.com/post/header-compression-in-http2.html)
 
