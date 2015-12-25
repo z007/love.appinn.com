@@ -5,5 +5,5 @@
   
 
 * [数量级-时间](https://zh.wikipedia.org/wiki/%E6%95%B0%E9%87%8F%E7%BA%A7_(%E6%97%B6%E9%97%B4)) 
-× [bit](https://github.com/z007/love.appinn.com/blob/master/Grocery-store/bit.md)
+* [bit](https://github.com/z007/love.appinn.com/blob/master/Grocery-store/bit.md)
 
