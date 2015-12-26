@@ -1,8 +1,12 @@
 # 2015-12-25python3常用内置模块datetime
 
 ```
+ST3 = sublime3
 ND = 难点
+P1>P2>P3>P4>P5 未解决问题优先级
 ```
+* Issue
+	* [Decode error - output not utf-8](http://blog.csdn.net/lhshu2008/article/details/18735827)
 
 ``` python
 #!/usr/bin/env python3
@@ -10,15 +14,46 @@ ND = 难点
 # "%Y-%m-%d %H:%M:%S.%f
 # 1秒=1000毫秒=1000 000微秒
 
-from datetime import datetime, timedelta
+# 精简 python 日期计算2 句 
+# 缺点手动该脚本日期
+# http://day.9om.com/ --javascript  计算
+# 想找到方法 python x.py 输入日期 得出结果 但是datetime()参数是 需要时常量指定整数 交互式输入 使用input()不行 --P5
+# from  datetime import datetime , timedelta 
+# print(datetime.now() - datetime(2012, 12, 21) + timedelta(days=1))
+
+
+# 详细  讲datetime.timedelta(1100, 61, 650691) # ND 倒数第二个参数为秒(天,秒，微秒) 
+# now = datetime.now() now是一个定值,以后的now都是以上一个now = datetime.now()
+
+from  datetime import datetime , timedelta 
 now = datetime.now()
 print(now)
 print('--------------------')
 # love = datetime(2011, 12, 21, 1 , 8 , 12, 123456)
 love = datetime(2012, 12, 21)
 print(now -love +  timedelta(days=1))
+print(datetime.now() - datetime(2012, 12, 21) + timedelta(days=1))
+
+# print('---------for 隔开两次输出时间差()无用 还是用sleep --汉字ST 输出[Decode error - output not utf-8]---P3------')
+
+# for letter in 'Python':     # 第一个实例
+#    print('shun:', letter)
+print('---------sleep 5s-----------')
+import time
+# print("Start : %s" % time.ctime())
+time.sleep( 5 )
+# print("End : %s" % time.ctime())
+print('--------------------')
+print(now)
+now = datetime.now()
+print(now)
+print('--------------------')
+print(datetime.now())
+print('--------------------')
+print(datetime.now() - datetime(2012, 12, 21) + timedelta(days=1))
 
 
+[do_input.py](https://github.com/michaelliao/learn-python3/blob/master/samples/basic/do_input.py)
 
 # >>> print(datetime.now() - datetime(2012, 12, 21))
 # 1100 days, 00:01:01.415621
