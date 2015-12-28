@@ -96,11 +96,7 @@
 ## client
 
 * lantern
-
-  * https://github.com/getlantern/mirror
 * psiphon3
-
-  * http://www.psiphon3.net/en/index.html
 
 ## Google mirror sites collect
 
