@@ -33,6 +33,7 @@
  * [Greasemonkey](https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey/?src=search)
   * http://wiki.greasespot.net/User_Script_Hosting
   * https://greasyfork.org/zh-CN
+  * http://en.savefrom.net/user.php --firefox savefrom
  * [HTTPS Everywhere](https://www.eff.org/https-everywhere)
  * Cryptocat --[2xiuangzi](https://goo.gl/kCDNhl)
  * [telegram](https://telegram.org/)
