@@ -9,7 +9,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://www.linuxidc.com/
 * https://linux.cn/tech/
 * http://blog.jobbole.com/tag/linux/
-* http://vbird.dic.ksu.edu.tw/linux_basic/0320bash_1.php
+* http://vbird.dic.ksu.edu.tw/linux_basic/0320bash_1.php --鸟哥
 * http://www.linux.com/
 * http://www.linuxandubuntu.com/
 * http://www.tecmint.com/
