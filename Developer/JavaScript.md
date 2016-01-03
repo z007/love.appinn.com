@@ -5,3 +5,4 @@
 * Turn your ES5 code into readable ES6
   * https://github.com/mohebifar/lebab
   * http://xto6.js.org/
+* http://yanhaijing.com/js/2015/12/29/mini-js-lib/
