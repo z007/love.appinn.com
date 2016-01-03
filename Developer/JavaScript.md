@@ -8,3 +8,5 @@
 
 * 不可错过的javascript迷你库
  * http://yanhaijing.com/js/2015/12/29/mini-js-lib/
+* 动画库
+ * http://webres.wang/top-9-animation-libraries-use-2016/
