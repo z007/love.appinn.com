@@ -1,5 +1,8 @@
-http://www.hackingtutorials.org/  --hackingtutorials
-http://tools.kali.org/
+* [Kali Linux 中文文档](https://www.gitbook.com/book/wizardforcel/kali-linux-doc/details)
+* [玄魂- Kali Linux简介](http://drops.wooyun.org/tips/826)
+* [玄魂blog-Kali Linux](http://www.cnblogs.com/xuanhun/tag/Kali%20Linux/)
+* http://www.hackingtutorials.org/  --hackingtutorials
+* http://tools.kali.org/
 
 # Metasploit渗透测试魔鬼训练营
 * http://book.51cto.com/art/201309/410408.htm
