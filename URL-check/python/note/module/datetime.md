@@ -7,6 +7,15 @@ P1>P2>P3>P4>P5 未解决问题优先级
 ```
 * Issue
 	* [Decode error - output not utf-8](http://blog.csdn.net/lhshu2008/article/details/18735827)
+	```
+	在系统变量加入PYTHONIOENCODING，值填写utf-8
+	win7在桌面，计算机右键选属性，选高级系统设置，选高级标签，选环境变量
+	重启sublime text2.
+	```
+	*	参考
+		*	[muzizongheng](http://www.cnblogs.com/muzizongheng/archive/2013/07/05/3172998.html) --意外发现--Python打包成exe
+		*	[lhshu2008](http://blog.csdn.net/lhshu2008/article/details/18735827)
+
 
 ``` python
 #!/usr/bin/env python3
