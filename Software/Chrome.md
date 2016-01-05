@@ -89,6 +89,13 @@
 * Emmet Re:View
 * WhatFont
 
+* chrome 调试
+ * [微信文章](http://weixin.sogou.com/weixin?type=2&query=chrome%E8%B0%83%E8%AF%95&ie=utf8&w=01019900&sut=1516&sst0=1451994384096&lkt=0%2C0%2C0)
+  * [Chrome 开发者工具的六个小技巧1](http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=401213345&idx=1&sn=2c642400d12a77c880c29d93ccf29e73&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
+  * [Chrome调试 2](http://mp.weixin.qq.com/s?__biz=MjM5OTMxMzA4NQ==&mid=403328105&idx=2&sn=99a2f83919351bc3110526104191d837&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
+  * [chrome调试3](http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=201793381&idx=1&sn=1ef2536548f92d0468fd87529eddc852&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
+*[Google chrome 调试](https://www.google.co.jp/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=chrome%E8%B0%83%E8%AF%95)
+
 * chrome 扩展开发
  * [gitbook chrome doc](https://www.gitbook.com/book/wizardforcel/chrome-doc/details) 
  * [zh-doc](http://open.chrome.360.cn/extension_dev/tut_debugging.html)
