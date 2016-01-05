@@ -97,7 +97,7 @@
   * [chrome调试3](http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=201793381&idx=1&sn=1ef2536548f92d0468fd87529eddc852&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
    * [chrome调试4](http://w3ctrain.com/2015/11/30/chrome-dev-tools/#rd?sukey=69cca48b20c586693422031374f78e63d15498e48874636d59a4572bef3ad080d0efd68d163363f87ef028e08b07c9bb)
    
-*[Google chrome 调试](https://www.google.co.jp/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=chrome%E8%B0%83%E8%AF%95)
+* [Google chrome 调试](https://www.google.co.jp/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=chrome%E8%B0%83%E8%AF%95)
 
 * chrome 扩展开发
  * [gitbook chrome doc](https://www.gitbook.com/book/wizardforcel/chrome-doc/details) 
