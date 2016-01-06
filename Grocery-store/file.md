@@ -15,3 +15,7 @@
 * http://www.file-extensions.org/
 * http://www.file-extension.com/
 * http://file.org/
+
+* [Crack PyCharm 1](http://blog.csdn.net/tianzhaixing2013/article/details/44997881)
+	* [2](http://www.cnblogs.com/evlon/p/4934705.html)
+	* [3](http://idea.lanyus.com/)
