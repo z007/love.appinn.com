@@ -16,6 +16,10 @@
 * http://www.file-extension.com/
 * http://file.org/
 
+# Crack
+
 * [Crack PyCharm 1](http://blog.csdn.net/tianzhaixing2013/article/details/44997881)
 	* [2](http://www.cnblogs.com/evlon/p/4934705.html)
 	* [3](http://idea.lanyus.com/)
+
+* [以 Google Chrome 浏览器移除 PDF 密码·保护设定](https://free.com.tw/remove-password-from-pdf-files-with-google-chrome/)
