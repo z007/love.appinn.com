@@ -28,4 +28,4 @@
 
 # 美家达人
 
-* [official site](http://www.meijiadaren.com/home)                          [chrome webstore](https://chrome.google.com/webstore/detail/autodesk-homestyler/kdmmkfaghgcicheaimnpffeeekheafkb)
+* [official site](http://www.meijiadaren.com/home)   ->  [chrome webstore](https://chrome.google.com/webstore/detail/autodesk-homestyler/kdmmkfaghgcicheaimnpffeeekheafkb)
