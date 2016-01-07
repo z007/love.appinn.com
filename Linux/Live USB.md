@@ -5,6 +5,7 @@
 
 * [portableapps](http://portableapps.com/)
  * [abou](http://portableapps.com/about)
+ * [PortableApps wikipedia](https://zh.wikipedia.org/wiki/PortableApps.com)
 
 * [Tails](https://program-think.blogspot.com/2013/12/linux-tails-guide.html) ---安装到U盘([Tail](https://tails.boum.org/)u盘安装工具[pendrivelinux](http://www.pendrivelinux.com/))
 
