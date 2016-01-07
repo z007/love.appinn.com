@@ -25,3 +25,7 @@
 * [Earth Live Sharp](http://www.appinn.com/earth-live-sharp/) [official site](https://github.com/bitdust/EarthLiveSharp)[image origin 向日葵-8](http://himawari8.nict.go.jp/zh/himawari8-image.htm)
 * [free-wallpaper](https://free.com.tw/category/featured-articles/free-wallpaper/)
 * [Unsplash Instant](https://instant.unsplash.com/)
+
+# 美家达人
+
+* [official site](http://www.meijiadaren.com/home)[chrome webstore](https://chrome.google.com/webstore/detail/autodesk-homestyler/kdmmkfaghgcicheaimnpffeeekheafkb)
