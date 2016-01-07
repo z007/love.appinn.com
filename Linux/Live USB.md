@@ -4,6 +4,7 @@
 * Google[Live USB](https://www.google.co.jp/search?q=Live+USB&biw=1366&bih=643&ei=nyyOVqfsO4e7mQXNk5moCQ&start=10&sa=N)
 
 * [portableapps](http://portableapps.com/)
+ * [abou](http://portableapps.com/about)
 
 * [Tails](https://program-think.blogspot.com/2013/12/linux-tails-guide.html) ---安装到U盘([Tail](https://tails.boum.org/)u盘安装工具[pendrivelinux](http://www.pendrivelinux.com/))
 
