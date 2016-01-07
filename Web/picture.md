@@ -15,3 +15,8 @@
 
 # PS
 * http://www.gimp.org/
+
+
+# Background
+
+* [Earth Live Sharp](http://www.appinn.com/earth-live-sharp/) [official site](https://github.com/bitdust/EarthLiveSharp)
