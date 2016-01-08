@@ -62,15 +62,15 @@ reset computer 重启计算机
 
 #[什么是系统分区和启动分区](http://windows.microsoft.com/zh-cn/windows/what-are-system-boot-partitions#1TC=windows-7)
 
-* []()
+
 ## [活动分区](https://zh.wikipedia.org/wiki/%E6%B4%BB%E5%8A%A8%E5%88%86%E5%8C%BA)
 
-* Diskpart 
- * http://toutiao.com/a4037286912/
- * https://support.microsoft.com/zh-cn/kb/300415
- * http://www.cnblogs.com/joey0210/archive/2012/08/24/2654289.html
- * http://jingyan.baidu.com/article/92255446efce49851748f463.html
- ```
+ * Diskpart 
+  * http://toutiao.com/a4037286912/
+  * https://support.microsoft.com/zh-cn/kb/300415
+  * http://www.cnblogs.com/joey0210/archive/2012/08/24/2654289.html
+  * http://jingyan.baidu.com/article/92255446efce49851748f463.html
+  ```
  激活分区
     活动分区是指用以启动操作系统的一个主分区。一块硬盘上只能有一个活动分区。
     要将当前分区设置为活动分区，点击工具栏按钮“激活”，或点击菜单“分区 -   激活当前分区”项，
