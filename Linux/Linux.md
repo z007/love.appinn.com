@@ -28,19 +28,39 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * http://www.codeceo.com/article/linux-productive-tools.html
 
 # 如何用 ISO 镜像制作 U 盘安装盘（通用方法、无需 WinPE）
+
+```
+1.
+一台新电脑有200G硬盘空间  
+装系统分区时给系统盘（默认C盘）100G   
+会出现 100M 和 102300M 两个分区（100M分区在前）  
+删除102300M分区将100M分区扩展添加102300M就到了一个100G系统分区  
+为什么不能删除100M分区在102300M分区在扩展100M因为系统分区只可向   **后**   扩展100M分区在前  
+2.
+ 剩余100G分个D盘  
+3. ghost 备份直接备份系统盘这时不存在单独的100M问题
+4.重装系统时直接格式化系统盘就可以，如果删除系统盘重新建记得100M盘扩展删除102300M盘  
+
+```
 * https://program-think.blogspot.com/2013/12/create-bootable-usb-stick-from-iso.html
 * http://rufus.akeo.ie/
 * https://unetbootin.github.io/
 * http://www.chrysocome.net/dd
 * [ghost 备份](http://www.upanok.com/jiaocheng/15.html)
 * [ghost 还原](http://jingyan.baidu.com/article/4ae03de34c73bb3efe9e6b57.html)
-```
-C 102400M 备份时C盘时 备份时 选择  boot 100M 和余下102300M 
-还原时 只需还原102300M 那个分区即可
+
+~~为合并100M盘 时C 102400M 备份时C盘时 备份时 选择  boot 100M 和余下102300M 
+还原时 只需还原102300M 那个分区即可~~
+````
 最后一步
 conture 继续 回到启动盘环境
 reset computer 重启计算机 
 ```
+
+
+
+
+
 
 ## DISK
 * http://toutiao.com/a4037286912/
