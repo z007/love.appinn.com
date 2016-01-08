@@ -49,7 +49,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * [ghost 备份](http://www.upanok.com/jiaocheng/15.html)
 * [ghost 还原](http://jingyan.baidu.com/article/4ae03de34c73bb3efe9e6b57.html)
 
-~~为合并100M盘 时C 102400M 备份时C盘时 备份时 选择  boot 100M 和余下102300M 
+~~未 合并100M盘时系统盘C 102400M 备份时C盘时 备份时 选择  boot 100M 和余下102300M 
 还原时 只需还原102300M 那个分区即可~~
 ````
 最后一步
