@@ -21,6 +21,7 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
  * http://www.imooc.com/course/list --慕课网
  * https://qdan.me/list/VUE26y8fyt70NPCO
  * http://www.jianshu.com/p/3b1b0f8bbe05
+ * http://mooc.guokr.com/
 
 # Typing 
  * https://www.typing.com/
@@ -52,6 +53,9 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
  * [zi5](http://book.zi5.me/gentre)
  * [Blinkst](https://app.blinkist.com/en/blinks/)
  * [510CTO](http://book.51cto.com/)
+ * [epub](http://www.jianshu.com/p/e6ced8080a63) --epub格式的IT类 
+  * [读远](http://readcolor.com/)
+  * [电子书格式在线转换](http://www.zhuan-huan.com/ebook-converter.php)
  
 # [Develop a good habit](http://www.ifanr.com/app/565116)
  * [Daily Todo](http://dailytodo.org/)
