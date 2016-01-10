@@ -57,6 +57,8 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
   * [读远](http://readcolor.com/)
   * [电子书格式在线转换](http://www.zhuan-huan.com/ebook-converter.php)
    * mobi->kindle/静读天下
+ * Rss palabre->feedly
+ * https://flipboard.com/
  
 # [Develop a good habit](http://www.ifanr.com/app/565116)
  * [Daily Todo](http://dailytodo.org/)
