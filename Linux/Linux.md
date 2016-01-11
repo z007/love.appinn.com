@@ -88,7 +88,8 @@ reset computer 重启计算机
   1.只要推荐 激活U盘
   系统文件已经提取 激活U盘直接安装 复制系统文件到U盘根目录 直接安装   
  ```
- [daemon-tools](http://www.daemon-tools.cc/chn/products/compare)
+ * [daemon-tools](http://www.daemon-tools.cc/chn/products/compare)
+ 
  ![window system setup files](https://cloud.githubusercontent.com/assets/8462060/12226395/4de0ed3e-b856-11e5-9282-6763c25c3d62.png)
 
  
