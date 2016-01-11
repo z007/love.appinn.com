@@ -76,7 +76,22 @@ reset computer 重启计算机
     要将当前分区设置为活动分区，点击工具栏按钮“激活”，或点击菜单“分区 -   激活当前分区”项，
     也可以在要激活的分区上点击鼠标右键并在弹出菜单中选择“激活当前分区”项。
     如果其它分区处于活动状态，将显示下面的警告信息：
+   
+    0. 前提格式化 在做激活 而且是Window 系统文件  
+    1.系统分区激活
+     把系统文件复制到已经激活的分区的 根 目录（如C盘必须放在C盘根目录）（激活复制文件通过 U盘进入执行）
+    2.U盘激活复制系统文件安装（同理可激活U盘）系统文件U盘根目录
+    3. 系统文件DVD/IOS文件提取工具daemon-tools (support\文件夹   upgrade\文件    autorun.inf    setup.exe  可以不复制)
+    
+    
+  总结：
+  1.只要推荐 激活U盘
+  系统文件已经提取 激活U盘直接安装 复制系统文件到U盘根目录 直接安装   
  ```
+ [daemon-tools](http://www.daemon-tools.cc/chn/products/compare)
+ ![window system setup files](https://cloud.githubusercontent.com/assets/8462060/12226395/4de0ed3e-b856-11e5-9282-6763c25c3d62.png)
+
+ 
 * [认识主分区,活动分区,扩展分区和逻辑分区](http://www.disktool.cn/jiaocheng/basic-partition.html)
 
 # 文件备份技巧：组合“虚拟加密盘”和“网盘”
