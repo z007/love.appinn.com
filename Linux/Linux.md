@@ -90,7 +90,7 @@ reset computer 重启计算机
  ```
  * [daemon-tools](http://www.daemon-tools.cc/chn/products/compare)
  
- ![window system setup files](https://cloud.githubusercontent.com/assets/8462060/12226395/4de0ed3e-b856-11e5-9282-6763c25c3d62.png)
+ ![window system setup files](https://cloud.githubusercontent.com/assets/8462060/12226395/4de0ed3e-b856-11e5-9282-6763c25c3d62.png "window system setup files")
 
  
 * [认识主分区,活动分区,扩展分区和逻辑分区](http://www.disktool.cn/jiaocheng/basic-partition.html)
