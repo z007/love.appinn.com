@@ -102,6 +102,8 @@
 * chrome 扩展开发
  * [gitbook chrome doc](https://www.gitbook.com/book/wizardforcel/chrome-doc/details) 
  * [zh-doc](http://open.chrome.360.cn/extension_dev/tut_debugging.html)
+ * [Chrome扩展及应用开发](http://www.ituring.com.cn/minibook/950) --ituring 图灵社区
+ * [github Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
  * [Chromium](https://zh.wikipedia.org/wiki/Chromium)
 
 
