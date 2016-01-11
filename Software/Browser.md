@@ -1,4 +1,5 @@
 * http://www.whatbrowser.org/intl/zh-CN/
+* http://www.20thingsilearned.com/zh-CN/home
 
 # Firefox
 * https://addons.mozilla.org/zh-CN/firefox/ --附加组件
