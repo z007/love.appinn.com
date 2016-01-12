@@ -112,6 +112,9 @@
 * VyprVPN
 * NydusVPN
 * [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)
+* [openwrt](https://github.com/softwaredownload/openwrt-fanqiang)
+ * [openwrt.org](http://wiki.openwrt.org/start)
+ * [williamlong](http://www.williamlong.info/archives/3922.html)
 ## client
 
 * lantern
