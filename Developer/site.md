@@ -12,6 +12,12 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
  * http://blog.sciencenet.cn/blog-734884-667157.html
  * http://www.iplaysoft.com/get-more-out-of-google.html
  * http://ecaaser3.ecaa.ntu.edu.tw/weifang/cea/%E5%96%84%E7%94%A8GOOGLE.htm
+
+# Issue
+ 
+ * https://www.quora.com/ --quora
+ * http://stackexchange.com/sites --stackexchange
+ * http://stackoverflow.com/      --/stackoverflow
  
 # Mooc and Online Education
  * https://qdan.me/list/VcYGR9YD82kM7kVV
