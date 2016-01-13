@@ -194,6 +194,4 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
 * https://github.com/realpython/python-scripts
 * https://github.com/programthink/opensource
 
-## First aid manual
- * http://www.hbaq.cn/jijiu/
-  
+
