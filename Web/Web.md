@@ -22,6 +22,7 @@
 * [简洁的静态博客构建工具 —— 纸小墨](http://www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool.html)
  * [小众介紹](http://www.appinn.com/inkpaper/)
 * http://www.iteye.com/magazines/133-Static-Site-Generators --最全的静态网站生成器（开源项目）  
+ * [hexo-theme-next](https://github.com/iissnan/hexo-theme-next)
 
 # 框架 模板引擎
  * [php-template-engines](http://paranimage.com/19-php-template-engines/)
