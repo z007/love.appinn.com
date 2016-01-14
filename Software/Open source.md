@@ -11,9 +11,9 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 
 ## Android  OS
 
-* [CyanogenMod](https://zh.wikipedia.org/wiki/CyanogenMod)
+* [CyanogenMod](https://zh.wikipedia.org/wiki/CyanogenMod) --wikipedia
 * [CyanogenMod](http://www.zhihu.com/topic/19591470/top-answers)--知乎
-* [CyanogenMod official site](http://www.cyanogenmod.org/)
+* [CyanogenMod ](http://www.cyanogenmod.org/)  --official site
 
 # 受欢迎软件排名
 
