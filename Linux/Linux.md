@@ -4,6 +4,10 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * [DistroWatch](https://en.wikipedia.org/wiki/DistroWatch)
   * http://distrowatch.com/
   * http://blog.chinaunix.net/uid-20328094-id-95186.html
+* [linux](https://zh.wikipedia.org/wiki/Linux)
+* [FSF](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6%E5%9F%BA%E9%87%91%E4%BC%9A)
+* [Linux发行版比较](https://zh.wikipedia.org/wiki/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E6%AF%94%E8%BE%83)
+* [Linux发行版列表](https://zh.wikipedia.org/wiki/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8)
   
 # Community
 * http://www.linuxidc.com/
