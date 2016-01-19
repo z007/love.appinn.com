@@ -28,6 +28,9 @@ https://github.com/vhf/free-programming-books/blob/master/free-programming-books
  * https://qdan.me/list/VUE26y8fyt70NPCO
  * http://www.jianshu.com/p/3b1b0f8bbe05
  * http://mooc.guokr.com/
+ * http://www.egouz.com/haowangzhan/1014.html --大学公开课
+ * http://www.egouz.com/topics/10208.html [Coursade:在线公开课搜索引擎](http://www.coursade.com/)
+ * [中小学在线教育类网站汇总](http://www.egouz.com/haowangzhan/984.html)
 
 # Typing 
  * https://www.typing.com/
