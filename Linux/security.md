@@ -58,6 +58,7 @@
 * http://www.virscan.org/?lang=zh-CN --virscan.org
 * https://virusscan.jotti.org/en-US
 * http://onlinelinkscan.com/
+* [https://www.metascan-online.com/](https://free.com.tw/metascan-online-2/)
 
 # [Consumer security software providers](http://windows.microsoft.com/en-gb/windows/antivirus-partners#AVtabs=win7)
 * https://free.com.tw/avast-2016/
