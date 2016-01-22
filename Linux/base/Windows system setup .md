@@ -1,6 +1,14 @@
 
 # 如何用 ISO 镜像制作 U 盘安装盘（通用方法、无需 WinPE）
 
+* [iso files](http://baike.baidu.com/view/138403.htm)
+ * [DAEMON Tools](http://www.disk-tools.com/download/daemon)
+ * [ultraiso](https://www.ezbsystems.com/ultraiso/)
+* [gho](http://baike.baidu.com/view/704362.htm)
+ * [gho files](http://baike.baidu.com/view/3932614.htm)
+## Windows System setup
+
+### CD/DVD/CCD-RM Drive
 ```
 1.
 一台新电脑有200G硬盘空间  
@@ -29,13 +37,16 @@ conture 继续 回到启动盘环境
 reset computer 重启计算机 
 ```
 
+* DVD ghost 盘 做ghost
+ * F12 进入选择CD/DVD/CCD-RM Drive 只按  一     次回车键 切记 回车按一次以上就从硬盘启动
+ * 如果无法做ghost 是因为 电脑硬盘太高级了 DVD ghost 盘 适合较低级的硬盘
+ * [AHCI, ATA, RAID 比较](http://jaseywang.me/2013/04/19/ahci-ata-raid-%E6%AF%94%E8%BE%83/)
+
+#### CD 文件复制出来 激活优盘安装
+##### [什么是系统分区和启动分区](http://windows.microsoft.com/zh-cn/windows/what-are-system-boot-partitions#1TC=windows-7)
 
 
-
-#[什么是系统分区和启动分区](http://windows.microsoft.com/zh-cn/windows/what-are-system-boot-partitions#1TC=windows-7)
-
-
-## [活动分区](https://zh.wikipedia.org/wiki/%E6%B4%BB%E5%8A%A8%E5%88%86%E5%8C%BA)
+###### [活动分区](https://zh.wikipedia.org/wiki/%E6%B4%BB%E5%8A%A8%E5%88%86%E5%8C%BA)
 
  * Diskpart 
   * http://toutiao.com/a4037286912/
