@@ -42,7 +42,8 @@ reset computer 重启计算机
  * F12 进入选择CD/DVD/CCD-RM Drive 只按  一     次回车键 切记 回车按一次以上就从硬盘启动
  * 如果无法做ghost 是因为 电脑硬盘太高级了 CD ghost 盘 只可以适合较低级的硬盘
   * [AHCI, ATA, RAID 比较](http://jaseywang.me/2013/04/19/ahci-ata-raid-%E6%AF%94%E8%BE%83/)
-  * 解决方式是改变硬盘模式为 ATA F2->System Configuration->STAT Opeation->ATA  图片参照[F2](https://cloud.githubusercontent.com/assets/8462060/12504289/d2f38fa4-c116-11e5-88fd-8e8df1e9c4c7.jpg)[F12](https://cloud.githubusercontent.com/assets/8462060/12504288/d2f04fba-c116-11e5-89e0-46942bf0de01.jpg)
+  * 解决方式是改变硬盘模式为 ATA F2->System Configuration->STAT Opeation->ATA 
+  * 图片参照[F2](https://cloud.githubusercontent.com/assets/8462060/12504289/d2f38fa4-c116-11e5-88fd-8e8df1e9c4c7.jpg)[F12](https://cloud.githubusercontent.com/assets/8462060/12504288/d2f04fba-c116-11e5-89e0-46942bf0de01.jpg)
    * 但是又会出现问题 原先的系统不可以用了 选备份的ghost 不可以用了 ，因为原来你模式是AHCI 模式
    * 不推荐这个么做
 
