@@ -7,6 +7,7 @@
 * http://xbeta.info/
 * https://qdan.me/list/Vd3pCYsboTbNoMoX
 * http://www.videoconverterfactory.com/ -- viode and WonderFox Document Manager
+* http://wsgzao.github.io/post/windows/
 * Add new software
  * File Explorer supplement
   * http://www.listary.com
