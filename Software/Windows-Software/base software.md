@@ -18,3 +18,6 @@
 # File
 
 * [listary](http://www.listary.com/)
+* [Clover 3](http://cn.ejie.me/)  --Clover 是 Windows Explorer 资源管理器的一个扩展，为其增加类似谷歌 Chrome 浏览器的多标签页功能
+  *  [wsgzao software](http://wsgzao.github.io/post/windows/)
+ 
