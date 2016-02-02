@@ -8,6 +8,7 @@
 * https://qdan.me/list/Vd3pCYsboTbNoMoX
 * http://www.videoconverterfactory.com/ -- viode and WonderFox Document Manager
 * http://wsgzao.github.io/post/windows/
+* http://www.jianshu.com/p/5ccbf9f09a69  --Windows 效率软件一览
 * Add new software
  * File Explorer supplement
   * http://www.listary.com
