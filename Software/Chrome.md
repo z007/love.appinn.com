@@ -21,7 +21,8 @@
  * https://www.google.com.hk/?gws_rd=cr,ssl
  
  ## List of Chrome URLs
-```chrome://chrome-urls  
+```
+chrome://chrome-urls  
 ```
 ```
 chrome://flags 
