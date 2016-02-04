@@ -14,12 +14,19 @@
  
 #Chrome
 
- * https://support.google.com/chrome/answer/126299?hl=zh-Hant
+ * https://support.google.com/chrome/answer/126299?hl=zh-Hant  标准版(stand)离线下载 [beat版本](https://www.google.com/chrome/browser/beta.html)
  
  * https://www.google.co.uk
  
  * https://www.google.com.hk/?gws_rd=cr,ssl
  
+ ## List of Chrome URLs
+```chrome://chrome-urls  
+```
+```
+chrome://flags 
+实验性功能 
+```
   
 ## extensions  --https://chrome.google.com/webstore/category/apps?hl=en-US
  * https://www.wikipedia.org/
