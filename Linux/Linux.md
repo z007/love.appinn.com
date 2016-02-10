@@ -30,6 +30,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * https://chusiang.gitbooks.io/working-on-gnu-linux//
 * https://craftsmanbai.gitbooks.io/linux-learning-wiki/content/index.html
 * http://www.codeceo.com/article/linux-productive-tools.html
+* https://github.com/yangyangwithgnu/the_new_world_linux
 
 # Download
  * [GetUbuntuGNOME/LTS](https://wiki.ubuntu.com/UbuntuGNOME/GetUbuntuGNOME/LTS)
