@@ -124,7 +124,9 @@ chrome://flags
 * [openwrt](https://github.com/softwaredownload/openwrt-fanqiang)
  * [openwrt.org](http://wiki.openwrt.org/start)
  * [williamlong](http://www.williamlong.info/archives/3922.html)
- 
+
+
+# [DNS](https://github.com/z007/love.appinn.com/blob/master/start-computer/network/DNS.md)
 ## client
 
 * lantern

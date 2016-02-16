@@ -1,0 +1,6 @@
+1. [路由器](https://zh.wikipedia.org/wiki/%E8%B7%AF%E7%94%B1%E5%99%A8)
+2. [网关](https://zh.wikipedia.org/wiki/%E7%BD%91%E5%85%B3)
+3. [路由器和网关](https://www.freebsd.org/doc/zh_CN.UTF-8/books/handbook/network-routing.html)
+4. [网络地址转换 NAT](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2)
+5. [VMWARE虚拟机三种网络模式（BRIDGED，NAT，HOST-ONLY)区别详解](http://hao.jser.com/archive/7954/)
+6. [为什么常见路由器的网关默认 IP 都是 192.168.1.1？](https://www.zhihu.com/question/20185640/answer/23193352)

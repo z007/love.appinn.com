@@ -31,6 +31,7 @@ https://program-think.blogspot.com/2013/10/linux-distributions-guide.html
 * https://craftsmanbai.gitbooks.io/linux-learning-wiki/content/index.html
 * http://www.codeceo.com/article/linux-productive-tools.html
 * https://github.com/yangyangwithgnu/the_new_world_linux
+* https://www.freebsd.org/doc/zh_CN.UTF-8/books/handbook/index.html
 
 # Download
  * [GetUbuntuGNOME/LTS](https://wiki.ubuntu.com/UbuntuGNOME/GetUbuntuGNOME/LTS)
