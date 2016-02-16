@@ -30,6 +30,8 @@ Google DNS	8.8.8.8	8.8.4.4
 OpenDNS	208.67.222.222	208.67.220.220
 ```
 
+* [DNS泄漏](http://www.freebuf.com/articles/network/67591.html)
+       * www.dnsleaktest.com
 * DNSCrypt
 
  * http://www.williamlong.info/archives/3890.html
