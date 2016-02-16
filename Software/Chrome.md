@@ -45,14 +45,7 @@ chrome://flags
  * [HTTPS Everywhere](https://www.eff.org/https-everywhere)
  * Cryptocat --[2xiuangzi](https://goo.gl/kCDNhl)
  * [telegram](https://telegram.org/)
- * [WebRTC Block]( https://www.browserleaks.com)
-  * [whois](https://www.browserleaks.com/whois) 
-  * [webrtc](https://www.browserleaks.com/webrtc)
-  * [ipecho](http://ipecho.net/plain)
-  * [ip adress1](http://ip.cn/)
-  * [ip adress2](https://www.goldenfrog.com/CN/vyprvpn)
-  * [ip adress3](http://www.speedtest.net/)
-  
+ 
  * [ghostery](https://www.ghostery.com/try-us/download-add-on/) than [disconnect](https://disconnect.me/disconnect) easy to use
  * [oneTab](https://www.one-tab.com/)
  * pocket /Session Manager
