@@ -46,6 +46,7 @@
  * http://edu.51cto.com/course/course_id-3195.html
  * http://www.metasploit.cn/forum.php?mod=viewthread&tid=1484
  * http://www.hackdig.com/?cat-3.htm
+ * https://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/
 
 # [ARP联盟](http://www.arpun.com/article/list_1_149.html)
 
