@@ -12,7 +12,25 @@
  8. 加速键－－－－>功能快速调用键 
  9. 快捷键----->菜单、工具条键盘选取键 
  
-#Chrome
+
+# searchEngines
+* [ chrome设置默认 添加 删除 搜索引擎](https://support.google.com/chrome/answer/95426?p=settings_omnibox&rd=1)
+1. 打开管理搜过引擎
+```
+chrome://settings/searchEngines
+```
+2. 打开添加的搜索引擎或网址
+* https://duckduckgo.com
+* https://en.wikipedia.org
+* https://stackoverflow.com
+* https://search.yahoo.com
+3. 查看搜索引擎已自动添加完成，有时需多刷新几次才会添加上
+```
+chrome://settings/searchEngines
+```
+4. 打开添加的搜索引擎网址，显示Tab切换即可
+
+# Chrome
 
  * https://support.google.com/chrome/answer/126299?hl=zh-Hant  标准版(stand)离线下载 [beat版本](https://www.google.com/chrome/browser/beta.html)
  
