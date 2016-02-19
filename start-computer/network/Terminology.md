@@ -23,7 +23,10 @@
     
     Windows +R  ncpa.cpl  Enter
     右键禁用，然后启用
+     ipconfig/all
+     8.8.8.8 8.8.4.4
      www.dnsleaktest.com
+     
     ===========》》》》》》》》》 ISP Google
     2.
     本机DNS  默认动态自动获取
@@ -32,6 +35,8 @@
     
      Windows +R  ncpa.cpl  Enter
     右键禁用，然后启用
+    ipconfig/all
+     8.8.8.8 8.8.4.4
      www.dnsleaktest.com
     ===========》》》》》》》》》 ISP Google
     3.
@@ -41,6 +46,8 @@
     
      Windows +R  ncpa.cpl  Enter
     右键禁用，然后启用
+    ipconfig/all
+     8.8.8.8 8.8.4.4
      www.dnsleaktest.com
     ===========》》》》》》》》》 ISP Google
     
@@ -51,6 +58,12 @@
     
      Windows +R  ncpa.cpl  Enter
     右键禁用，然后启用
+    ipconfig/all
+     本地网关地址
+     192.168.1.1
+     0.0.0.0
+     （这是通过路由器无线局域内网连接，稍后进行直接拔路由直接插家庭入网线，宽带连接（拨号连接）再试）P1
+     
      www.dnsleaktest.com
     ===========》》》》》》》》》 使用网络的 ISP 
     
