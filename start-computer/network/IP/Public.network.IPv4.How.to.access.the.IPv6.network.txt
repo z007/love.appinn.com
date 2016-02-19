@@ -1,0 +1,124 @@
+
+* [在公网中如何访问IPv6网络?](http://www.ztyhome.com/get-ipv6/)
+目前国内公网还处于IPv4时代，今年2月全球40亿（232）IP v4地址已全部用罄，现在申请IP只能用IPv6地址了，IPv6是IPv4之后全新的互联网协议，在网络管理方面更加安全，能提供3.4 ×1038（2128）个海量地址空间，足以让地球上每个物体都拥有独立的IP。如今国内教育网已实现了IPv6覆盖，公网要到2015年才能切换到IPv6，假如你现在就想在公网中连上IPv6网络，不翻墙浏览国外IPv6网站，用eTone免费打IPv6电话，看较清晰的IPv6电视，10M/S下载速度……，那就看看下文吧！
+一、IPV6的安装
+注意：XP和2003目前不支持IPV6,需要安装IPV6协议。Vista和Windows7已经默认支持。
+要在公网中（例如在家宽带上网）访问IPv6，首先你的系统得支持IPv6，目前PC上各种操作系统的最新版（Win7/Vista/Win2008及各种linux发行版的最新版）全都原生支持IPv6，它们默认都安装了IPv6，要使用IPv6只需启用IPv6协议即可；WinXP/2003/2000没有安装ipv6，这些系统要用IPV6须先安装IPV6协议。注意安装使用IPv6前应关掉防火墙、杀毒软件和360，否则会导致连接失败。
+1、Win7/2008/Vista及各种linux最新版
+Win7/2008/Vista因为集成了ipv6协议，无需安装ipv6、只要在“宽带连接”中启用之即可，部分linux系统需要在网络配置中开启一下ipv6服务，设置成自动后才能使用IPv6，下面以Win7+电信LAN宽带上网环境为例介绍IPv6用法：
+Step01在Win7中先关闭宽带连接，然后点击开始菜单“开始”→“控制面板”，在控制面板中点击“网络和Intrenet”下的“查看网络状态和任务”，点击“连接到网络”，任务右下角弹出宽带连接；
+Step02右击宽带连接，选择“属性”菜单，弹出宽带连接属性窗口，点击进入“网络”选项卡，查看“Internet协议6（TCP/IPv6）”这一个选项是否打勾了，如果没有 勾选说明IPv6还未启用，建议将该选项打勾，再点“确定”即可启用IPv6。
+2、Windows XP/2003/2000
+方法 一:（适用于adsl直接拨号上网的方式）
+WindowsXp/2003的方法是，点击开始->运行，输入cmd 回车，
+然后在弹出的命令框中照下面的样子输入命令，注意，是输入一行回车一下：
+C:\Documents and Settings\Administrator>netsh
+netsh>int
+netsh interface>ipv6
+netsh interface>ipv6>install
+netsh interface ipv6>isatap
+netsh interface ipv6 isatap>set router isatap.sjtu.edu.cn
+Vista/Win7的方法是鼠标右键点击“开始－>程序－>附件－>命令提示符”，选择“以管理员身份运行”。
+在新开启的【命令提示符】窗口中执行以下两条命令：
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn
+netsh interface ipv6 isatap set state enabled
+执行完命令后，关闭所有浏览器，重新打开浏览器访问国外网站试试，也可以访问www.ipv6.org 看看你的页面。
+有时候会遇到不成功的情况，请继续执行下面的命令。
+C:\Documents and Settings\Administrator>netsh
+netsh>int
+netsh interface>ipv6
+netsh interface>ipv6>install
+netsh interface ipv6>6to4
+netsh interface ipv6 6to4>set relay 202.112.26.246 enable
+执行到这里，如果还没能打开Ipv6，可以再尝试跳到最后一步，将所有域名记录加到本地hosts文件中。
+同时，建议你尝试将dns设置为”8.8.8.8″ 和 “8.8.4.4″
+方法二：（适用于各种上网方式）
+这需要安装一个软件gogoCLIENT下载页面（需注册）：
+或者不注册下载地址
+有适用于Windows、Linux、mac各个操作系统使用的版本，根据实际情况下载。一般人的操作系统都是Windows 32bit的。
+这个软件的原理是使用该软件的服务器作为中转访问ipv6的网络。
+我在Windows7+路由器上网环境下测试成功。
+能成功使用ipv6网络后，你就可以用ipv6的方式访问Google了
+接下来咱们在看看开头文章提到的方法
+在WinXP/2003/2000中安装ipv6有命令行模式或图形界面2种方式，下面介绍命令行模式安装方法：
+Step01在Windows中点击开始菜单“开始”→“运行”，输入CMD回车进入命令行模式；
+Step02如果系统是WinXP则以管理员权限登录，输入以下命令安装IPv6：
+C:\>netsh interface ipv6 install
+等待片刻显示安装成功，IPv6就安装好了；要卸载IPv6，可键入以下命令：
+C:\ > ipv6 uninstall
+然后重新启动，IPv6就卸载掉了；
+Step03对于Windows 2003，可以键入以下命令来安装IPv6：
+C:\ > netsh
+netsh> interface
+netsh interface> ipv6 install
+二、如何访问IPv6？
+以上操作完毕，接下来要继续配置DNS，对于ADSL/LAN等PPPOE拨号上网的用户，请将“本地连接”的DNS更改为 8.8.8.8 或者 8.8.4.4，修改DNS方法：先断开“宽带连接”，打开“宽带连接属性”窗口，点击进入“网络”选项卡，选择“Internet协议版本4（TCP/IP）”，再点击“属性”，在弹出的窗口中选择“使用下面的DNS服务器地址”（图4）自选DNS服务器，例如用Google的DNS来解析域名，将首选DNS服务器和备用DNS服务器分别设置为8.8.8.8和8.8.4.4，设置完毕点“确定”退出，重新连接上网后就用Google DNS解析域名了；
+现在你的系统已具备IPv6了网络环境，不过在公网中要访问IPV6，还需要将IPV4转换到IPV6，转换方法有以下几种：一种是使用ISATAP、6to4等隧道（通过内网路由器上网的要使用Teredo隧道）连接IPv6，另一种是启动gogoCLIENT等软件，用这类软件提供的服务器作为中转来访问IPv6网络。
+提示：以下操作后如想恢复本机的IPv6默认设置，可进入命令提示符状态，输入命令netsh interface ipv6 reset并重启电脑即可，如果想复原IPv6隧道则用以下命令:
+netsh interface teredo set state default
+netsh interface 6to4 set state default
+netsh interface isatap set state default
+如果你的系统是Win7/Vista，在公网中会默认使用6to4隧道访问IPv6，在内网中就默认使用Teredo隧道访问IPv6，用ipconfig命令可查看本地连接的IPv6地址，2002开头的为6to4隧道，2001开头的为isatap 隧道；以下操作后如果无法访问ipv6，请将Windows系统服务中ip helper服务的启动方式设为自动，重启系统后即可排除此类故障。
+1、用ISATAP隧道访问IPv6
+Win7/2008/Vista系统设置方法如下：右击“开始/程序/附件/命令提示符”，选择“以管理员身份运行”，进入命令提示符状态，输入以下两条命令（图5）：
+netsh interface ipv6 isatap set router isatap.sjtu.edu.cn
+netsh interface ipv6 isatap set state enabled
+第一条命令表示使用上海交通大学ISATAP隧道路由器（IPv4地址为isatap.sjtu.edu.cn）来访问IPv6，将该命令中的isatap.sjtu.edu.cn换成其他单位的IPv4地址（见下表），也可以用不同的隧道路由器来访问IPv6网络。
+WinXP/2003/2000系统这样设置：右击“开始/运行”，输入cmd回车，弹出命令提示符，输入以下命令：
+C:\Documents and Settings\Administrator>netsh
+netsh>int
+netsh interface>ipv6
+netsh interface>ipv6>install
+netsh interface ipv6>isatap
+netsh interface ipv6 isatap>set router isatap.sjtu.edu.cn
+netsh interface ipv6 isatap>set state enabled
+netsh interface ipv6 isatap>quit
+如果想用不同的隧道路由器访问IPv6网络，将以上set命令中isatap.sjtu.edu.cn换成其他的IPv4地址（见下表）即可。
+位置 ISATAP隧道路由器的IPv4地址
+上海交通大学 isatap.sjtu.edu.cn
+清华大学 isatap.tsinghua.edu.cn
+华中科技大学 isatap.hust.edu.cn
+上海交通大学 isatap.sjtu.edu.cn
+成都电子科技大学 202.115.255.242
+四川大学 202.115.39.98
+台湾亚太电信 tb.ipv6.apol.com.tw
+2、用6to4隧道访问IPv6
+Win7/2008/Vista中操作方法：右击“开始/程序/附件/命令提示符”，选择“以管理员身份运行”，弹出命令提示符，输入以下两条命令：
+netsh interface ipv6 isatap set state disable
+netsh interface ipv6 6to4 set relay 202.112.26.246
+netsh interface ipv6 6to4 set state enabled
+以上第一条命令是关闭ipv6的isatap隧道适配器接口，后2条命令是将6to4隧道的终结点relay设为上海交通大学6to4隧道路由器202.112.26.246（或者192.88.99.1）
+WinXP/2003设置如下:
+C:\Documents and Settings\Administrator>netsh
+netsh>int
+netsh interface>ipv6
+netsh interface>ipv6>install
+netsh interface ipv6>6to4
+netsh interface ipv6 6to4>set relay 202.112.26.246 enable
+以上set命令是设置6to4隧道的终结点relay为202.112.26.246，用ipconfig命令查看默认网关是2002:ca70:1af6::ca70:1af6，如果本法无法访问IPv6，建议用ISATAP隧道或gogoCLIENT来访问IPv6。
+3、用gogoCLIENT访问IPv6
+该法不通过隧道、而是用gogoCLIENT服务器访问IPv6网络的。首先下载安装gogoCLIENT，gogoCLIENT有Windows、Linux、mac等操作系统版本，应根据你的系统下载对应的版本，例如XP或32位WIN7建议下载windows32版的，完成完毕启动gogoCLIENT，所有设置无需改动，在“Basic”选项卡中点connect（图6），gogoCLIENT就开始连接其服务器，连接成功后就能访问IPv6网络了。
+4、检测能否访问IPV6
+至此你在公网里也能访问Ipv6网站了，启动浏览器，在地址栏输入一个Ipv6网址，例如http://ipv6.google.com（Google的IPv6网址）或者bt.neu6.edu.cn，假如能打开网站，说明已经能访问IPV6了、而且还能继续打开原来的Ipv4网站！如果想查看当前本机的Ipv6地址，可打开网站http://6rank.edu.cn/（图7），网页上会显示本机Ipv6地址，格 式为冒号分开的8个字串（例如2001:5c0:1400:a:8000:0:7544:5586），与Ipv4地址（例如20.108.23.130）不一样；此外还能把ipv4地址转换为ipv6，方法是到http://ip-lookup.net/conversion.php，输入Ipv4格式的IP（例如20.108.23.130），点Covert，网页上就会给出转换好的ipv6地址。
+三、用Ipv6不翻墙浏览全球网站
+由于Ipv6网站未被封锁，所以现在你无须翻墙即可自由浏览全球的Ipv6网站，常用IPv6网站如下：
+http://ipv6link.cn/
+http://www.douban.com/group/topic/10587141/
+http://ipv6.dlut.edu.cn/resource.htm
+http://www.bnu.edu.cn/ipv6/ziyuan.htm
+http://blog.163.com/liuzh095@126/blog/static/165243015201048115144806/
+除了浏览网站，你还能用μTorrent软件到以下IPv6 BT网站下片
+http://www.ahau.edu.cn/manage/Article/ShowArticle.asp?ArticleID=19808
+最后用Ipv6还能不翻墙浏览全球Ipv4网站，例如要看的网站目前无法访问、又没有Ipv6网址，可这样操作浏览该站：首先替换本地hosts文件，到http://blog.howgo.info/wp-content/uploads/downloads/2010/11/hosts.zip下载hosts文件，将之复制到C:\Windows\System32\drivers\etc\hosts目录中（如是linux系统就复制到/etc/hosts），替换掉原来的hosts；
+然后在浏览器中输入被封锁网站的Ipv4地址，检查是否能打开，不能访问就先打开以下ipv6代理网站（例如http://www.ipv6bbs.com/proxy.php），在页面中选择一个国外的ipv6代理（图8），注意不要用国内的代理， 在网页中输入要访问网址，点“确定”即可通过ipv6代理进行浏览了，之前无法访问的网站用本法都能浏览，而且还能隐藏你的IP！
+ipv6代理网站：
+http://www.ipv6bbs.com/proxy.php
+http://ipv6.google.com/gwt/n
+http://ipv6.studioproxy.com/
+μTorrent http://www.utorrent.com/downloads
+gogoCLIENT（windows32版）
+http://blog.howgo.info/wp-content/uploads/downloads/2011/01/gogoc1.2RELEASEwin32.exe
+gogoCLIENT （windows64位版）
+http://blog.howgo.info/wp-content/plugins/download-monitor/download.php?id=5
+gogoCLIENT （linux版）
+http://gogo6.com/downloads/gogoc-1_2-RELEASE.tar.gz
