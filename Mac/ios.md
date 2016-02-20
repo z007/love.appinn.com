@@ -1,1 +1,5 @@
-
+* [iOS 开发流程笔记](https://github.com/leecade/ios-dev-flow)
+* [iOS开发：开发证书知识点总结](http://www.jianshu.com/p/9c166a5e4930)
+* [简单介绍一下我iOS开发的感受](http://www.cocoachina.com/ios/20150303/11218.html)
+* [开发一个iOS应用没有那么容易](http://www.williamlong.info/archives/3061.html)
+* [开发一个App的成本是多少？](http://ios.jobbole.com/81869/)
