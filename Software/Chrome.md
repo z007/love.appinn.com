@@ -54,7 +54,7 @@ chrome://flags
   * [Disconnect Search](https://disconnect.me/search)  --extensions
   * https://search.disconnect.me/                      --Web
   * https://disconnect.me/                             --client not easy use include Avast'svpn plugin
- * iLivid
+ * [iLivid](https://chrome.google.com/webstore/detail/ilivid/nafaimnnclfjfedmmabolbppcngeolgf)
  * ScriptSafe                                           --排除web js干扰不可复制/原排版复制   
  * [Greasemonkey](https://addons.mozilla.org/zh-CN/firefox/addon/greasemonkey/?src=search)
   * http://wiki.greasespot.net/User_Script_Hosting
@@ -93,6 +93,7 @@ chrome://flags
  * Img
  	* Fatkun图片批量下载
  	* TinEye Reverse Image Search
+ 	* [Save Image As PNG](https://chrome.google.com/webstore/detail/save-image-as-png/nkokmeaibnajheohncaamjggkanfbphi?hl=zh-CN)
 
  * [The Pirate Bay Forwarder](https://addons.mozilla.org/zh-CN/firefox/addon/the-pirate-bay-forwarder/?src=api)
  * [DownThemAll](https://addons.mozilla.org/zh-CN/firefox/addon/downthemall/?src=cb-dl-featured)
@@ -108,6 +109,18 @@ chrome://flags
 * Wappalyzer
 * Emmet Re:View
 * WhatFont
+* 
+------------------------
+* [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm)
+* [Cache Killer](https://chrome.google.com/webstore/detail/cache-killer/jpfbieopdmepaolggioebjmedmclkbap/support)
+* [Referer Control](https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin)
+* [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg/reviews)
+* [Develop and Debug Chrome Apps & Extensions.](https://chrome.google.com/webstore/detail/chrome-apps-extensions-de/ohmmkhmmmpcnpikjeljgnaoabkaalbgc/reviews)
+* 
+
+------------------------------form------------------------
+* [你极力推荐的 Chrome 扩展有哪些？知乎1](https://www.zhihu.com/question/19594682?rf=19551923)
+ * [2](https://www.zhihu.com/question/19594682)
 
 * chrome 调试
  * [微信文章](http://weixin.sogou.com/weixin?type=2&query=chrome%E8%B0%83%E8%AF%95&ie=utf8&w=01019900&sut=1516&sst0=1451994384096&lkt=0%2C0%2C0)
