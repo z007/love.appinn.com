@@ -49,6 +49,7 @@ chrome://flags
   
 ## extensions  --https://chrome.google.com/webstore/category/apps?hl=en-US
  * https://www.wikipedia.org/
+ * [Google翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
  * Adblock /Adblock Plus/ Adguard
  * disconnect
   * [Disconnect Search](https://disconnect.me/search)  --extensions
