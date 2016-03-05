@@ -15,6 +15,9 @@
 * Add new software
  * File Explorer supplement
  * http://www.softwareok.com/	 --Q-Dir轻量级的文件管理器，各种布局视图切换灵活，默认四个小窗口组成一个大窗口，操作快捷。软件虽小，粉丝忠诚。
+ * [Total Commander](https://zh.wikipedia.org/zh/Total_Commander) --wikipedia
+  * [zh iyoung](http://iyoung.blog.163.com/)
+  * [en official site](http://www.ghisler.com/)
 * http://www.snapfiles.com/		--XnView 简单易用的图片浏览器，支持浏览、编辑以及创建等功能。
   * http://www.listary.com
   *  start explorer d:  ctrl+E
