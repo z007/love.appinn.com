@@ -1,3 +1,5 @@
-* https://dev.windows.com/en-us
-* https://msdn.microsoft.com/en-us
+* https://dev.windows.com/zh-cn/
+  * https://dev.windows.com/zh-cn/microsoft-edge/
+* https://msdn.microsoft.com/zh-cn
 * https://technet.microsoft.com/zh-cn/
+  * https://technet.microsoft.com/zh-cn/security/bulletin
