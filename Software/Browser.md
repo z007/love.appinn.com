@@ -2,6 +2,7 @@
 * http://www.20thingsilearned.com/zh-CN/home
 
 # Firefox
+* [Firefox](https://zh.wikipedia.org/wiki/Mozilla_Firefox%E6%AD%B7%E5%8F%B2) --wikipedia
 * https://addons.mozilla.org/zh-CN/firefox/ --附加组件
 * http://mozilla.com.cn/moz-addon.html      --火狐社区
   * [火狐视频及图片批量下载教程](http://mozilla.com.cn/thread-320496-1-1.html)
