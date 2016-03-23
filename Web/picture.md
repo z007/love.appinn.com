@@ -9,6 +9,7 @@
 * https://www.desktoppr.co/
 * http://www.runoob.com/w3cnav
 * https://free.com.tw/category/web-design/
+* [Instant Logo Search](http://instantlogosearch.com/)  [免費搜尋數千種品牌標誌 Logo 向量圖 SVG、PNG 格式下載]( https://free.com.tw/instant-logo-search/)
 
 # [GIF](https://giphy.com/)
 * http://techcrunch.cn/2015/10/21/giphys-new-tool-makes-it-dead-simple-to-create-gifs-from-video/
