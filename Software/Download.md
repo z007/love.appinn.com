@@ -39,3 +39,7 @@
  *  [IDM](https://www.internetdownloadmanager.com/?utm_source=qdan.me#/)
  *  [Orbit Downloader](http://www.orbitdownloader.com/?utm_source=qdan.me#/)
  * APK Downloader[1](http://apps.evozi.com/apk-downloader/)[2](http://apk-dl.com/)[3](http://apkleecher.com/)
+ * Windows System
+  * [從 Microsoft 官方網站免費下載 Windows 7、8.1 及 10 中文光碟映像檔（ISO）教學](https://free.com.tw/download-windows-7-and-8-1-and-10-iso-from-microsoft/)
+   * [https://www.microsoft.com/en-us/software-download/techbench](https://www.microsoft.com/en-us/software-download/techbench)
+   * [Windows 10 Tech Bench Upgrade Program HACK](http://pastebin.com/4nKaNhif)
