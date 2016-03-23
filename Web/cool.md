@@ -5,4 +5,6 @@ javascript:alert('hello from address bar :)');
 data:text/html,<h1>Hello, world!</h1>
 把浏览器当编辑器
 data:text/html, <html contenteditable>
+整个页面编辑
+document.body.contentEditable='true';
 ```
