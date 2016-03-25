@@ -1,0 +1,152 @@
+Debian 安装使用
+
+https://zh.wikipedia.org/wiki/Debian
+
+https://www.debian.org/
+
+Vmware12 安装
+1.默认安装  到最后一步选择引导项
+选择第二项启动 不要自己选择第一项还要填写内容（如果想尝试，拍摄虚拟机的快照在做防止安装失败从头开始）。
+1.1安装完毕重启 
+1.2 观察是否正常。
+1.3 正常关闭。留点(拍摄虚拟机的快照)。
+2. 
+开机 以非root进入 如用户debian
+安装VMware Tools可能看到安装文件。
+   
+所以推荐，安装完毕先更新。
+2.1 更新源
+备份
+cp  /etc/apt/sources.list /etc/apt/sources.list.bak
+
+http://mirrors.aliyun.com/help/debian
+http://mirrors.163.com/.help/debian.html
+
+sudo vi /etc/apt/sources.list 
+但是当前debian 无sudo 权限
+
+需使用 visudo （参考鸟哥私房菜有具体说明）
+--  nano 编辑器 http://www.vpser.net/manage/nano.html ------
+# User privilege specification 
+root    ALL=(ALL) ALL 
+test    ALL=(ALL) ALL                  <==这一行可以加入，使 test 这个人可以使用 sudo 
+---------------------------------------------------------------------------
+
+现在可以执行
+sudo vi /etc/apt/sources.list 
+
+3.
+
+sudo apt-get update && apt-get dist-upgrade
+
+shutdown -r now
+
+4. 现在在安装VMmare tools可以看到安装文件了。
+不行的话 参照 https://pubs.vmware.com/workstation-12/index.jsp?topic=%2Fcom.vmware.ws.using.doc%2FGUID-08BB9465-D40A-4E16-9E15-8C016CC8166F.html
+
+4.1 安装成功后发现VMware tools 自带的共享文件夹不可以使用,重启也是不行。
+
+那就使用比较好用的 Samba
+
+https://wiki.debian.org/zh_CN/SambaServerSimple
+http://blog.sina.com.cn/s/blog_4fd2c2750101duh1.html
+
+
+
+安装 Samba
+
+# aptitude install samba
+配置Samba守护进程
+编辑Samba配置文件。
+
+# vim /etc/samba/smb.conf
+在 global 部分,检查工作组的名称. 当你试图从一个Windows机器连接时，知道工作组名称可能是有用的:
+
+[global]
+   ...
+   workgroup = WORKGROUP
+定位到 home 共享的定义部分:
+
+[homes]
+在这部分你可以启用主目录的读/写访问权限:
+
+   read only = no
+共享一些在系统中其他路径的文件，增加另外一个共享，例如:
+
+[ourfiles]
+   comment = Some useful files
+   read only = no
+   locking = no
+   path = /home/debian/Downloads
+   guest ok = no
+添加Samba用户
+Samba使用它自己的密码系统，因此用户需要通过root来增加. 注意：用户必须存在在 /etc/passwd 中
+
+# smbpasswd -a debian
+# 
+系统将提示您为每个用户输入密码。
+
+列出现有的Samba用户列表:
+
+pdbedit -w -L
+重启Samba守护进程
+
+# /etc/init.d/samba restart
+----------------------------
+
+# ifconfig   
+
+假设windows下\\ip
+即可对文件夹内部进行读写。
+
+这里说明一下ifconfig 在非root时在debian环境下默认可以不使用
+可参考修改
+http://www.cnblogs.com/greensleeves/p/3510571.html
+https://books.google.com.sg/books?id=93-KBAAAQBAJ&pg=SA7-PA8&lpg=SA7-PA8&dq=debian+%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7+%E6%97%A0%E6%B3%95%E6%89%A7%E8%A1%8C+ifconfig&source=bl&ots=nEFPhBGOj-&sig=24RBFD3rxHwXyWDNoxixK1H0gl0&hl=zh-CN&sa=X&ved=0ahUKEwj8t7To8tvLAhUDC44KHaw0B6AQ6AEILTAC#v=onepage&q=debian%20%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%20%E6%97%A0%E6%B3%95%E6%89%A7%E8%A1%8C%20ifconfig&f=false
+http://www.it610.com/article/1953596.htm
+
+
+还有 useradd name
+userdel -r name 出现currently used in a process
+http://stackoverflow.com/questions/28103045/how-can-i-delete-a-user-in-linux-when-the-system-says-its-currently-used-in-a-pr
+http://serverfault.com/questions/385851/unable-to-remove-user-user-is-currently-logged-in
+
+SU to the user su - username and run kill -9 -1 as the user.
+
+Exit the shell and try the userdel -r username again.
+
+Or you can check for processes from the user using lsof -u username and kill the relevant PIDs.
+
+Or pkill -u username or pkill -u uid
+
+http://os.51cto.com/art/200905/125605.htm
+
+
+有关账号管理  参照鸟哥私房菜
+http://vbird.dic.ksu.edu.tw/
+http://linux.vbird.org/
+http://blog.51yip.com/linux/1137.html
+http://daaoao.blog.51cto.com/2329117/614698
+------------------------------
+
+5.  chorme  lantern  DNS
+
+dpkg -i 
+
+关于 lantern 安装的问题
+建议使用 命令安装
+在Ubuntu 下面有图形 安装软件 但是试了 。虽然装安装成功的但是点击图标，无任何反应，于是卸载，通过命令安装就ok了。
+
+在debian命令安装也是点击图标 ，无任何反应，通过命令启动也不行。
+参考此文  http://linsir.org/post/Fuxk-GFW-via-Lantern 
+
+sudo apt-get install libappindicator3-1
+
+
+http://packages.ubuntu.com/precise/libappindicator3-1
+
+解决。
+
+DNS 
+Setings->Network->Wired(有线连接)->Ipv4->DNS ->Automatic->off->add 8.8.8.8 8.8.4.4
+
