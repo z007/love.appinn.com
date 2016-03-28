@@ -4,6 +4,9 @@
 # Firefox
 *[The full list of Firefox about: commands](http://winaero.com/blog/the-full-list-of-firefox-about-commands/)
  * about:about
+* xpi install
+ * about:config -> xpinstall.signatures.required;false
+ * [Secret Agent](https://www.dephormation.org.uk/?page=81)
 * [Firefox](https://zh.wikipedia.org/wiki/Mozilla_Firefox%E6%AD%B7%E5%8F%B2) --wikipedia
 * https://addons.mozilla.org/zh-CN/firefox/ --附加组件
 * http://mozilla.com.cn/moz-addon.html      --火狐社区
