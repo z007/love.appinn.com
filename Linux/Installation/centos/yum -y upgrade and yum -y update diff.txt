@@ -1,0 +1,39 @@
+yum -y upgrade and yum -y update diff
+
+
+
+分别测试yum -y upgrade和yum -y update
+
+升级前
+
+系统版本：  CentOS5.5
+
+内核版本：  2.6.18-194.el5
+
+升级前做过简单配置文件修改
+
+yum -y upgrade    升级后
+
+系统版本：    centos5.7
+
+内核版本：  2.6.18-194.el5
+
+系统和软件配置不做修改
+
+yum -y update    升级后
+
+系统版本：    centos5.7
+
+内核版本：    2.6.18-238.el5
+
+系统和软件配置文件更新
+
+结论：
+
+yum -y update
+
+升级所有包，改变软件设置和系统设置,系统版本内核都升级
+
+yum -y upgrade
+
+升级所有包，不改变软件设置和系统设置，系统版本升级，内核不改变

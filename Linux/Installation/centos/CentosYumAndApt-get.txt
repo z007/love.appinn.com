@@ -1,0 +1,70 @@
+Centos系统在线更新yum与apt-get详细讲解
+
+   rpm 包和deb包是两种Linux系统下最常见的安装包格式，在安装一些软件或服务的时候免不了要和它们打交道。rpm包主要应用在RedHat系列包括 Fedora等发行版的Linux系统上，deb包主要应用于Debian系列包括现在比较流行的Ubuntu等发行版上。
+我们知道如果要安装现成的这两种包的话，安装rpm包的命令是“rpm -参数”，安装deb包的命令是“dpkg -参数”。而Linux系统很方便和人性化的一点就是很多软件或服务根本就不用我们去下载，直接使用相应的命令就可以管理了，应景的说一句，我觉得是很有 “云”的概念。
+   yum可以用于运作rpm包，例如在Fedora系统上对某个软件的管理：安装：yum install <package_name> 卸载：yum remove <package_name> 更新：yum update <package_name> apt-get可以用于运作deb包，例如在Ubuntu系统上对某个软件的管理：安装：apt-get install <package_name> 卸载：apt-get remove <package_name> 更新：apt-get update <package_name>
+一、        redhat安装yum
+在Linux Redhat 9.0使用YUM伺服器來管理rpm套件升級方法
+由於 Redhat 公司己經停止了對Linux Redhat 9.0的維護,
+所以我們這些使用者必須找到另一個方法去升級套件,
+這時使用YUM伺服器來管理rpm套件升級, 因為它可以避免套件間相依性而安裝失敗.
+要連線YUM伺服器必須要先要裝下列程式:
+yum-2.0.4-1.rh.fr.i386.rpm
+此檔案可到 http://ayo.freshrpms.net/ 網站下載,
+此一個檔案,之後到"終端機"內打入su再輸你root的密碼,
+進入root後,再打入下列指令:
+rpm -ivh yum-2.0.4-1.rh.fr.i386.rpm
+安裝完此程式後, 就可以使用列指令來使用YUM伺服器來管理rpm套件升級.
+yum update
+升級你的RPM套件, 此指令等同於apt-get update 加上apt-get install 的功能.
+yum install 安裝新的RPM套件.
+yum clean 清除己經完成安裝而不必要的暫存程式.
+yum remove 移除你的RPM套件.
+二、        yum的使用
+1.      Redhat的yum高级的包管理
+1）.用YUM安装删除软件
+装了系统添加删除软件是常事，yum同样可以胜任这一任务，只要软件是rpm安装的。安装的命令是，yum install xxx，yum会查询数据库，有无这一软件包，如果有，则检查其依赖冲突关系，如果没有依赖冲突，那么最好，下载安装;如果有，则会给出提示，询问是否要同时安装依赖，或删除冲突的包，你可以自己作出判断。删除的命令是，yum remove xxx，同安装一样，yum也会查询数据库，给出解决依赖关系的提示。
+2）.              用YUM安装软件包
+命令：yum install <package_name> 
+3）.              用YUM删除软件包
+命令：yum remove <package_name> 用YUM查询软件信息
+我 们常会碰到这样的情况，想要安装一个软件，只知道它和某方面有关，但又不能确切知道它的名字。这时yum的查询功能就起作用了。你可以用 yum search keyword这样的命令来进行搜索，比如我们要则安装一个Instant Messenger，但又不知到底有哪些，这时不妨用 yum search messenger这样的指令进行搜索，yum会搜索所有可用rpm的描述，列出所有描述中和messeger有关的rpm包，于是我们可能得到 gaim，kopete等等，并从中选择。有时我们还会碰到安装了一个包，但又不知道其用途，我们可以用yum info packagename这个指令来获取信息。
+1）.              使用YUM查找软件包
+命令：yum search <keyword> 
+2）.              列出所有可安装的软件包
+命令：yum list 
+3）.              列出所有可更新的软件包
+命令：yum list updates 
+4）.              列出所有已安装的软件包
+命令：yum list installed 
+5）.              列出所有已安装但不在 Yum Repository 內的软件包
+命令：yum list extras 
+6）.              列出所指定的软件包
+命令：yum list <package_name>
+ 
+三、        
+apt-get 的使用
+2.        Ubuntu中的高级包管理方法apt-get
+除了apt的便捷以外，apt-get的一大好处是极大地减小了所谓依赖关系恶梦的发生几率(dependency hell)，即使是陷入了dependency hell，apt-get也提供了很好的援助手段，帮你逃出魔窟。 
+通常 apt-get 都和网上的压缩包一起出没，从互联网上下载或是安装。全世界有超过200个 debian 官方镜像，还有繁多的非官方软件包提供网站。你所使用的基于D ebian的发布版不同，你所使用的软件仓库可能需要手工选择或是可以自动设置。你能从Debian官方网站得到完整的镜像列表。而很多非官方网站提供各种特殊用途的非官方软件包，当然，使用非官方软件包会有更多风险了。 
+软件包都是为某一个基本的Debian发布版所准备的(从unstable到stable)，并且划分到不同类别中(如 main contrib nonfree)，这个是依据 debian 自由软件纲领而划分的(也就是常说的dfsg)，因为美国限制加密软件出口，还有一个non-us类别。
+3.      常用的APT命令参数
+apt-cache search package  搜索包 
+apt-cache show package
+获取包的相关信息，如说明、大小、版本等
+sudo apt-get install package
+安装包 
+sudo apt-get install package - - reinstall 重新安装包 
+sudo apt-get -f install 修复安装"-f = --fix-missing" 
+sudo apt-get remove package 删除包 
+sudo apt-get remove package - - purge 删除包，包括删除配置文件等 
+sudo apt-get update 更新源 
+sudo apt-get upgrade 更新已安装的包 
+sudo apt-get dist-upgrade 升级系统 
+sudo apt-get dselect-upgrade 使用 dselect 升级 
+apt-cache depends package 了解使用依赖 
+apt-cache rdepends package 是查看该包被哪些包依赖 
+sudo apt-get build-dep package 安装相关的编译环境 
+apt-get source package 下载该包的源代码 
+sudo apt-get clean && sudo apt-get autoclean 清理无用的包 
+sudo apt-get check 检查是否有损坏的依赖
