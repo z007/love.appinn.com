@@ -50,6 +50,73 @@ SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="eth1-MAC", ATTR{
 * https://linux.cn/article-5341-1.html --安装完最小化 RHEL/CentOS 7 后需要做的 30 件事情（一）
 * https://linux.cn/article-5342-1.html --安装完最小化 RHEL/CentOS 7 后需要做的 30 件事情（一）
   * http://www.tecmint.com/centos-7-installation/  --图像界面安装
+  
+# 最小化英文 安装CentOS 7 后装中文  
+
+```
+
+安装完Centos 7之后，中文支持可以通过以下方法获得：
+
+yum groupinstall "Fonts"
+yum groupinstall "Input Methods"
+
+相比于老版本，"Chinese Support" group找不到了，这可能是让很多新手烦恼的地方。
+
+
+临时切换到(前提 安装好中文语言包)
+LANG=zh_CN.utf-8
+
+
+```
+# 挂载 本地安装镜像进行安装
+```
+mkdir /mnt/cdrom
+mount /dev/cdrom  /mnt/cdrom
+
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak
+
+CentOS-Media.repo
+
+[root@localhost yum.repos.d]# cat /etc/yum.repos.d/CentOS-Media.repo         
+#  This repo can be used with mounted DVD media, verify the mount point for
+#  CentOS-7.  You can use this repo and yum to install items directly off the
+#  DVD ISO that we release.
+#
+# To use this repo, put in your DVD and use it with the other repos too:
+#  yum --enablerepo=c7-media [command]
+#  
+# or for ONLY the media repo, do this:
+#
+#  yum --disablerepo=\* --enablerepo=c7-media [command]
+
+[c7-media]
+name=CentOS-$releasever - Media
+# 挂载路径
+
+baseurl=file:///mnt/cdrom
+# 后两行必须注释
+#        file:///media/cdrom/
+#        file:///media/cdrecorder/
+
+# 对安装文件进行对比防止被篡改
+gpgcheck=1
+
+# 必须开启 默认不开启 只有CentOS-Base.repo 默认为1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[root@localhost yum.repos.d]# 
+
+
+永久挂载  ?
+mount /dev/cdrom  /mnt/cdrom
+
+
+
+```
+
+
+
 
 # tool  
 * [Speedtest-CLI](http://www.tecmint.com/check-internet-speed-from-command-line-in-linux/)
