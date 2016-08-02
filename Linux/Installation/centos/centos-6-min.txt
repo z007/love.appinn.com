@@ -1,1 +1,138 @@
 
+1.启动网卡
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+
+ONBOOT=no
+改为
+ONBOOT=yes
+
+2.修改主机文件名
+vi /etc/sysconfig/network
+NETWORKING=yes
+HOSTNAME=localhost.localdomain
+改为
+HOSTNAME=centos6.8A
+==注释=========
+命令提示符（默认用户名主机名当前目录）
+命令提示符主机名不会立即生效
+hotname 命令也不会立即生效
+重启即可
+
+hostnmae 是 centos6 
+点和之后忽略了
+
+2.1 临时修改主机名 
+hostname   主机名
+
+3  DNS配置文件
+vi /etc/resolv.conf
+
+
+4. 克隆 后无法上网
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+#删除MAC地址行
+
+rm -rf /etc/udev/rules.d/70-persistent-net.rules 
+#删除网卡和MAC地址绑定文件
+
+重启系统
+
+
+# check OS type
+uname -o
+uname -m
+uname -r
+uanme -a
+man uname
+# check OS type
+ $HOSTNMAE
+# check Internal IP
+hostname -I
+# check Internal IP
+cul -s http://ipecho.net/plain
+# ping
+ping -c immoc.com
+# check DNS
+ cat  /etc/resolv.confv 
+ 
+ 
+ 
+
+
+更新
+
+CentOS
+
+1、备份
+
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+
+2、下载新的CentOS-Base.repo 到/etc/yum.repos.d/
+
+CentOS 5
+
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo
+CentOS 6
+
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo
+CentOS 7
+
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+3、之后运行
+yum clean all
+yum makecache
+生成缓存
+
+
+
+http://mirrors.163.com/.help/centos.html
+
+http://mirrors.aliyun.com/help/centos
+
+
+
+
+
+
+
+
+yum -y upgrade 和 yum -y update 区别
+
+
+
+分别测试yum -y upgrade和yum -y update
+
+升级前
+
+系统版本：  CentOS5.5
+
+内核版本：  2.6.18-194.el5
+
+升级前做过简单配置文件修改
+
+yum -y upgrade    升级后
+
+系统版本：    centos5.7
+
+内核版本：  2.6.18-194.el5
+
+系统和软件配置不做修改
+
+yum -y update    升级后
+
+系统版本：    centos5.7
+
+内核版本：    2.6.18-238.el5
+
+系统和软件配置文件更新
+
+结论：
+
+yum -y update
+
+升级所有包，改变软件设置和系统设置,系统版本内核都升级
+
+yum -y upgrade
+
+升级所有包，不改变软件设置和系统设置，系统版本升级，内核不改变
+
