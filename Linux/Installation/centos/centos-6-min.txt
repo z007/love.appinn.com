@@ -159,6 +159,7 @@ yum groupinstall "Input Methods"
 
 相比于老版本，"Chinese Support" group找不到了，这可能是让很多新手烦恼的地方。
 
+低版本在线安装中文字体也是此方式
 
 临时切换到(前提 安装好中文语言包)
 LANG=zh_CN.utf-8
