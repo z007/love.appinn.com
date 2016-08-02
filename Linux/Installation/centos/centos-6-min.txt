@@ -1,4 +1,4 @@
-
+====================1==================
 1.启动网卡
 vi /etc/sysconfig/network-scripts/ifcfg-eth0 
 
@@ -57,8 +57,10 @@ ping -c immoc.com
  
  
  
-
-
+远程连接 
+ssh：Xshell (语言设置utf-8)
+SFTP：winscp
+====================2========================
 更新
 
 CentOS
@@ -89,16 +91,7 @@ http://mirrors.163.com/.help/centos.html
 
 http://mirrors.aliyun.com/help/centos
 
-
-
-
-
-
-
-
 yum -y upgrade 和 yum -y update 区别
-
-
 
 分别测试yum -y upgrade和yum -y update
 
@@ -135,4 +128,40 @@ yum -y update
 yum -y upgrade
 
 升级所有包，不改变软件设置和系统设置，系统版本升级，内核不改变
+
+
+=================3=====================================
+centos 安装setup小工具
+#安装setuptool 
+yum install setuptool 
+
+#可以发现执行setup后不全，再安装一个用于系统服务管理 
+yum install ntsysv 
+
+#再安装个防火墙，以及setup中配套的防火墙设置、网络设置 
+yum install iptables 
+
+#安装setup中配套的防火墙设置 
+yum install system-config-securitylevel-tui 
+
+#安装setup中配套的网络设置 
+yum install system-config-network-tui
+
+========3.1 字体=========
+cento最小化安装不支持中文字体，要显示，必须先安装中文，然后通过远程连接工具显示
+最小化英文 安装CentOS 7 后装中文
+
+
+安装完Centos 7之后，中文支持可以通过以下方法获得：
+
+yum groupinstall "Fonts"
+yum groupinstall "Input Methods"
+
+相比于老版本，"Chinese Support" group找不到了，这可能是让很多新手烦恼的地方。
+
+
+临时切换到(前提 安装好中文语言包)
+LANG=zh_CN.utf-8
+
+
 
