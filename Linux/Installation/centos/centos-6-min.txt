@@ -28,7 +28,7 @@ hostname   主机名
 vi /etc/resolv.conf
 
 
-4. 克隆 后无法上网
+4. 克隆 后无法上网 修改UUID
 vi /etc/sysconfig/network-scripts/ifcfg-eth0 
 #删除MAC地址行
 
@@ -36,6 +36,8 @@ rm -rf /etc/udev/rules.d/70-persistent-net.rules
 #删除网卡和MAC地址绑定文件
 
 重启系统
+
+
 
 
 # check OS type
@@ -54,9 +56,14 @@ cul -s http://ipecho.net/plain
 ping -c immoc.com
 # check DNS
  cat  /etc/resolv.confv 
- 
- 
- 
+
+关闭网卡
+ifdown 网卡设备名
+#禁用网卡
+
+ifup 网卡设备名
+# 启用网卡
+
 远程连接 
 ssh：Xshell (语言设置utf-8)
 SFTP：winscp
@@ -165,4 +172,116 @@ yum groupinstall "Input Methods"
 LANG=zh_CN.utf-8
 
 
+==============4 修改linux提示符=============================
+$ vi ~/.bashrc
+		#在文件最后添加如下设置
+		export  PS1='\[[\e[1;31m\]\A\u@\[\e[36m\]\h \w]\$'
+		$ source ~/.bashrc #使其设置生效
 
+
+     \d ：代表日期，格式为weekday month date，例如："Mon Aug 1"
+　　\H ：完整的主机名称。例如：我的机器名称为：fc4.linux，则这个名称就是fc4.linux
+　　\h ：仅取主机的第一个名字，如上例，则为fc4，.linux则被省略
+　　\t ：显示时间为24小时格式，如：HH：MM：SS
+　　\T ：显示时间为12小时格式
+　　\A ：显示时间为24小时格式：HH：MM
+　　\u ：当前用户的账号名称
+　　\v ：BASH的版本信息
+　　\w ：完整的工作目录名称。家目录会以 ~代替
+　　\W ：利用basename取得工作目录名称，所以只会列出最后一个目录
+　　\# ：下达的第几个命令
+　　\$ ：提示字符，如果是root时，提示符为：# ，普通用户则为：$
+
+ 颜色设置
+ 颜色设置
+	在PS1中设置字符序列颜色的格式为：[\e[F;Bm]
+	其中“F”为字体颜色，编号30~37；“B”为背景色，编号40~47。
+
+	颜色表：
+		前景   背景      颜色
+		 ------------------------
+		 30      40      黑色   
+		 31      41      红色   
+		 32      42      绿色   
+		 33      43      ***   
+		 34      44      蓝色   
+		 35      45      紫红色   
+		 36      46      青蓝色   
+		 37      47      白色  
+	效果控制代码：
+		代码              意义   
+		-------------------------   
+		0                 OFF   
+		1                 高亮显示   
+		4                 underline   
+		5                 闪烁   
+		7                 反白显示   
+		8                 不可见  
+
+	
+	说明：
+		‘\[\e[32m\]’用来设置‘#\##’的颜色为绿色，#\##就是显示现在运行的是第几条命令
+		‘[\e[31m\]’设置‘\u@’的颜色为红色并高亮显示，如果指定多个数字需要用分号隔开。\u@ 就是当前登录的用户名后跟一个‘@’符号。
+		‘\[\e[36m\]’设置‘\h\w’为青蓝色，\h表示主机名的第一位，如果主机名为centos6.lampbo.org，那么就显示centos6；\w将显示完整的绝对路径。
+		‘\$’ 提示字符，如果是root时，提示符为：# ，普通用户则为：$。
+		‘\[\e[m\]’使用来关闭颜色设置的。要是你没有这个的话；那么，你的命令提示符，包括你通过命令提示符输出的东西都是和最后一次的颜色设置相同。
+
+
+==================5 时间校正================================
+# 设置时区
+vim /etc/sysconfig/clock
+ZONE="America/New_York"       <==改的是這裡啦！
+#ZONE="Asia/Shanghai"
+
+# 安装时间伺服器
+yum install ntp
+[17:09root@centos68B ~]#/etc/init.d/ntpd start
+
+
+
+ hwclock [-rw]
+
+-r ：亦即 read ，读出目前 BIOS 內的時間参数；
+-w ：亦即 write ，将目前的 Linux 系统时间写入 BIOS 当中啊！
+
+# 2. 查阅 BIOS 时间，並且写入更改过的时间里！
+[root ~]# date; hwclock -r
+Thu Jul 28 16:34:00 CST 2011
+Thu 28 Jul 2011 03:34:57 PM CST  -0.317679 seconds
+# 看一看，是否刚好差约一个小時！这就是 BIOS 时间！
+
+[root ~]# hwclock -w; hwclock -r; date
+Thu 28 Jul 2011 04:35:12 PM CST  -0.265656 seconds
+Thu Jul 28 16:35:11 CST 2011
+# 软件时区硬件时区就同步了！
+
+
+
+==================6 添加用户==========================
+useradd -m  xiao 
+passwd 
+
+su xiao
+ls 
+显示 ls: cannot open directory .: Permission denied
+
+执行 visudo
+# User privilege specification 
+root    ALL=(ALL) ALL 
+xiao    ALL=(ALL) ALL                  <==这一行可以加入，使 xiao 这个人可以使用 sudo
+
+http://www.111cn.net/sys/CentOS/54007.htm
+http://www.centoscn.com/CentOS/Intermediate/2013/0803/929.html
+http://linux.vbird.org/linux_basic/0410accountmanager.php#visudo
+
+
+================7===============================
+
+X window图文字模式的切换
+
+那這六個终端介面如何命名呢，系統会将[F1] ~ [F6]命名为tty1 ~ tty6的操作介面环境。
+
+[Ctrl] + [Alt] + [F2] ~ [F6] ：文字介面登入 tty2 ~ tty6 终端；
+[Ctrl] + [Alt] + [F1] ：图形介面桌面。
+
+http://linux.vbird.org/linux_basic/0160startlinux.php#manual_man
