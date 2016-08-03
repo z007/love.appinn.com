@@ -1,0 +1,8 @@
+ubuntu
+
+chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+安装完毕chrome会有问题如图标
+自动需修复
+sudo apt-get -f install
