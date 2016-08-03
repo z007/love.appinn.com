@@ -285,3 +285,14 @@ X window图文字模式的切换
 [Ctrl] + [Alt] + [F1] ：图形介面桌面。
 
 http://linux.vbird.org/linux_basic/0160startlinux.php#manual_man
+
+=================7 sudo !!========= ranger 浏览文件系统===================
+ SUDO !!
+sudo 这个命令权限委派，在自己平时练习的环境可能遇到的少，但是在企业环境中经常遇到这个命令。因为如果你不知道的话，那每次你在输入长串命令后看到“permission denied”后一定会痛苦不堪。 如何使用sudo !!?很简单。试想你刚输入了如下命令：
+
+apt-get install ranger
+一定会出现“Permission denied”，除非你已经登录了足够高权限的账户。
+
+sudo !!就会用sudo的形式运行上一条命令。所以上一条命令就变成了这样：
+sudo apt-get install ranger
+
