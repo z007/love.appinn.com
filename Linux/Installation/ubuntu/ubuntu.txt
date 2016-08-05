@@ -1,8 +1,137 @@
 ubuntu
 
-chrome
+1.设置root 密码 
+sudo passwd
+
+2. 升级
+首次更新源
+sudo apt-get update
+可能出现问题
+进入root
+su
+apt-get update #更新源
+
+切回普通用户
+su  username
+
+
+
+安装包 
+sudo apt-get install package - - reinstall 重新安装包 
+sudo apt-get -f install 修复安装"-f = --fix-missing" 
+sudo apt-get remove package 删除包 
+sudo apt-get remove package - - purge 删除包，包括删除配置文件等 
+sudo apt-get update 更新源 
+sudo apt-get upgrade 更新已安装的包 
+sudo apt-get dist-upgrade 升级系统 
+sudo apt-get dselect-upgrade 使用 dselect 升级 
+apt-cache depends package 了解使用依赖 
+apt-cache rdepends package 是查看该包被哪些包依赖 
+sudo apt-get build-dep package 安装相关的编译环境 
+apt-get source package 下载该包的源代码 
+sudo apt-get clean && sudo apt-get autoclean 清理无用的包 
+sudo apt-get check 检查是否有损坏的依赖
+
+3. ssh 登陆
+sudo apt-get update
+sudo apt-get install openssh-server
+
+查看ssh服务是否启动
+打开"终端窗口"，输入"sudo ps -e |grep ssh"-->回车-->有sshd,说明ssh服务已经启动，如果没有启动，输入"sudo service ssh start"-->回车-->ssh服务就会启动。
+
+使用gedit修改配置文件"/etc/ssh/sshd_config"
+打开"终端窗口"，输入"sudo gedit /etc/ssh/sshd_config"-->回车-->把配置文件中的"PermitRootLogin without-password"加一个"#"号,把它注释掉-->再增加一句"PermitRootLogin yes"-->保存，修改成功。
+
+
+查看Ubuntu的IP地址
+打开"终端窗口"，输入"sudo ifconfig"-->回车-->就可以查看到IP地址。
+
+
+4.
+sudo apt-get  install git 
+
+5. chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 安装完毕chrome会有问题如图标
-自动需修复
+
+修复安装
 sudo apt-get -f install
+(安装后会出现无chrome logo图标
+解决方案
+sudo apt-get install libappindicator3-1
+（这是lantern 安装后鼠标点击无响应的解决方式 ）
+会提示执行 sudo apt-get -f install
+安装完成 登出 然后重新登入 可以看见chrome图标出现了)
+
+
+5.1 新立得
+sudo apt-get instal synaptic
+
+6. 有趣命令
+
+7.隐私设置
+
+8. security
+
+8.1 bettercap
+https://github.com/evilsocket/bettercap
+
+sudo apt-get install build-essential ruby-dev libpcap-dev
+
+
+8.11更换源
+（也适合 为什么更新了淘宝的源，可是显示的还是ruby的源 问题）
+
+$ gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+$ gem sources -l
+*** CURRENT SOURCES ***
+
+https://ruby.taobao.org
+# 请确保只有 ruby.taobao.org
+
+8.12
+sudo gem install bettercap
+
+8.13
+
+bettercap --sniffer 
+bettercap -I wlan0 --sniffer 
+bettercap  -T ip --proxy -P POST
+bettercap -I wlan0  -T ip --proxy -P POST
+bettercap -T 192.168.1.2 --kill
+bettercap -I wlan0 -T 192.168.2.102 --kill
+bettercap  -T ip  -x
+
+bettercap -X -O /root/test
+
+
+
+Logging
+These options determine how bettercap console logger is going to behave.
+
+Examples
+Save log output to the out.log file:
+
+sudo bettercap --log out.log
+
+Save log output to the out.log file and suppress terminal output:
+
+sudo bettercap --log out.log --silent
+
+Save log output to the out-ts.log file and enable timestamps for each line:
+
+sudo bettercap --log-timestamp --log out-ts.log
+
+Options
+-O, --log LOG_FILE
+Log all messages into a file, if not specified the log messages will be only print into the shell.
+
+--log-timestamp
+Enable logging with timestamps for each line, disabled by default.
+
+-D, --debug
+Enable debug logging, it is good practice to use this option while reporting a bug in order to have the full debug log of the program.
+
+--silent
+Suppress every message which is not an error or a warning, default to false.
