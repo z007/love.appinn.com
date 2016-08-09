@@ -64,9 +64,241 @@ ifdown 网卡设备名
 ifup 网卡设备名
 # 启用网卡
 
+netstat命令用来打印Linux中网络系统的状态信息，可让你得知整个Linux系统的网络情况。
+
+-t : 列出TCP协议端口
+-u : 列出UDP协议端口
+-n : 直接使用ip地址，而不通过域名服务器；
+-l : 仅列出在监听状态网络服务
+-a : 列出所有的网络连接
+
+netstat -tuln
+
+netstat -an 
+
+netstat -an | grep ESTABLELISHED
+
+LISTEN  监听状态
+ESTABLISHED 状态代表连接已经存在
+
+ESTABLISHED 的行数
+netstat -an | grep ESTABLELISHED | wc -l
+
+
+查看路由表（可以看到网关）
+netstat -rn  同样功能  route -n 
+
+此功能一般不用 临时设定网关
+route add default gw 192.168.1.1
+删除
+route del default gw 192.168.1.1
+
+service network restart
+
+注意： 在一台服务器里，连内网的网卡是不能设置网关的。切记！
+
+
+yum 如何查询套件
+
+$ nslookup www.google.com
+bash: nslookup: command not found
+
+
+The minimal install likely did not come with the bind-utils package, which I believe contains nslookup.
+
+You can install bind-utils with:
+
+sudo yum install bind-utils
+In general, you can search for what package provides a command using the yum provides command:
+
+sudo yum provides nslookup
+
+You can use "*/nslookup" and/or "*bin/nslookup" to get that behaviour
+
+sudo yum provides '*bin/nslookup'
+
+同理 lsb-release
+sudo yum provides '*bin/lsb-release'
+
+
+
+ lsb_release lsb_release命令内核与模块管理 LSB是Linux Standard Base的缩写，lsb_release命令用来显示LSB和特定版本的相关信息。
+ 如果使用该命令时不带参数，则默认加上-v参数。 -v 显示版本信息。 
+ -i 显示发行版的id。
+  -d 显示该发行版的描述信息。 
+  -r 显示当前系统是发行版的具体版本号。
+   -c 发行版代号。
+    -a 显示上面的所有信息。 
+    -h 显示帮助信息。
+
+来自: http://man.linuxde.net/lsb_release
+
+man  lsb-release
+
+no informan
+
+yum install man
+
+
 远程连接 
 ssh：Xshell (语言设置utf-8)
 SFTP：winscp
+
+
+SSH 命令
+ssh  用户名@ip
+#远程管理制定Linux服务器
+
+登录文件信息在此文件记录
+/root/.ssh/known_hosts
+
+
+scp  [-r] 用户名@ip:文件路径 本地路径
+#下载文件
+
+scp  [-r] 本地路径 用户名@ip:文件路径 
+#上传文件
+
+
+wget -c  imooc.com
+
+file index.html
+
+mv index.html index
+
+file
+
+linux 文件类型与后缀没太大关系
+
+less  的使用方式与 man 打开文档查看方式类似  也与 vi 类似
+
+压缩解压
+
+zip
+
+zip  a.txt a.zip
+unzip a.zip
+
+tar -cvf log.tar log2012.log 仅打包，不压缩！
+
+ tar -zcvf log.tar.gz log2012.log 打包后，以 gzip 压缩
+ tar -zxvf log.tar.gz log2012.log 打包后，以 gzip 解压缩
+ tar -jcvf log.tar.bz2 log2012.log 打包后，以 bzip2 压缩
+ tar -jxvf log.tar.bz2 log2012.log 打包后，以 bzip2 解压缩
+ tar –cZf jpg.tar.Z *.jpg   将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z
+ tar –xZvf file.tar.Z   解压tar.Z
+
+ 压　缩：tar -jcv -f filename.tar.bz2 要被压缩的文件或目录名称
+ 查　询：tar -jtv -f filename.tar.bz2
+ 解压缩：tar -jxv -f filename.tar.bz2 -C 欲解压缩的目录
+
+来自: http://man.linuxde.net/tar
+
+
+
+
+
+$tar -zxvf ***.tar.gz //以gz结尾
+$tar -xjvf ***.tar.bz2 //以bz2结尾
+$tar -xvjf ***.tar.xz //以xz结尾
+
+再顺便讲解一下tar的用法：
+-c: 建立压缩档案
+-x：解压
+-t：查看内容
+-r：向压缩归档文件末尾追加文件
+-u：更新原压缩包中的文件
+这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。下面的参数是根据需要在压缩或解压档案时可选的。
+-z：有gzip属性的
+-j：有bz2属性的
+-Z：有compress属性的
+-v：显示所有过程
+-O：将文件解开到标准输出
+下面的参数-f是必须的
+-f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。
+# tar -cf all.tar *.jpg 
+这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。
+# tar -rf all.tar *.gif 
+这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。
+# tar -uf all.tar logo.gif 
+这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。
+# tar -tf all.tar 
+这条命令是列出all.tar包中所有文件，-t是列出文件的意思
+# tar -xf all.tar 
+这条命令是解出all.tar包中所有文件，-x是解开的意思
+
+压缩pwd
+tar –cvf jpg.tar *.jpg  将目录里所有jpg文件打包成tar.jpg
+tar –czf jpg.tar.gz *.jpg   将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gz
+tar –cjf jpg.tar.bz2 *.jpg 将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2
+tar –cZf jpg.tar.Z *.jpg   将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z
+rar a jpg.rar *.jpg rar格式的压缩，需要先下载rar for linux
+zip jpg.zip *.jpg   zip格式的压缩，需要先下载zip for linux 
+解压
+tar –xvf file.tar  解压 tar包
+tar -xzvf file.tar.gz 解压tar.gz
+tar -xjvf file.tar.bz2   解压 tar.bz2
+tar –xZvf file.tar.Z   解压tar.Z
+unrar e file.rar 解压rar
+unzip file.zip 解压zip
+
+总结
+*.tar 用 tar –xvf 解压
+*.gz 用 gzip -d或者gunzip 解压
+*.tar.gz和*.tgz 用 tar –xzf 解压
+*.bz2 用 bzip2 -d或者用bunzip2 解压
+*.tar.bz2用tar –xjf 解压
+*.Z 用 uncompress 解压
+*.tar.Z 用tar –xZf 解压
+*.rar 用 unrar e解压
+*.zip 用 unzip 解压
+
+
+
+
+cat   重定向 
+
+
+cat m1 （在屏幕上显示文件ml的内容）
+cat m1 m2 （同时显示文件ml和m2的内容）
+ at m1 m2 > file （将文件ml和m2合并后放入文件file中）
+
+ 0 —— stdin（标准输入）
+1 —— stdout（标准输出）
+2 —— stderr（标准错误）
+
+重定向将输入文本通过追加模式保存到文件：
+
+echo "this is a text line one" >> test.txt
+写入到文件之后，会追加到文件结尾。
+
+
+
+标准错误输出：
+
+[root@localhost text]# cat linuxde.net
+cat: linuxde.net: No such file or directory
+标准错误输出的重定向方法：
+
+方法一：
+[root@localhost text]# cat linuxde.net 2> out.txt  //没有任何错误提示，正常运行。
+方法二：
+[root@localhost text]# cat linuxde.net &> out.txt
+因为错误信息被保存到了out.txt文件中。
+
+[root@localhost text]# cat linuxde.net 2> /dev/null
+将错误输出丢弃到/dev/null中，/dev/null是一个特殊的设备文件，这个文件接受到任何数据都会被丢系，通常被称为位桶、黑洞。
+
+
+tee命令
+tee命令可以将数据重定向到文件，另一方面还可以提供一份重定向数据的副本作为后续命令的stdin。
+在终端打印stdout同时重定向到文件中：
+
+ls | tee out.txt | cat -n
+     1  1.sh
+     2  1.txt
+     3  2.txt
+
 ====================2========================
 更新
 
@@ -166,7 +398,7 @@ yum groupinstall "Input Methods"
 
 相比于老版本，"Chinese Support" group找不到了，这可能是让很多新手烦恼的地方。
 
-低版本在线安装中文字体也是此方式
+低版本在线安装中文字体也可以是此方式
 
 临时切换到(前提 安装好中文语言包)
 LANG=zh_CN.utf-8
