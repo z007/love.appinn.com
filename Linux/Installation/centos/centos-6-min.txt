@@ -528,3 +528,6 @@ apt-get install ranger
 sudo !!就会用sudo的形式运行上一条命令。所以上一条命令就变成了这样：
 sudo apt-get install ranger
 
+===================tmux ===========================================
+
+tmux -a
