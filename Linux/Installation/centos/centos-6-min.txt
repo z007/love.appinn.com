@@ -1,6 +1,6 @@
 ====================1==================
 1.启动网卡
-vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
 
 ONBOOT=no
 改为
@@ -18,10 +18,10 @@ HOSTNAME=centos6.8A
 hotname 命令也不会立即生效
 重启即可
 
-hostnmae 是 centos6 
+hostnmae 是 centos6
 点和之后忽略了
 
-2.1 临时修改主机名 
+2.1 临时修改主机名
 hostname   主机名
 
 3  DNS配置文件
@@ -29,10 +29,10 @@ vi /etc/resolv.conf
 
 
 4. 克隆 后无法上网 修改UUID
-vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
 #删除MAC地址行
 
-rm -rf /etc/udev/rules.d/70-persistent-net.rules 
+rm -rf /etc/udev/rules.d/70-persistent-net.rules
 #删除网卡和MAC地址绑定文件
 
 重启系统
@@ -55,7 +55,7 @@ cul -s http://ipecho.net/plain
 # ping
 ping -c immoc.com
 # check DNS
- cat  /etc/resolv.confv 
+ cat  /etc/resolv.confv
 
 关闭网卡
 ifdown 网卡设备名
@@ -74,7 +74,7 @@ netstat命令用来打印Linux中网络系统的状态信息，可让你得知�
 
 netstat -tuln
 
-netstat -an 
+netstat -an
 
 netstat -an | grep ESTABLELISHED
 
@@ -86,7 +86,7 @@ netstat -an | grep ESTABLELISHED | wc -l
 
 
 查看路由表（可以看到网关）
-netstat -rn  同样功能  route -n 
+netstat -rn  同样功能  route -n
 
 此功能一般不用 临时设定网关
 route add default gw 192.168.1.1
@@ -123,12 +123,12 @@ sudo yum provides '*bin/lsb-release'
 
 
  lsb_release lsb_release命令内核与模块管理 LSB是Linux Standard Base的缩写，lsb_release命令用来显示LSB和特定版本的相关信息。
- 如果使用该命令时不带参数，则默认加上-v参数。 -v 显示版本信息。 
+ 如果使用该命令时不带参数，则默认加上-v参数。 -v 显示版本信息。
  -i 显示发行版的id。
-  -d 显示该发行版的描述信息。 
+  -d 显示该发行版的描述信息。
   -r 显示当前系统是发行版的具体版本号。
    -c 发行版代号。
-    -a 显示上面的所有信息。 
+    -a 显示上面的所有信息。
     -h 显示帮助信息。
 
 来自: http://man.linuxde.net/lsb_release
@@ -140,7 +140,7 @@ no informan
 yum install man
 
 
-远程连接 
+远程连接
 ssh：Xshell (语言设置utf-8)
 SFTP：winscp
 
@@ -216,15 +216,15 @@ $tar -xvjf ***.tar.xz //以xz结尾
 -O：将文件解开到标准输出
 下面的参数-f是必须的
 -f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。
-# tar -cf all.tar *.jpg 
+# tar -cf all.tar *.jpg
 这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。
-# tar -rf all.tar *.gif 
+# tar -rf all.tar *.gif
 这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。
-# tar -uf all.tar logo.gif 
+# tar -uf all.tar logo.gif
 这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。
-# tar -tf all.tar 
+# tar -tf all.tar
 这条命令是列出all.tar包中所有文件，-t是列出文件的意思
-# tar -xf all.tar 
+# tar -xf all.tar
 这条命令是解出all.tar包中所有文件，-x是解开的意思
 
 压缩pwd
@@ -233,7 +233,7 @@ tar –czf jpg.tar.gz *.jpg   将目录里所有jpg文件打包成jpg.tar后，�
 tar –cjf jpg.tar.bz2 *.jpg 将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2
 tar –cZf jpg.tar.Z *.jpg   将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z
 rar a jpg.rar *.jpg rar格式的压缩，需要先下载rar for linux
-zip jpg.zip *.jpg   zip格式的压缩，需要先下载zip for linux 
+zip jpg.zip *.jpg   zip格式的压缩，需要先下载zip for linux
 解压
 tar –xvf file.tar  解压 tar包
 tar -xzvf file.tar.gz 解压tar.gz
@@ -256,7 +256,7 @@ unzip file.zip 解压zip
 
 
 
-cat   重定向 
+cat   重定向
 
 
 cat m1 （在屏幕上显示文件ml的内容）
@@ -371,19 +371,19 @@ yum -y upgrade
 
 =================3=====================================
 centos 安装setup小工具
-#安装setuptool 
-yum install setuptool 
+#安装setuptool
+yum install setuptool
 
-#可以发现执行setup后不全，再安装一个用于系统服务管理 
-yum install ntsysv 
+#可以发现执行setup后不全，再安装一个用于系统服务管理
+yum install ntsysv
 
-#再安装个防火墙，以及setup中配套的防火墙设置、网络设置 
-yum install iptables 
+#再安装个防火墙，以及setup中配套的防火墙设置、网络设置
+yum install iptables
 
-#安装setup中配套的防火墙设置 
-yum install system-config-securitylevel-tui 
+#安装setup中配套的防火墙设置
+yum install system-config-securitylevel-tui
 
-#安装setup中配套的网络设置 
+#安装setup中配套的网络设置
 yum install system-config-network-tui
 
 ========3.1 字体=========
@@ -432,25 +432,25 @@ $ vi ~/.bashrc
 	颜色表：
 		前景   背景      颜色
 		 ------------------------
-		 30      40      黑色   
-		 31      41      红色   
-		 32      42      绿色   
-		 33      43      ***   
-		 34      44      蓝色   
-		 35      45      紫红色   
-		 36      46      青蓝色   
-		 37      47      白色  
+		 30      40      黑色
+		 31      41      红色
+		 32      42      绿色
+		 33      43      ***
+		 34      44      蓝色
+		 35      45      紫红色
+		 36      46      青蓝色
+		 37      47      白色
 	效果控制代码：
-		代码              意义   
-		-------------------------   
-		0                 OFF   
-		1                 高亮显示   
-		4                 underline   
-		5                 闪烁   
-		7                 反白显示   
-		8                 不可见  
+		代码              意义
+		-------------------------
+		0                 OFF
+		1                 高亮显示
+		4                 underline
+		5                 闪烁
+		7                 反白显示
+		8                 不可见
 
-	
+
 	说明：
 		‘\[\e[32m\]’用来设置‘#\##’的颜色为绿色，#\##就是显示现在运行的是第几条命令
 		‘[\e[31m\]’设置‘\u@’的颜色为红色并高亮显示，如果指定多个数字需要用分号隔开。\u@ 就是当前登录的用户名后跟一个‘@’符号。
@@ -490,16 +490,16 @@ Thu Jul 28 16:35:11 CST 2011
 
 
 ==================6 添加用户==========================
-useradd -m  xiao 
-passwd 
+useradd -m  xiao
+passwd
 
 su xiao
-ls 
+ls
 显示 ls: cannot open directory .: Permission denied
 
 执行 visudo
-# User privilege specification 
-root    ALL=(ALL) ALL 
+# User privilege specification
+root    ALL=(ALL) ALL
 xiao    ALL=(ALL) ALL                  <==这一行可以加入，使 xiao 这个人可以使用 sudo
 
 http://www.111cn.net/sys/CentOS/54007.htm
@@ -518,7 +518,7 @@ X window图文字模式的切换
 
 http://linux.vbird.org/linux_basic/0160startlinux.php#manual_man
 
-=================7 sudo !!========= ranger 浏览文件系统===================
+=================7.1 sudo !!========= ranger 浏览文件系统===================
  SUDO !!
 sudo 这个命令权限委派，在自己平时练习的环境可能遇到的少，但是在企业环境中经常遇到这个命令。因为如果你不知道的话，那每次你在输入长串命令后看到“permission denied”后一定会痛苦不堪。 如何使用sudo !!?很简单。试想你刚输入了如下命令：
 
@@ -528,6 +528,427 @@ apt-get install ranger
 sudo !!就会用sudo的形式运行上一条命令。所以上一条命令就变成了这样：
 sudo apt-get install ranger
 
-===================tmux ===========================================
+
+
+=====================7.2 Linux系统的启动级别==============================
+from http://www.cnblogs.com/xiaoluo501395377/archive/2013/04/01/2992755.html
+
+对于绝大多数Linux程序员来说，进入Linux系统后一般看到的是黑乎乎的界面(开发模式)，因为系统如果启动选择开发模式，会减少启动时间，优化内存等。但是通常我们刚安装完Linux系统，然后进去以后是图形的界面，(如果要切换到开发模式，使用快捷键Ctrl + F2即可)，从开发模式返回到图形界面则使用快捷键(Ctrl + F1)，或者在命令行里输入命令 startx 命令就可以切换到图形界面。
+
+注意：如果你是开机启动模式设置的是图形界面启动，则通过快捷键( Ctrl + Alt + F2~F7 )进入到终端界面后，
+你输入命令 startx 是返回不了图形界面的。但是如果你开机启动模式设置的是开发模式，则输入命令 statx 就可以返回到图形界面
+Linux系统设置系统启动模式的方式可以修改(必须要以root身份登录才能修改)。修改系统启动模式的配置文件是   /etc/inittab。
+
+我们在切换到root用户后，然后 vi /etc/inittab, 就可以修改并查看该配置文件：
+
+[root@xiaoluo ~]:# vi /etc/inittab
+在输入上面的命令后，我们可以看到该配置文件里面的信息如下：
+
+# inittab is only used by upstart for the default runlevel.
+#
+# ADDING OTHER CONFIGURATION HERE WILL HAVE NO EFFECT ON YOUR SYSTEM.
+#
+# System initialization is started by /etc/init/rcS.conf
+#
+# Individual runlevels are started by /etc/init/rc.conf
+#
+# Ctrl-Alt-Delete is handled by /etc/init/control-alt-delete.conf
+#
+# Terminal gettys are handled by /etc/init/tty.conf and /etc/init/serial.conf,
+# with configuration in /etc/sysconfig/init.
+#
+# For information on how to write upstart event handlers, or how
+# upstart works, see init(5), init(8), and initctl(8).
+#
+# Default runlevel. The runlevels used are:
+#   0 - halt (Do NOT set initdefault to this)
+#   1 - Single user mode
+#   2 - Multiuser, without NFS (The same as 3, if you do not have networking)
+#   3 - Full multiuser mode
+#   4 - unused
+#   5 - X11
+#   6 - reboot (Do NOT set initdefault to this)
+#
+id:5:initdefault:
+~                     
+我们之间看到最后那几行，就可以看到Linux系统中默认的系统启动基本一共有7种，分别是：
+
+0：关机(不要设置这个！)
+1：单用户(类似于windows操作系统的安全模式)
+2：多用户状态没有网络服务     
+3：多用户状态由网络服务(在做开发时，通常设置成这个启动级别，直接进入到命令行的界面)
+4：系统未使用保留给用户(不要设置这个！)       
+5：图形界面(这是linux默认的启动级别，直接进入图形界面)
+6：系统重启(不要设置这个！)
+
+下面那句：
+
+id:5:initdefault:   // 设置系统默认的启动级别
+就是用来设定系统的默认启动级别，Linux系统中默认是启动级别5，也就是图形界面启动
+
+如果需要修改成默认级别为开发模式，只需要将 5 改成 3 即可
+
+如：
+
+将 id:5:initdefault:  改成   id:3:initdefault:
+然后保存退出，重新启动一下系统 输入  reboot 命令即可。
+
+警告：千万不要将启动基本设置为0， 4， 6！！！！！！
+
+这时就会发现进入Linux系统的界面已经变成开发者模式了！
+
+如果我们只是需要在Linux上做开发、部署项目的话，建议一般将系统启动模式设置为 开发模式！
+
+【注】
+如果有恶意用户将系统启动级别设置成0、4、6，我们该怎么解决这个问题？
+
+在linux系统启动界面，我们快速按键盘上的 【e】 按钮，然后进入到了grub引导界面(这个根据Linux的版本可能有不同，我的CentOS6.4是需要在启动时按F2进入引导界面，
+这个可以根据自己安装的Linux系统在开机时的提示进入引导界面)，
+在这个界面中选择第二个选项，然后再按下键盘上的 【e】按钮，在进入修改界面后，在最后输入【 1】(1前面有空格)
+这样，linux系统在启动时就会以 单用户级别 启动起来(为什么这里不将其设置成3或者5，是因为linux系统
+在启动时首先会去检查 /etc/inittab 文件的设定启动级别，如果在这时设置成5或者3，系统还是进不去，只能设置成1)
+在设置好以后，按下键盘的【b】按钮，系统就能重新启动，并进入 单用户级别，这样我们就可以按照之前的方法修改
+linux系统的启动级别。
+
+
+============================7.2 单用户模式下修改Root用户的密码===============================
+from http://www.cnblogs.com/xiaoluo501395377/archive/2013/05/19/3087664.html
+
+在linux系统启动界面，我们快速按键盘上的 【e】 按钮，然后进入到了grub引导界面(这个根据Linux的版本可能有不同，我的CentOS6.4是需要在启动时按F2进入引导界面，
+这个可以根据自己安装的Linux系统在开机时的提示进入引导界面)，
+在这个界面中选择第二个选项，然后再按下键盘上的 【e】按钮，在进入修改界面后，在最后输入【 1】(1前面有空格)
+然后我们回车，进入到上层的界面，此时按下键盘上的 b 键就是启动操作系统，此时我们的Linux操作系统就是以单用户的模式登陆了。
+我们发现系统非常快速的就进入到了命令行模式下的界面，因为单用户模式是不会启动任何服务的，同时也不需要输入root密码，
+就能直接进入到root用户下，此时我们就可以通过passwd 命令来重置我们的root用户的密码
+
+
+然后我们通过exit命令就可以退出单用户模式，此时操作系统内核就会根据我们之前看到的 /etc/inittab 配置文件中设置的默认启动级别来启动。
+
+
+这样我们就可以通过在进入GRUB引导时在内核参数里面追加参数 1 或者 single 来进入单用户模式来修改我们的root用户密码。
+
+但是，请注意，因为上面的操作只需要通过单用户模式就可以修改我们的root用户密码，所以说一旦别人有机会接触到我们的服务器主机，那么root用户的密码就很容易被别人修改了，这样当然是非常的不安全的，所以我们还是需要通过GRUB加密来对开启一层密码防护。
+
+通过在 /boot/grub/grub.conf 启动配置中加入以下类似的代码来对grub进行加密：
+
+password --md5 $1$6H92B1$PzoPV63kTMk4uEhZQTAZ//
+其中后面那一串是MD5加密算法，这个我们可以通过 grub-md5-crypt 这个命令来生成加密后的算法
+
+[root@xiaoluo ~]# grub-md5-crypt 
+Password: 
+Retype password: 
+$1$UGA2B1$DriIdrVTEgVg95fHHX4H./
+[root@xiaoluo ~]# 
+在上面的Password、Retype password那里输入我们需要设置的密码，然后就能生成MD5算法加密后的密码，我们将这个加密后的密码添加到
+
+/boot/grub/grub.conf 这个配置文件里即可，例如：
+
+复制代码
+[root@xiaoluo ~]# vi /boot/grub/grub.conf 
+password --md5 $1$UGA2B1$DriIdrVTEgVg95fHHX4H./
+
+# grub.conf generated by anaconda
+#
+# Note that you do not have to rerun grub after making changes to this file
+# NOTICE:  You do not have a /boot partition.  This means that
+#          all kernel and initrd paths are relative to /, eg.
+#          root (hd0,1)
+#          kernel /boot/vmlinuz-version ro root=/dev/sda2
+#          initrd /boot/initrd-[generic-]version.img
+#boot=/dev/sda
+default=0
+timeout=5
+splashimage=(hd0,1)/boot/grub/splash.xpm.gz
+hiddenmenu
+title CentOS (2.6.32-358.el6.x86_64)
+        root (hd0,1)
+        kernel /boot/vmlinuz-2.6.32-358.el6.x86_64 ro root=UUID=6e24ec7a-2d19-466e-bacc-92750b1f4bef rd_NO_LUKS rd_NO_LVM LANG=en_US.UTF-8 rd_NO_MD SYSFONT=latarcyrheb-sun16 crashkernel=auto  KEYBOARDTYPE=pc KEYTABLE=us rd_NO_DM rhgb quiet
+        initrd /boot/initramfs-2.6.32-358.el6.x86_64.img
+复制代码
+
+这个时候我们再次重启一下系统，试着进入到GRUB里面来看看，
+
+我们发现下面的英文提示已经变了，之前可以按键盘上的 e 键进入到GRUB里面，现在按 e 键已经没用了，此时提示我们按 p 键来输入GRUB的密码才能进入到GRUB里面
+
+
+此时我们输入之前设置的GRUB密码即可，然后界面就会进入到我们熟悉的修改GRUB那里了。
+
+所以说通过GRUB的加密算法我们可以对进入GRUB进行加密，这样就能防止别人恶意进入单用户模式，从而修改root密码了!!
+
+当然，如果我们连这个GRUB的秘密都忘记的话，并且又忘记了root密码，那就真的不能登陆到root用户了。。。。
+
+
+===================tmux 8===========================================
 
 tmux -a
+
+=====================9 mount挂载===================================================================================================================================
+
+1. 查询与自动挂载
+
+1.1 查询系统中已经挂载的设备
+# mount
+1.2 根据配置文件/etc/fstab的内容，自动挂载
+# mount -a
+
+未挂载外部设备执行 mount 未其实显示的是 /etc/fstab的内容
+
+2. 挂载命令格式
+# mount [-t 文件系统] [-o 特殊选项] 设备文件名 挂在点
+
+选项：
+ -t 文件系统：加入文件系统来指定挂载类型，如 ext3, ext4, iso9660等文件系统
+注意: iso9660 光盘文件格式
+
+-o 特殊选项：可以指定挂载的额外选项
+
+# mount -o remount,noexec /home
+重新挂在/home分区，并使用noexec权限
+
+注意：
+noexec 指的是没有执行全选  默认是exec
+系统默认挂载点可以不写设备文件名
+
+cd /home
+# vi hello.sh
+
+#bin/bash
+echo "hello"
+
+chmod 755 hello.sh
+./hello.sh
+
+显示没有执行权限
+
+想要由执行权限
+
+
+# mount -o remount,exec /home
+一定记得改回来，否则会影响系统启动
+
+
+
+3. 挂载光盘
+
+
+3.1.插入光盘
+3.2.  mkdir  /mnt/cdrom
+3.3 ls -l /dev/cdrom
+显示 /dev/cdrom -> sr0
+/mnt/cdrom 是 /dev/sr0 的软连接
+
+建议挂载光盘使用 mount /dev/sr0 /mnt/cdrom
+注意 当系统完全启动时软连接才可以生效，一旦系统有问题或未完全启动，软链接就可能失效
+光盘只有只读权限
+
+4. 卸载命令
+# umount 设备文件名或挂载点
+注意 不可以在挂载目录执行卸载命令，否则会出现设备忙提示
+
+
+
+5. 挂在U盘
+5.1 查看U盘设备名
+# fdisk -l
+
+mount -t vfat /dev/sdb1 /mnt/usb/
+也可能是/dev/sdc1 依据系统有几块硬盘 如果是两块 就是/dev/sdc1
+
+注意 vfat 就是 Windows的fat32 单个文件不可以超过4G
+
+Linux默认不支持NTFS文件
+
+1). 想要支持 需要重新编译内核，因为Linux 内核编译时的加入常用驱动
+2). 安装 ntfs-3g
+
+即使Linux显示了NTFS文件也是    只读    的
+
+最后解决方法实现文件传输需要使用 FTP 或 winscp
+
+
+====================10 进程=======================================
+ps -A | grep  apt
+
+kill  
+kill -9
+
+=====================10.1 Linux终端命令行的快捷键列表===============================================
+
+
+在shell命令终端中，Ctrl+n相当于方向向下的方向键，Ctrl+p相当于方向向上的方向键。
+
+在命令终端中通过它们或者方向键可以实现对历史命令的快速查找。这也是快速输入命令的技巧。
+
+在命令终端中可以通过Ctrl+r 实现快速检索使用过的历史命令。Ctrl+r中r是retrieve中r。
+
+Ctrl+a：光标回到命令行首。（a：ahead）
+
+Ctrl+e：光标回到命令行尾。（e：end）
+
+Ctrl+b：光标向行首移动一个字符。（b：backwards）
+
+Ctrl+ f：光标向行尾移动一个字符。（f：forwards）
+
+Ctrl+w: 删除光标处到行首的字符。
+
+Ctrl+k：删除光标处到行尾的字符。
+
+Ctrl+u：删除整个命令行文本字符。
+
+Ctrl+h：向行首删除一个字符。
+
+Ctrl+d：向行尾删除一个字符。
+
+Ctrl+y:：粘贴Ctrl+u，Ctrl+k，Ctrl+w删除的文本。
+
+Ctrl+p: 上一个使用的历史命令。（p：previous）
+
+Ctrl+n：下一个使用的历史命令。（n：next ）
+
+Ctrl+r：快速检索历史命令。（r：retrieve）。
+
+Ctrl+t：交换光标所在字符和其前的字符。
+
+Ctrl+i：相当于Tab键。
+
+Ctrl+o：相当于Ctrl+m.
+
+Ctrl+m：相当Enter键。
+
+其他控制键：
+
+Ctrl+s:使终端发呆，静止，可以使快速输出的终端屏幕停下来。
+
+Ctrl+q：退出Ctrl+s引起的发呆。
+
+Ctrl+z：使正在运行在终端的任务，运行于后台。（可用fg恢复）
+
+Ctrl+c：中断终端中正在执行的任务。
+
+Ctrl+d: 在空命令行的情况下可以退出终端。
+
+Ctrl+[ ：相当于Esc键。
+
+Esc键：连续按3次显示所有的支持的终端命令。
+
+Tab键：命令、文件名等自动补全功能。
+
+CTRL + ALT + T: 打开终端
+TAB: 自动补全命令或文件名
+CTRL + SHIFT + V: 粘贴（Linux中不需要复制的动作，文本被选择就自动被复制）
+CTRL + SHIFT + T: 新建标签页
+CTRL + D: 关闭标签页
+CTRL + L: 清楚屏幕
+CTRL + R + 文本: 在输入历史中搜索
+CTRL + A: 移动到行首
+CTRL + E: 移动到行末
+CTRL + C: 终止当前任务
+CTRL + Z: 把当前任务放到后台运行（相当于运行命令时后面加&）
+~: 表示用户目录路径
+
+==============10.2 vim===============================================
+http://vimdoc.sourceforge.net/htmldoc/help.html
+
+================== 102.1fold==============================
+
+form  http://yyq123.blogspot.com/2011/09/vim-fold.html
+
+Vim将折叠等同于行来对待——你可以使用j或k命令，移动跳过包含多行的整个折叠；也可以使用y或d命令，复制或删除某个折叠。
+
+通常在折叠处向左或向右移动光标，或者进入插入模式，都将会自动打开折叠。我们也可以使用以下命令定义快捷键，使用空格键关闭当前打开的折叠，或者打开当前关闭的折叠。
+
+:nnoremap <space> za
+
+按照折叠所依据的规则，可以分为Manual（手工折叠）、Indent（缩进折叠）、Marker（标记折叠）和Syntax（语法折叠）等几种。
+
+Manual Fold
+
+使用以下命令，启用手工折叠。
+
+:set foldmethod=manual
+
+在可视化模式下，使用以下命令，将折叠选中的文本：
+
+zf
+
+通过组合使用移动命令，可以折叠指定的行。例如：使用zf70j命令，将折叠光标之后的70行；使用5zF命令，将当前行及随后4行折叠起来；使用zf7G命令，将当前行至全文第7行折叠起来。
+
+我们也可以使用以下命令，折叠括号（比如()、[]、{}、><等）包围的区域：
+
+zfa(
+
+Vim并不会自动记忆手工折叠。但你可以使用以下命令，来保存当前的折叠状态：
+
+:mkview
+
+在下次打开文档时，使用以下命令，来载入记忆的折叠信息：
+
+:loadview
+
+可以使用以下命令，查看关于手工折叠的帮助信息：
+
+:help fold-manual
+
+Indent Fold
+
+使用以下命令，启用缩进折叠。所有文本将按照（选项shiftwidth 定义的）缩进层次自动折叠。
+
+:set foldmethod=indent
+
+使用zm命令，可以手动折叠缩进；而利用zr命令，则可以打开折叠的缩进。
+
+使用以下命令，将可以根据指定的级别折叠缩进：
+
+:set foldlevel=1
+
+可以使用以下命令，查看关于缩进折叠的帮助信息：
+
+:help fold-indent
+
+Syntax Fold
+
+使用以下命令，启用语法折叠。所有文本将按照语法结构自动折叠。
+
+:set foldmethod=syntax
+
+可以使用以下命令，查看关于语法折叠的帮助信息：
+
+:help fold-syntax
+
+Marker Fold
+
+使用以下命令，启用标记折叠。所有文本将按照特定标记（默认为{{{和}}}）自动折叠。
+
+:set foldmethod=marker
+
+我们可以利用标记折叠，在文本中同时体现结构和内容，并且能够快速跳转到文件的不同部分。
+
+fold_marker
+
+可以使用以下命令，查看关于标记折叠的帮助信息：
+
+:help fold-marker
+
+折叠选项
+
+使用:set foldcolumn=W命令（W是一个0-12的整数），将在屏幕左侧显示一个折叠标识列，分别用“-”和“+”而表示打开和关闭的折叠。
+
+foldcolumn
+
+使用以下命令，可以查看关于折叠的帮助信息：
+
+:help folding
+
+命令小结
+zc	关闭当前打开的折叠
+zo	打开当前的折叠
+zm	关闭所有折叠
+zM	关闭所有折叠及其嵌套的折叠
+zr	打开所有折叠
+zR	打开所有折叠及其嵌套的折叠
+zd	删除当前折叠
+zE	删除所有折叠
+zj	移动至下一个折叠
+zk	移动至上一个折叠
+zn	禁用折叠
+zN	启用折叠
