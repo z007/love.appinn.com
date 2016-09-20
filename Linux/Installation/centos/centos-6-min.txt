@@ -686,6 +686,10 @@ tmux -a
 http://www.cnblogs.com/52linux/archive/2012/03/07/2384400.html
 
 http://man.linuxde.net/mkfs
+http://man.linuxde.net/fdisk
+
+硬盘分区备忘（主分区，扩展分区和逻辑分区）以及Linux硬盘分区工具parted 介绍
+http://blog.csdn.net/bluishglc/article/details/9189437
 
 1. 查询与自动挂载
 
