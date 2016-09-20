@@ -683,6 +683,9 @@ title CentOS (2.6.32-358.el6.x86_64)
 tmux -a
 
 =====================9 mount挂载===================================================================================================================================
+http://www.cnblogs.com/52linux/archive/2012/03/07/2384400.html
+
+http://man.linuxde.net/mkfs
 
 1. 查询与自动挂载
 
@@ -765,6 +768,95 @@ Linux默认不支持NTFS文件
 
 最后解决方法实现文件传输需要使用 FTP 或 winscp
 
+
+
+6 .linux 查看文件（夹）所在分区（挂载点）
+
+http://blog.csdn.net/candyguy242/article/details/8088451
+
+Linux下没有盘符的概念，而是将各分区通过挂载到目录（挂载点）来访问实际的磁盘分区，有时候我们想知道某个文件或文件夹是在哪个分区上，
+有如下几种方法：
+
+ 1)最简单的，直接 df  <文件(夹)路径>
+
+ 2)用df 或 fdisk -l查看分区挂载情况，直接输入mount或者也可以用cat /etc/mtab，然后pwd找最接近的挂载点信息
+ 
+ 
+ 7. 分区
+ 
+fdisk -l
+fdisk /dev/sdb
+
+Partition type
+   p   primary (1 primary, 1 extended, 2 free)
+   l   logical (numbered from 5)
+
+p(print)
+n
+p (primary)
+n
+p (print)
+n
+e (extended)
+p
+n
+l (logical)
+
+d  1
+
+w  保存
+
+parted
+
+GNU Parted 3.2
+Using /dev/sda
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+(parted) help                                                             
+  align-check TYPE N                        check partition N for TYPE(min|opt) alignment
+  help [COMMAND]                           print general help, or help on COMMAND
+  mklabel,mktable LABEL-TYPE               create a new disklabel (partition table)  gpt  msdos
+  mkpart PART-TYPE [FS-TYPE] START END     make a partition
+  name NUMBER NAME                         name partition NUMBER as NAME
+  print [devices|free|list,all|NUMBER]     display the partition table, available devices, free space, all found partitions, or a particular partition
+  quit                                     exit program
+  rescue START END                         rescue a lost partition near START and END
+  resizepart NUMBER END                    resize partition NUMBER
+  rm NUMBER                                delete partition NUMBER
+  select DEVICE                            choose the device to edit
+  disk_set FLAG STATE                      change the FLAG on selected device
+  disk_toggle [FLAG]                       toggle the state of FLAG on selected device
+  set NUMBER FLAG STATE                    change the FLAG on partition NUMBER
+  toggle [NUMBER [FLAG]]                   toggle the state of FLAG on partition NUMBER
+  unit UNIT                                set the default unit to UNIT
+  version                                  display the version number and copyright information of GNU Parted
+(parted)
+
+unit default MB
+
+parted /dev/sdcq
+
+p (print)
+p all (print)
+
+mklabel gpt
+
+
+mkpart  hellosdc1  0 1000 (会出现提示数据块不对齐)
+
+无保存命令 执行完 mkpart 就写入磁盘
+
+格式化
+
+mkfs.ext3 /dev/sdb1
+
+mkfs -t   /dev/sdb2
+
+文件类型 gpt 模式 查看类型需要用 parted 查看
+
+注意：格式化
+
+1. 不要对整块硬盘格式化
+2. 扩展分区不可以格式化 要格式化逻辑分区
 
 ====================10 进程=======================================
 ps -A | grep  apt
