@@ -172,7 +172,7 @@ mkfs.ext3 /dev/sdb1
 
 mkfs -t   /dev/sdb2
 
-文件类型 gpt 模式的分区 查看分区文件格式类型需要用 parted 查看 或者mount 后使用 df-T
+gpt 分区格式化使用 fdisk 无法查看分区类型可用 parted 查看分区 或者 mount 后使用 df-T
 
 注意：格式化
 
