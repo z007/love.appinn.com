@@ -855,12 +855,32 @@ mkfs.ext3 /dev/sdb1
 
 mkfs -t   /dev/sdb2
 
-文件类型 gpt 模式 查看类型需要用 parted 查看
+文件类型 gpt 模式的分区 查看分区文件格式类型需要用 parted 查看 或者mount 后使用 df-T
 
 注意：格式化
 
 1. 不要对整块硬盘格式化
 2. 扩展分区不可以格式化 要格式化逻辑分区
+
+
+
+swap 交换分区
+这里操作的是 MBR 
+ fdisk /dev/sdb
+t
+6
+L
+
+82
+p (print)
+w
+
+mkswap /dev/sdb6
+swapon /dev/sdb6
+free
+swapoff /dev/sdb6
+free
+
 
 ====================10 进程=======================================
 ps -A | grep  apt
