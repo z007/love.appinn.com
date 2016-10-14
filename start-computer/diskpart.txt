@@ -35,6 +35,6 @@ http://jingyan.baidu.com/article/92255446efce49851748f463.html
 所创建的所有分区都是主分区，而且只能是四个。怎么办？使用第三方工具？其实这个时候我们完全可以用Diskpart命令来解决这一问题！
 
 
-在“您想将WIndows安装在何处？”界面按住“Shit”+F10 ，调出命令行界面！
+在“您想将WIndows安装在何处？”界面按住“Shift”+F10 ，调出命令行界面！
 
 输入“Diskpart”命令！此时为提示Diskpart的版本等信息
