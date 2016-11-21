@@ -160,8 +160,10 @@ chrome://flags
 # [DNS](https://github.com/z007/love.appinn.com/blob/master/start-computer/network/DNS.md)
 ## client
 
-* lantern
+* ~~lantern~~
 * psiphon3
+* XX-Net
+* Shadowsocks
 
 ## Google mirror sites collect
 
