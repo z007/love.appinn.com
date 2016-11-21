@@ -48,10 +48,14 @@ chrome://flags
 ```
   
 ## extensions  --https://chrome.google.com/webstore/category/apps?hl=en-US
+
+ * [Chrome Extension Downloader easily download chrome extensions](http://chrome-extension-downloader.com/)
  * https://www.wikipedia.org/
  * https://zh.wikipedia.org/wiki/Google_Chrome
+ * [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad?utm_source=chrome-app-launcher-info-dialog)
  * [Google翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
  * Adblock /Adblock Plus/ Adguard
+ * [Popup Search](https://greasyfork.org/zh-CN/scripts/340-popup-search)
  * disconnect
   * [Disconnect Search](https://disconnect.me/search)  --extensions
   * https://search.disconnect.me/                      --Web
@@ -69,7 +73,7 @@ chrome://flags
  * [ghostery](https://www.ghostery.com/try-us/download-add-on/) than [disconnect](https://disconnect.me/disconnect) easy to use
  * [oneTab](https://www.one-tab.com/)
  * pocket /Session Manager
- * IE Tab 
+ * [IE Tab] (https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd?utm_source=chrome-app-launcher-info-dialog)
  * Yet another flags --Shows flag for the website in the location bar.
  * Shodan --The Shodan plugin tells you where the website is hosted (country, city), who owns the IP and what other services/ ports are open
  * Chromebleed --Displays a warning if the site you are browsing is affected by the Heartbleed bug
@@ -111,8 +115,9 @@ chrome://flags
 * Wappalyzer
 * Emmet Re:View
 * WhatFont
-* 
+* [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?utm_source=chrome-app-launcher-info-dialog)
 ------------------------
+* [WEB前端助手(FeHelper)](https://chrome.google.com/webstore/detail/web%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8Bfehelper/pkgccpejnmalmdinmhkkfafefagiiiad?utm_source=chrome-app-launcher-info-dialog)
 * [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm)
 * [Cache Killer](https://chrome.google.com/webstore/detail/cache-killer/jpfbieopdmepaolggioebjmedmclkbap/support)
 * [Referer Control](https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin)
