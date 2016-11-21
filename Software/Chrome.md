@@ -163,7 +163,7 @@ chrome://flags
 * ~~lantern~~
 * psiphon3
 * XX-Net
-* Shadowsocks
+* Shadowsocks(OS X, Windows, Linux,[kali ubuntu 终端代理配制](https://github.com/z007/Environmental/blob/master/Google/shadowsocks.txt), iOS, Android, OpenWRT 路由器等)
 
 ## Google mirror sites collect
 
