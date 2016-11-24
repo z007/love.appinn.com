@@ -2,7 +2,7 @@
 
 
 
-
+* [Windows系统 , Windows XP, Linux系统, Mac系统](https://support.dnspod.cn/Kb/showarticle/tsid/240/#link1)
 * DNS
 
 * [DNS wikipedia](https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E7%B3%BB%E7%BB%9F)
