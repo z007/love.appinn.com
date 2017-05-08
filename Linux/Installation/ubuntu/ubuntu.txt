@@ -151,3 +151,14 @@ Enable debug logging, it is good practice to use this option while reporting a b
 
 --silent
 Suppress every message which is not an error or a warning, default to false.
+
+
+9. [How to add a directory to the PATH?](https://askubuntu.com/questions/60218/how-to-add-a-directory-to-the-path)
+
+A path set in .bash_profile will only be set in a bash login shell (bash -l). If you put your path in .profile it will be available to your complete desktop session. That means even metacity will use it.
+
+For example ~/.profile:
+if [ -d "$HOME/bin" ] ; then
+  PATH="$PATH:$HOME/bin"
+f
+
