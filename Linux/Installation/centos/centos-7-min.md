@@ -15,6 +15,24 @@ service network restart
 [CentOS6.3 最小化安装后配置](http://blog.csdn.net/knight1394/article/details/8560325)
 ```
 
+# 复制虚拟机无法联网 检查服务 VMware DHCPNATService  VMware NAT Service  是否开启
+```
+metasploitable-linux-2.0.0
+
+hackxor12
+
+
+https://gist.github.com/apolloclark/78687df9a04aaf23aa3cd59415530694
+
+https://www.computersecuritystudent.com/SECURITY_TOOLS/METASPLOITABLE/EXPLOIT/lesson1/index.html
+
+https://hackxor.net/
+
+https://pentesterlab.com/bootcamp
+
+
+```
+
 ```
 # [解决克隆CentOS后 eth0无法初始化/找不到eth0的问题](http://www.centoscn.com/CentosBug/osbug/2015/0813/5998.html)
 ```
